@@ -1,14 +1,16 @@
 ### Facts for HTML Structure Lesson
 
-1. `Understanding Structures`
+1. Understanding Structures
 
     - The use of headings and subheadings reflects the hierarchy of information. A document might start with a large heading followed by an introduction then expanded upon subheadings. Each topic might have new paragraphs and each section can have headings to describe what it covers.
 
-2. `Tags and Elements`
+2. Tags and Elements
 
-    - HTML code is made up of characters that live inside angled brackets `< >` these are called the HTML elements. Elements are made up of two tags an opening tag `<` and a closing tag `>`. 
+    - HTML code is made up of characters that live inside angled brackets `< >` these are called the HTML elements. 
+    
+    - Elements are made up of two tags an opening tag `<` and a closing tag `>`. 
 
-    - Tags are like containers. They tell you about the information that lies between the opening and closing tags. 
+    - Tags are like containers. They tell you about the information that lies between the opening tag `<>` and the closing tag `</>`. 
 
     Code:
 
@@ -26,9 +28,9 @@
 
     ```
 
-    - The opening `<html>` tag and the closing `</html>` tag, indicates the start of your HTML code.
+    - The opening `<html>` tag and the closing `</html>` tag, identifies the start of the HTML document.
     
-    - Anything written between the `<body></body>` tags will appear in the main browser window.
+    - Anything written between the `<body></body>` tags will appear in the main browser window or web page.
     
     - The `<head>` element contains information about the page. Inside the `<head></head>` tag is the `<title>` element.
 
@@ -63,10 +65,10 @@
     <h1>My first heading inside a h1 tag</h1>
     <h2>My fist subheading inside a h2 tag.</h2>
     <p> My first HTML coding inside a paragraph</p>
+    
 
-
-3. `Attributes`
-    - Attributes provide more information about the contents of an element. Attributes appear on the opening tag and are made up of two parts: `name` and `value` and are separated by an  `=` equal sign.
+3. Attributes
+    - Attributes provide more information about the contents of an element. Attributes appear on t```he opening tag and are made up of two parts: `name` and `value` and are separated by an  `=` equal sign.
 
     Code: 
     ```html
@@ -80,6 +82,12 @@
     - Different `attributes` have different `values`.
     Most attribute values are pre-defined or follow a stipulated format.   
 
+    Output:
+    <html>
+
+     <p style="color: red">I am a paragraph</p>
+
+    </html>
 
 
 

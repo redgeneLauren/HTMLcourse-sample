@@ -3,4 +3,8 @@
 After completing the lesson, students will be able to:
 
 - demonstrate understanding of the structure of HTML
-- understand the usage of tags and elements in the document 
+
+- demonstrate understanding the usage of tags and elements 
+
+- able to write HTML code
+

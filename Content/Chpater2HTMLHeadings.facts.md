@@ -40,6 +40,9 @@
 
 2. HTML Paragraphs
 
+    - To make a paragraph 
+
+    
 
 
 

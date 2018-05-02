@@ -21,6 +21,7 @@
     Code:
 
     ```html
+    <!DOCTYPE html>
     <html>
 	    <head>
 		    <title>My homepage</title>
@@ -33,6 +34,7 @@
     </html>
 
     ```
+    - The `<!Doctype >` goes before the HTML `<html>` tag, it tells the browser wether the page contains `HTML`, `XHTML` or both. 
 
     - The opening `<html>` tag and the closing `</html>` tag, identifies the start of the HTML document.
     
@@ -50,7 +52,7 @@
 
     - Attributes appear on the opening tag and are made up of two parts: `name` and `value` and are separated by an  `=` equal sign.
 
-    Code that shows a tag with no attribute: 
+    Code 1: Shows a tag with no attribute: 
     
     ```html
 
@@ -58,17 +60,18 @@
 
     ```
 
-    Code that shows a tag with an attribute:
+    Code 2: Shows a tag with an attribute:
 
     ```html
     <p style="color: red">My first HTML coding inside a paragraph</p>
     
     ```
 
-     Output:
-    <html>
-     <body><p style="color: red">My first HTML coding inside a paragraph</p></body>
-    </html>
+    Output 1:
+     <p>My first HTML coding inside a paragraph</p>
+
+     Output 2:
+     <p style="color: red">My first HTML coding inside a paragraph</p></body>
 
     - The attribute `name` which is `style` indicates the kind of information you provide on the element’s content, it should be written in lowercase.
 
@@ -93,7 +96,7 @@
     Code:
 
     ```html
-
+    <!DOCTYPE html>
       <html>
         <head>
             <title></title>

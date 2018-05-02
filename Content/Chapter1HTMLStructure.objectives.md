@@ -2,9 +2,9 @@
 
 After completing the lesson, students will be able to:
 
-- demonstrate understanding of the structure of HTML
+- demonstrate understanding of structure in HTML
 
 - demonstrate understanding the usage of tags and elements 
 
-- able to write HTML code
+- able to write proper nested HTML code
 

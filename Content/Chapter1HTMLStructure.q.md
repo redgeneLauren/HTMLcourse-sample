@@ -1,4 +1,4 @@
-# HTML Structure
+# HTML Basic Page Structure
 
 +++
 
@@ -7,28 +7,31 @@
 ///type=REPL, readonly=true
 
 ```html
-
+<!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>HTML Page Structure</title>
     </head>
-    <body><p style="color:red">Welcome to HTML</p><body>
+        <body>
+            <p style="color:red">Welcome to HTML</p>
+        <body>
 </html>
+
 ```
 
 //type=SS, answer[3]
 
-What seems to be the problem to the html code?
-
-- Wrong html code for `<head>` element.
-
-- Nothing is wrong with the HTML code
+What seems to be the problem with the html code?
 
 - It lacks a closing tag
 
 - It lacks an opening tag
 
+- Wrong html code for `<head>` element.
+
 - Wrong html code for `<title>` element 
+
+- Nothing is wrong with the HTML code
 
 ///type=SS, answer[2]
 
@@ -41,6 +44,20 @@ What type of tag is the `<title>`?
 - A beginning tag
 
 - A closing tag
+
+///type=SS, answer[4]
+
+what is the purpose of the <!Doctype html>?
+
+- It serves as the comment section of HTML.
+
+- It is the portal for saving files.
+
+- It is the documentor of HTML.
+
+- It identifies the type of document for the web browser.
+
+- It does not have any purpose.
 
 +++
 
@@ -64,10 +81,9 @@ What does the acronnym HTML stand for?
 
 - Hyperlink Mark Language
 
-
 /// type=SS, answer[1]
 
-Which of the following correctly shows how HTML code structure should be?
+Which of the following correctly shows how HTML code should be written?
 
 - Using angled brackets `< >`
 
@@ -80,7 +96,7 @@ Which of the following correctly shows how HTML code structure should be?
 
 /// type=SS, answer[4]
 
-What tag will infomation be inside the main browser or the web page?
+What tag will information be inside the main browser or the web page?
 
 - `<title></title>`
 
@@ -90,7 +106,7 @@ What tag will infomation be inside the main browser or the web page?
 
 - `<body></body>`
 
-- 
+- `<!DOCTYPE html>`
 
 :::
 

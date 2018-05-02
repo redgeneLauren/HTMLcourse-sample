@@ -55,39 +55,65 @@
                 <p> My first HTML coding inside a paragraph</p>
 	</body>
     ```
-
-    - Words between `<h1>` and `</h1>` are the main heading.
-    - Words between `< h2>` and `</h2>` form the subheadings.
-    - A paragraph of text appears between the tag `<p>` and `</p>`
-
-    Output:
+     Output:
 
     <h1>My first heading inside a h1 tag</h1>
     <h2>My fist subheading inside a h2 tag.</h2>
     <p> My first HTML coding inside a paragraph</p>
-    
 
-3. Attributes
-    - Attributes provide more information about the contents of an element. Attributes appear on t```he opening tag and are made up of two parts: `name` and `value` and are separated by an  `=` equal sign.
+    - Words between `<h1>` and `</h1>` are the main heading.
+    - Words between `<h2>` and `</h2>` form the subheadings.
+    - A paragraph of text appears between the tag `<p>` and `</p>`.
+
+3. Nesting
+    - HTML code should be `nested` in a proper order, the opening tag `<>` is always followed by a closing tag `</>`.
+
+    - In the code below shows the proper nested HTML coding.
+
+    - An open tag for `<html>` is paired with a closing tag `</html>`
+
+    - Inside the `<html></html>` tag are other nested tag to build up the html code.
+
+    - Proper `nesting` should be observed in using HTML coding.
+
+    Code:
+
+    ```html
+
+      <html>
+        <head>
+            <title></title>
+        </head>
+            <body></body>
+      </html>  
+
+    ```
+    
+4. Attributes
+    - Attributes provide more information about the contents of an element. Attributes appear on the opening tag and are made up of two parts: `name` and `value` and are separated by an  `=` equal sign.
 
     Code: 
     ```html
     <p style="color: red">I am a paragraph</p>
     
     ```
+
+     Output:
+    <html>
+     <body><p style="color: red">I am a paragraph</p></body>
+    </html>
+
     - The attribute `name` which is `style` indicates the kind of information you provide on the element’s content, it should be written in lowercase.
 
     - The attribute `value` which is `color:red` is the information or the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
 
     - Different `attributes` have different `values`.
-    Most attribute values are pre-defined or follow a stipulated format.   
+    
+    - Most attribute values are pre-defined or follow a stipulated format.  
 
-    Output:
-    <html>
 
-     <p style="color: red">I am a paragraph</p>
-
-    </html>
+ 
+    
 
 
 

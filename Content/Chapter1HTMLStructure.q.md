@@ -12,7 +12,7 @@
     <head>
         <title></title>
     </head>
-    <body><p>Welcome to HTML</p><body>
+    <body><p style="color:red">Welcome to HTML</p><body>
 </html>
 ```
 
@@ -20,7 +20,7 @@
 
 What seems to be the problem to the html code?
 
-- Wrong code for `<head>` element.
+- Wrong html code for `<head>` element.
 
 - Nothing is wrong with the HTML code
 
@@ -78,19 +78,44 @@ Which of the following correctly shows how HTML code structure should be?
 - Using exclamation points `!`
 
 
-/// type=SS, answer[]
+/// type=SS, answer[4]
 
 What tag will infomation be inside the main browser or the web page?
 
-- `<title></title>` tag
+- `<title></title>`
 
-- `<head></head>` tag
+- `<head></head>` 
 
-- `<html></html>` tag
+- `<html></html>`
 
-- `<body></body>` tag
+- `<body></body>`
 
 - 
+
+:::
+
++++
+
++++
+
+### Part 3: Finding and Fixing Errors
+
+:::
+
+/// type=CR, answer=[path]
+
+The HTML code contains two nesting errors. Correct the code.
+
+```html
+
+    <body> <center><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
+    <b>This text will be centered and boldfaced</b>
+    </body>
+    </center>
+
+```
+
+
 
 :::
 

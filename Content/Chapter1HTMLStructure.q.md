@@ -19,7 +19,7 @@
 
 ```
 
-//type=SS, answer[3]
+//type=SS, answer[1]
 
 What seems to be the problem with the html code?
 
@@ -37,17 +37,19 @@ What seems to be the problem with the html code?
 
 What type of tag is the `<title>`?
 
-- An ending tag
+- An ending tag.
 
-- An opening tag
+- An opening tag.
 
-- A beginning tag
+- A beginning tag.
 
-- A closing tag
+- A closing tag.
+
+- A starting tag.
 
 ///type=SS, answer[4]
 
-what is the purpose of the <!Doctype html>?
+What is the purpose of the <!Doctype html>?
 
 - It serves as the comment section of HTML.
 
@@ -69,7 +71,7 @@ what is the purpose of the <!Doctype html>?
 
 ///type SS, answer[4]
 
-What does the acronnym HTML stand for?
+What does the acronym HTML stand for?
 
 - Hypertext Mark Languages
 
@@ -85,18 +87,20 @@ What does the acronnym HTML stand for?
 
 Which of the following correctly shows how HTML code should be written?
 
-- Using angled brackets `< >`
+- Using angled brackets `< >`.
 
-- Using brackets `[]`
+- Using brackets `[]`.
 
-- Using double quotes `""`
+- Using double quotes `""`.
 
-- Using exclamation points `!`
+- Using exclamation points `!`.
+
+- Using number sign `#`.
 
 
 /// type=SS, answer[4]
 
-What tag will information be inside the main browser or the web page?
+What tag will information be inside the main browser or on the web page?
 
 - `<title></title>`
 
@@ -107,6 +111,34 @@ What tag will information be inside the main browser or the web page?
 - `<body></body>`
 
 - `<!DOCTYPE html>`
+
+/// type=SSS, answer[3]
+
+How are attributes written in HTML?
+
+- `element name`, `element value` seperated by an `=` equal sign.
+
+- `element name`, `element value` seperated by a `:` colon.
+
+- `name`, `value` seperated by an `=` equal sign.
+
+- `name`, `value` seperated by a `:` colon.
+
+- `element name`, `value` seperated by a `:` colon.
+
+/// type=MS, answer[1,3,5]
+
+Select the following items that is needed to construct an HTML `tag`?
+
+- An `element name`.
+
+- An `!` exclamation point
+
+- A `/>` closing angled bracket
+
+- A `?` question mark.
+
+- An `<` open angled bracket
 
 :::
 
@@ -136,3 +168,11 @@ The HTML code contains two nesting errors. Correct the code.
 :::
 
 +++
+
++++
+
+### Part 4: Practice
+
+:::
+
+/// type=CR

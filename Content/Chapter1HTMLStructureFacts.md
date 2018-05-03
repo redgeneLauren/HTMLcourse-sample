@@ -12,7 +12,7 @@
 
     - Tags are used to mark the start and end of an HTML element.
 
-     - Tags consists of an open angle bracket `<`, followed by an `element name` and a closing bracket `/>`.
+     - Tags consists of an open angle bracket `<`, followed by an `element name` and a closing angle bracket `/>`.
 
     - HTML code is made up of characters that live <u>inside</u> angled brackets `< >` these are called the `HTML elements`. 
     
@@ -63,7 +63,7 @@
     Code 2: Shows a tag with an attribute:
 
     ```html
-    <p style="color: red">My first HTML coding inside a paragraph</p>
+    <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
     
     ```
 
@@ -71,11 +71,13 @@
      <p>My first HTML coding inside a paragraph</p>
 
      Output 2:
-     <p style="color: red">My first HTML coding inside a paragraph</p></body>
+     <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
 
-    - The attribute `name` which is `style` indicates the kind of information you provide on the element’s content, it should be written in lowercase.
+    - The attribute `name` which is `lang` and `style` indicates the kind of information you provide on the element’s content, it should be written in lowercase.
 
-    - The attribute `value` which is `color:red` is the information or the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
+    - The attribute `value` which is `eng-us` and `color:red` is the information or the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
+
+    - In the example code the attribute `name` which is `lang` is used to indicated the language used in the element. The `value` of this attributes specifies it to US English
 
     - Different `attributes` have different `values`.
     
@@ -89,7 +91,7 @@
 
     - An open tag for `<html>` is paired with a closing tag `</html>`
 
-    - Inside the `<html></html>` tag are other nested tag to build up the html code.
+    - Inside the `<html></html>` tag are other nested tags to build up the html code.
 
     - Proper `nesting` should be observed in using HTML coding.
 

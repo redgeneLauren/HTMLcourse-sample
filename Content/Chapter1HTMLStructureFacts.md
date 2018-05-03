@@ -44,7 +44,7 @@
     
     - The `<head>` tag contains information about the page. Inside the `<head></head>` tag is the `<title>` tag.
 
-    - The contents of the `<title>` tag is usually located at the top part of the browser window where you usually type the URL of the page.	
+    - The contents of the `<title>` tag is usually located at the top part of the browser window above the URL section. It is seen in the browser tab. 
 
 3. Attributes
 
@@ -65,19 +65,35 @@
     Code 2: Shows a tag with an attribute:
 
     ```html
-    <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
+    <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
     
     ```
+    - The attribute `name` in the example code are `lang` and `style`. 
+    
+    - Attribute `name` indicates the kind of information you provide on the element’s content, it should be written in lowercase.
 
-    Output 1:
-     <p>My first HTML coding inside a paragraph</p>
+    Code:
+    ```html
 
-     Output 2:
-     <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
+     <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
 
-    - The attribute `name` in the example code are `lang` and `style`. It indicates the kind of information you provide on the element’s content, it should be written in lowercase.
+    ```
 
-    - The attribute `value` in the example code are `eng-us` and `color:red`. It is the information or the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
+    - The attribute `value` in the example code are `eng-us` , `color:red` and `text-align: center`.
+     
+    - The attribute `value` is the information or the setting for the declared attribute `name`. 
+    
+    - Attribute `value` should be placed inside the double quotes `“ ”` . 
+
+    Code:
+    ```html
+
+     <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
+
+    ```
+    Output:
+   
+     <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
 
     - In the example code the attribute `name` which is `lang` is used to indicated the language used in the element. The `value` of this attributes specifies it to US English
 

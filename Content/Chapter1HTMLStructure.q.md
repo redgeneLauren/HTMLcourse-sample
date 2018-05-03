@@ -156,8 +156,8 @@ The HTML code contains two nesting errors. Correct the code.
 
 ```html
 
-    <body> <center><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
-    <b>This text will be centered and boldfaced</b>
+    <body> <p style="text-align: center"><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
+    <b>This text will be right aligned and bolded</b>
     </body>
     </center>
 

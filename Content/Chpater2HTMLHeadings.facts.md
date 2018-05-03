@@ -1,4 +1,4 @@
-### Facts for Chapter 2 HTML Headings
+### Facts for Using HTML Headings
 
 1. HTML Headings
     
@@ -72,7 +72,7 @@
     Code
     ```html
     <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
-    
+
     <p style="text-align: center; font-family: courier; font-size: 16pt; color: pink">We are! We are! The youth of the nation! </p>
 
     ```
@@ -81,6 +81,77 @@
     <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
 
      <p style="text-align: center; font-family: courier; font-size: 16pt; color: pink">We are! We are! The youth of the nation! </p>
+
+3. Bold and Italic
+
+    - Enclosing texts inside the bold tag `<b></b>` makes the characters appear to be <b>bolded</b>.
+
+    - Enclosing texts inside the italic tag `<i></i>` makes the characters appear to be <i>italic</i>.
+    
+    - The `<i>` element also represent a section of text that is expressed in a different way from its surrounding content. For example, foreign words, thoughts or other words that needs to be italicized.
+
+    Code:
+    ```html
+
+    <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
+
+     <p style="text-align: center; font-family: courier; font-size: 16pt; color: pink">We are! We are! The <b>youth</b> of the <i>nation</i>! </p>
+
+    ```
+    Output:
+
+     <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
+
+     <p style="text-align: center; font-family: courier; font-size: 16pt; color: pink">We are! We are! The <b>youth</b> of the <i>nation</i>! </p>
+
+4. Superscript and Subscript
+
+    - The `<sup>` element contains characters that are superscript such as suffixes of dates or mathematical concepts.
+    
+    - The `<sub>` element contains characters that are subscript commonly used as foot notes or chemical formulas.
+
+    Code:
+    ```html
+
+    On the 16<sup>th</sup> of October the lesson for Math is Exponential Logarithm such that the formula e<sup>x</sup>dx = e<sup>x</sup> + C will be used.
+
+    In science the compound element of Vinegar is C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></p>
+    
+    ```
+    Output:
+
+     On the 16<sup>th</sup> of October the lesson for Math is Exponential Logarithm such that the formula e<sup>x</sup>dx = e<sup>x</sup> + C will be used.
+
+    In science the compound element of Vinegar is C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></p>
+
+   
+5. Empty Element
+    
+    - There are few elements in HTML that do not have any elements between the opening and closing tags, they are called as the `empty elements`
+
+    - An `empty element` has only one tag. Before the closing angled bracket of an `empty element` there is a space and a forward slash character. `< />`
+
+    - An example of this `empty element` is the `<br />` break tag and the  `<hr />` horizontal rule tag.
+
+    Code: 
+
+    ```html
+     I am learning <br /> break tags of an empty element in HTML today!
+    <hr />
+    I am excited to find out more about some other features of HTML.
+    <hr />
+
+    ```
+    Output:
+
+     I am learning <br /> break tags of an empty element in HTML today!
+      <hr />
+    I am excited to find out more about some other features of HTML.
+    <hr />
+
+    - `<br />` break tag adds a line break inside the middle of the paragraph or show new paragraph or heading on a new line.
+
+    - `<hr />` horizontal rule tag let you add a horizontal line between two paragraphs or sections.
 
 
 

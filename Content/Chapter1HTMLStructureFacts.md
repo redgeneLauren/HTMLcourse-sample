@@ -12,6 +12,8 @@
 
     - Tags are used to mark the start and end of an HTML element.
 
+    - HTML `elements` are used to describe the structure of the page.
+
      - Tags consists of an open angle bracket `<`, followed by an `element name` and a closing angle bracket `/>`.
 
     - HTML code is made up of characters that live <u>inside</u> angled brackets `< >` these are called the `HTML elements`. 
@@ -73,9 +75,9 @@
      Output 2:
      <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
 
-    - The attribute `name` which is `lang` and `style` indicates the kind of information you provide on the element’s content, it should be written in lowercase.
+    - The attribute `name` in the example code are `lang` and `style`. It indicates the kind of information you provide on the element’s content, it should be written in lowercase.
 
-    - The attribute `value` which is `eng-us` and `color:red` is the information or the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
+    - The attribute `value` in the example code are `eng-us` and `color:red`. It is the information or the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
 
     - In the example code the attribute `name` which is `lang` is used to indicated the language used in the element. The `value` of this attributes specifies it to US English
 

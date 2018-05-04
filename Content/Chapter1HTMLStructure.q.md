@@ -196,12 +196,18 @@ Select the following items that is needed to construct an HTML `tag`?
 /// type=REPL, readonly=true
 
 ```html
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title></title>
+        </head>
+         <body>
+            <p style="text-align: center"><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
+            <b>This text will be right aligned and bolded</b>
+        </body>
+    </html>
 
-    <body>
-        <p style="text-align: center"><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
-        <b>This text will be right aligned and bolded</b>
-    </body>
-    
+   
 ```
 Execute the program. Which statement best describes the error?
 
@@ -217,14 +223,19 @@ Execute the program. Which statement best describes the error?
 
 /// type=CR, answer=[path]
 
-Correct the code that it outputs the correct instruction per line of text.
+Correct the code so that it outputs the correct instruction per line of text.
 
 ```html
-
-  <body>
-        <p style="text-align: center"><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
-        <b>This text will be right aligned and bolded</b>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <p style="text-align: center"><i><h3>This text will be centered, italicized heading (size 3)</i></h3>
+        <b>This text will be centered aligned and bolded</b>
     </body>
+</html>
 
 ```
 
@@ -238,6 +249,19 @@ Correct the code that it outputs the correct instruction per line of text.
 
 :::
 
-Write the HTML code that outputs the a text is center aligned
 /// type=CR, answer=[path]
+
+Write an HTML document that outputs the text "My Travel Places Goals" with the following charactertics: `text-aligned: center`,  italicized `<i></i>`, heading size 1 `<h1></h1>`, `font-color: red`,  `font-family: comic sans `. 
+
+Followed by another text below "New York, Paris, Singapore and Japan." With the following characteristics: `text-aligned: center`,text is bolded `<b></b>`, `font-color: pink`, `lang= eng-us`, `font:family: courier`.
+
+Observer proper HTML nesting. Run the program to view the result.
+
+```html
+
+
+
+```
+
+
 

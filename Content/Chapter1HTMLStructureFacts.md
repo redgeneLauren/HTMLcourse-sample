@@ -2,12 +2,8 @@
 
 1. Tags and Elements
 
-    - `Tags` are used to mark the start and end of an HTML element.
-
     - Tags consists of an open angle bracket `<`, followed by an `element name` and a closing angle bracket `/>`.
 
-    - Elements are made up of characters that live <u>inside</u> angled brackets `< >`. 
-    
     - Tags are like containers. They tell you about the information that lies between the opening tag `<>` and the closing tag `</>`. 
 
     Code:
@@ -38,8 +34,6 @@
 
 3. Attributes
 
-    - Attributes provide more information about the contents of an `element`. 
-    
     - An attribute defines a property of an `element`. 
 
     - Attributes appear on the opening tag and are made up of two parts: `name` and `value` and are separated by an  `=` equal sign.

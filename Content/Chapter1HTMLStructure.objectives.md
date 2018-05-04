@@ -2,12 +2,12 @@
 
 After completing the lesson, students will be able to:
 
-- Demonstrate understanding of basic structure in HTML
+- Demonstrate understanding of basic structure in HTML.
 
-- Demonstrate understanding the usage of tags and elements 
+- Demonstrate understanding the usage of tags and elements.
 
-- Use attributes to define the elements
+- Use attributes to define the elements.
 
-- Able to write proper nested HTML codea
+- Able to write proper nested HTML code.
 
 

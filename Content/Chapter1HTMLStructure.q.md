@@ -199,7 +199,7 @@ Select the following items that is needed to construct an HTML `tag`?
 <!DOCTYPE html>
     <html>
         <head>
-            <title></title>
+            <title>HTML Practice</title>
         </head>
          <body>
             <p style="text-align: center"><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
@@ -229,7 +229,7 @@ Correct the code so that it outputs the correct instruction per line of text.
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>HTML Practice</title>
     </head>
     <body>
         <p style="text-align: center"><i><h3>This text will be centered, italicized heading (size 3)</i></h3>

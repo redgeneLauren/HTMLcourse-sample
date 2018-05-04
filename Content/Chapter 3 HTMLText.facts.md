@@ -1,3 +1,13 @@
+### Chapter 3 Working with Text
+
+When creating a web page , you add tags to give extra meaning and give users the appropriate structure for a page. 
+
+1. Structural Markup and Semantic Markup  
+
+    - `Structural Markup` are elements that you can use to describe both headings and paragraphs.
+
+    - `Semantic Markup` provide information, such putting emphasis in a text or something that is written in quotation, the meaning of acronymns and so on. 
+
 2. Bold, Itlaic
 
     - Enclosing texts inside the bold tag `<b></b>` makes the characters appear to be <b>bolded</b>.
@@ -8,9 +18,14 @@
 
     Code:
     ```html
-    <p> I am <b> AWESOME ! </b></p>
-    <p>Awesome in Turkish is called <i>müthiş</i></p>
-
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <title>Working with Text</title>
+        </head>
+            <p> I am <b> AWESOME ! </b></p>
+            <p>Awesome in Turkish is called <i>müthiş</i></p>
+    </html>
     ```
 
     Output:

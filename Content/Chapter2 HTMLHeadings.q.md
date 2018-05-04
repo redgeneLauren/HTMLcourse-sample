@@ -47,7 +47,7 @@ Select the following attributes that can be used in a `<p></p>` paragraph tag?
 
 - `color`
 
-- `align` 
+- `class` 
 
 - `style`
 

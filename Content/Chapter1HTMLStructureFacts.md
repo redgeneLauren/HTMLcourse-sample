@@ -1,22 +1,12 @@
 ### Facts for HTML Basic Page Structure
 
-1. Understanding Structures
+1. Tags and Elements
 
-    - The use of `headings` and `subheadings` reflects the hierarchy of information.
-    
-    - A document might start with a large heading followed by an introduction then expanded upon subheadings. 
-    
-    - Each topic might have new paragraphs and each section can have headings to describe what it covers.
+    - `Tags` are used to mark the start and end of an HTML element.
 
-2. Tags and Elements
+    - Tags consists of an open angle bracket `<`, followed by an `element name` and a closing angle bracket `/>`.
 
-    - Tags are used to mark the start and end of an HTML element.
-
-    - HTML `elements` are used to describe the structure of the page.
-
-     - Tags consists of an open angle bracket `<`, followed by an `element name` and a closing angle bracket `/>`.
-
-    - HTML code is made up of characters that live <u>inside</u> angled brackets `< >` these are called the `HTML elements`. 
+    - Elements are made up of characters that live <u>inside</u> angled brackets `< >`. 
     
     - Tags are like containers. They tell you about the information that lies between the opening tag `<>` and the closing tag `</>`. 
 
@@ -54,15 +44,7 @@
 
     - Attributes appear on the opening tag and are made up of two parts: `name` and `value` and are separated by an  `=` equal sign.
 
-    Code 1: Shows a tag with no attribute: 
-    
-    ```html
-
-    <p>My first HTML coding inside a paragraph</p>
-
-    ```
-
-    Code 2: Shows a tag with an attribute:
+    Code:
 
     ```html
     <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
@@ -73,12 +55,6 @@
 
     - Attribute `name` indicates the kind of information you provide on the element’s content, it should be written in lowercase.
 
-    Code:
-    ```html
-    
-    <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
-
-    ```
     Output:
 
     <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
@@ -86,8 +62,6 @@
     - The attribute `value` in the example code 2 are `eng-us` and `color:red`. 
     
     - Attribute `value` is the information or the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
-
-    - In the example code the attribute `name` which is `lang` is used to indicated the language used in the element. The `value` of this attributes specifies it to US English
 
     - Different `attributes` have different `values`.
     

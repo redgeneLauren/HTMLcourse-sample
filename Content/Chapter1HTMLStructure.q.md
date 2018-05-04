@@ -103,7 +103,6 @@ Select which of the following statements correctly describes the code above?
 
 - The text font is in `comic sans`
 
-
 +++
 
 +++

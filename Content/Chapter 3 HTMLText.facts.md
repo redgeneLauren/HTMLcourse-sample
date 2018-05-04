@@ -1,4 +1,4 @@
-### Chapter 3 Working with Text
+### Working with Text
 
 When creating a web page , you add tags to give extra meaning and give users the appropriate structure for a page. 
 
@@ -52,9 +52,8 @@ When creating a web page , you add tags to give extra meaning and give users the
 
      On the 16<sup>th</sup> of October the lesson for Math is Exponential Logarithm such that the formula e<sup>x</sup>dx = e<sup>x</sup> + C will be used.
 
-    In science the compound element of Vinegar is C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></p>
+    In science the lesson would be on compound element of Vinegar is C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></p>
 
-   
 4. Empty Element
     
     - There are few elements in HTML that do not have any elements between the opening and closing tags, they are called as the `empty elements`
@@ -79,9 +78,9 @@ When creating a web page , you add tags to give extra meaning and give users the
     I am excited to find out more about some other features of HTML.
     <hr />
 
-    - `<br />` break tag adds a line break inside the middle of the paragraph or show new paragraph or heading on a new line.
+    - `<br />` break tag adds a line break inside the middle of the paragraph or shows new paragraph or heading on a new line.
 
-    - `<hr />` horizontal rule tag let you add a horizontal line between two paragraphs or sections.
+    - `<hr />` horizontal rule tag lets you add a horizontal line between two paragraphs or sections.
 
 
    

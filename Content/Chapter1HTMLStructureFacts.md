@@ -65,41 +65,33 @@
     Code 2: Shows a tag with an attribute:
 
     ```html
-    <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
+    <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
     
     ```
-    - The attribute `name` in the example code are `lang` and `style`. 
-    
+
+    - The attribute `name` in the example code 2 are `lang` and `style`. 
+
     - Attribute `name` indicates the kind of information you provide on the element’s content, it should be written in lowercase.
 
     Code:
     ```html
-
-     <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
-
-    ```
-
-    - The attribute `value` in the example code are `eng-us` , `color:red` and `text-align: center`.
-     
-    - The attribute `value` is the information or the setting for the declared attribute `name`. 
     
-    - Attribute `value` should be placed inside the double quotes `“ ”` . 
-
-    Code:
-    ```html
-
-     <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
+    <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
 
     ```
     Output:
-   
-     <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
+
+    <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
+
+    - The attribute `value` in the example code 2 are `eng-us` and `color:red`. 
+    
+    - Attribute `value` is the information or the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
 
     - In the example code the attribute `name` which is `lang` is used to indicated the language used in the element. The `value` of this attributes specifies it to US English
 
     - Different `attributes` have different `values`.
     
-    - Most attribute values are pre-defined or follow a stipulated format.  
+    - Most attribute `values` are `pre-defined` or follow a stipulated format.  
 
 4. Nesting
 

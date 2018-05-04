@@ -13,27 +13,27 @@
         <title>HTML Page Structure</title>
     </head>
         <body>
-            <p style="color:red">Welcome to HTML</p>
-        <body>
+            <p style="color:red; text-align: center; font-family: comic sans">Welcome to HTML</p>
+        </body>
 </html>
 
 ```
 
-//type=SS, answer[1]
+/// type=SS, answer=[4]
 
-What seems to be the problem with the html code?
+What is the purpose of the `<!Doctype html>`?
 
-- It lacks a closing tag
+- It serves as the comment section of HTML.
 
-- It lacks an opening tag
+- It is the portal for saving files.
 
-- Wrong html code for `<head>` element.
+- It is the documentator of HTML.
 
-- Wrong html code for `<title>` element 
+- It identifies the type of document for the web browser.
 
-- Nothing is wrong with the HTML code
+- It does not have any purpose.
 
-///type=SS, answer[2]
+/// type=SS, answer=[2]
 
 What type of tag is the `<title>`?
 
@@ -47,19 +47,62 @@ What type of tag is the `<title>`?
 
 - A starting tag.
 
-///type=SS, answer[4]
+/// type=SS, answer=[3]
 
-What is the purpose of the <!Doctype html>?
+What is `Line 7` of the code above represent?
 
-- It serves as the comment section of HTML.
+- It represents the `text` tag.
 
-- It is the portal for saving files.
+- It represents the `content` tag.
 
-- It is the documentor of HTML.
+- It represents the `paragraph` tag.
 
-- It identifies the type of document for the web browser.
+- It represents the `thought` tag. 
 
-- It does not have any purpose.
+- It represents the `header` tag.
+
+/// type=SS, answer=[3]
+
+Which of the following line of code that can be seen in the browser tab of a browser window?
+
+- `Line 2`
+
+- `Line 3`
+
+- `Line 4`
+
+- `Line 6`
+
+- `Line 1`
+
+/// type=SS, answer=[4]
+
+What is `style` in line 7?
+
+- The attribute `value`
+
+- The attribute `property`
+
+- The attribute `setting`
+
+- The attribute `name`
+
+- The attribute `description`
+
+/// type=MS, answer=[2,3,5]
+
+Select which of the following statements correctly describes the code above?
+
+- It does not show anything, just a blank page.
+
+- The code shows a text `Welcome to HTML` in red.
+
+- The text is aligned at the `center` of the page
+
+- The name in the browser tab of the browser window is `HTML`
+
+- The text font is in `comic sans`
+
 
 +++
 
@@ -150,20 +193,40 @@ Select the following items that is needed to construct an HTML `tag`?
 
 :::
 
-/// type=CR, answer=[path]
-
-The HTML code contains two nesting errors. Correct the code.
+/// type=REPL, readonly=true
 
 ```html
 
-    <body> <p style="text-align: center"><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
-    <b>This text will be right aligned and bolded</b>
+    <body>
+        <p style="text-align: center"><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
+        <b>This text will be right aligned and bolded</b>
     </body>
-    </center>
+    
+```
+Execute the program. Which statement best describes the error?
+
+- The text are not aligned at the center.
+
+- There is no closing tag `</p>` for paragraph.
+
+- The HTML code is not properly nested.
+
+- The attribute name `style` is written incorrectly.
+
+- There seems to be no problem with the code.
+
+/// type=CR, answer=[path]
+
+Correct the code that it outputs the correct instruction per line of text.
+
+```html
+
+  <body>
+        <p style="text-align: center"><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
+        <b>This text will be right aligned and bolded</b>
+    </body>
 
 ```
-
-
 
 :::
 
@@ -175,4 +238,6 @@ The HTML code contains two nesting errors. Correct the code.
 
 :::
 
-/// type=CR
+Write the HTML code that outputs the a text is center aligned
+/// type=CR, answer=[path]
+

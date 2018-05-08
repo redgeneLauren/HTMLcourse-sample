@@ -22,19 +22,16 @@
     ```
     Output:
 
-    <!DOCTYPE html>
+     <!DOCTYPE html>
     <html>
-    <head>
-    <title>Writing Links</title>
-    </head>
-    <body>
-    <h3>Visit Codestop Now! </h3>
-        <a href="https://codestop.io/">Codestop Site</a>
+        <head>
+            <title>Writing Links</title>
+        </head>
+        <body>
+            <h3>Visit Codestop Now! </h3>
+             <a href="https://codestop.io/">Codestop Site</a>
         </body>
     </html>
-    
-    <h3>Visit Codestop Now! </h3>
-    <a href="https://codestop.io/">Codestop Site</a>
    
     - The text between the tag `<a></a>` is called the `link text`
 

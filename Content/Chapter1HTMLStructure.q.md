@@ -222,7 +222,7 @@ Render the HTML code. Which statement best describes the error?
 
 /// type=CR, answer=[path]
 
-Correct the code so that it outputs the correct instruction per line of text given inside the HTML code.
+Correct the HTML code so that it outputs the correct instruction per line of text given inside the HTML code.
 
 ```html
 <!DOCTYPE html>

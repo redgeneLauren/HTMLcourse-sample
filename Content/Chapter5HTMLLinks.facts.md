@@ -57,18 +57,10 @@
     ```
     Output:
 
-      <!DOCTYPE html>
-    <html>
-    <head>
-    <title>Writing Links</title>
-    </head>
-    <body>
     <a href="index.html">Home</a><br />
     <a href="about-us.html">About</a><br />
     <a href="contact.html">Contact</a>
-    </body>
-    </html>
-
+   
     - The `"about-us.html"` value of the `href` attribute is the `relative URL` which is the name of the actual file.
 
     - When all the pages of the site are in the same folder then the value of the `href` attribute is the name of the file.
@@ -93,15 +85,9 @@
     ```
     Output:
 
-     <!DOCTYPE html>
-     <html>
-    <head>
-    <title>Writing Links</title>
-    </head>
-    <body>
+    
     <a href="mailto: regene.baldovino@codingavenue.com">Email Redge</a>
-    </body>
-    </html>
+    
 
 
 

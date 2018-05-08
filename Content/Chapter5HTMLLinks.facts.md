@@ -8,6 +8,7 @@
 
     Code:
     ```html
+
     <!DOCTYPE html>
     <html>
         <head>
@@ -24,9 +25,7 @@
 
      <!DOCTYPE html>
     <html>
-        <head>
-            <title>Writing Links</title>
-        </head>
+        <head><title></title></head>
         <body>
             <h3>Visit Codestop Now! </h3>
              <a href="https://codestop.io/">Codestop Site</a>

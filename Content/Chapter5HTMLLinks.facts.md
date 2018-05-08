@@ -23,17 +23,10 @@
     ```
     Output:
     
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <title>Writing Links</title>
-    </head>
-    <body>
+    
     <h3>Visit Codestop Now! </h3>
     <a href="https://codestop.io/">Codestop Site</a>
-    </body>
-    </html>
-
+   
 
     - The text between the `<a>` opening tag and the `</a>` closing tag is called the `link text`
 

@@ -12,7 +12,7 @@
     <!DOCTYPE html>
     <html>
         <head>
-            <title>Writing Links</title>
+            <title></title>
         </head>
         <body>
             <h3>Visit Codestop Now! </h3>
@@ -23,9 +23,11 @@
     ```
     Output:
 
-     <!DOCTYPE html>
+    <!DOCTYPE html>
     <html>
-        <head><title></title></head>
+        <head>
+            <title></title>
+        </head>
         <body>
             <h3>Visit Codestop Now! </h3>
              <a href="https://codestop.io/">Codestop Site</a>
@@ -49,7 +51,7 @@
     <!DOCTYPE html>
         <html>
             <head>
-                <title>Writing Links</title>
+                <title></title>
             </head>
             <body>
                 <a href="about-us.html">About</a><br />
@@ -61,10 +63,18 @@
     ```
     Output:
 
-    <a href="index.html">Home</a><br />
-    <a href="about-us.html">About</a><br />
-    <a href="contact.html">Contact</a>
-   
+    <!DOCTYPE html>
+        <html>
+            <head>
+                <title></title>
+            </head>
+            <body>
+                <a href="about-us.html">About</a><br />
+                <a href="index.html">Home</a><br />
+                <a href="contact.html">Contact</a>
+             </body>
+         </html>
+
     - The `"about-us.html"` value of the `href` attribute is the `relative URL` which is the name of the actual file.
 
     - When all the pages of the site are in the same folder then the value of the `href` attribute is the name of the file.
@@ -79,7 +89,7 @@
      <!DOCTYPE html>
         <html>
             <head>
-                <title>Writing Links</title>
+                <title></title>
             </head>
             <body>
                 <a href="regene.baldovino@codingavenue.com">Email Redge</a>
@@ -90,7 +100,15 @@
     Output:
 
     
-    <a href="mailto: regene.baldovino@codingavenue.com">Email Redge</a>
+     <!DOCTYPE html>
+        <html>
+            <head>
+                <title></title>
+            </head>
+            <body>
+                <a href="regene.baldovino@codingavenue.com">Email Redge</a>
+             </body>
+         </html>
     
 
 

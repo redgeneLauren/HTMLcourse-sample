@@ -19,18 +19,26 @@
         </body>
     </html>
    
-
     ```
     Output:
-    
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+    <title>Writing Links</title>
+    </head>
+    <body>
+    <h3>Visit Codestop Now! </h3>
+        <a href="https://codestop.io/">Codestop Site</a>
+        </body>
+    </html>
     
     <h3>Visit Codestop Now! </h3>
     <a href="https://codestop.io/">Codestop Site</a>
    
+    - The text between the tag `<a></a>` is called the `link text`
 
-    - The text between the `<a>` opening tag and the `</a>` closing tag is called the `link text`
-
-    - The ` <a href="https://codestop.io/">` is the destination path of the `href` attribute where you want the users to go to when they click on the link. 
+    - The `<a href="https://codestop.io/">` is the destination path of the `href` attribute where you want the users to go to when they click on the link. 
     
     - The `Codestop` would be your clickable text this is what the users will see.
 

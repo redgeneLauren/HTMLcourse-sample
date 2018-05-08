@@ -2,7 +2,9 @@
 
 1. Absolute URL Links
 
-    - HTML Links are created using the `<a>` element or the `<a></a>` tag.
+    - HTML Links are called `hyperlinks`, you can click on either a text or an image and it opens a new document or a web page. 
+    
+    - Hyperlinks are created using the `<a>` element or the `<a></a>` tag.
 
     - You can specify which page you want to link using the `href` attribute.
 
@@ -72,13 +74,15 @@
      </body>
     </html>
 
-    - The `"about-us.html"` value of the `href` attribute is the `relative URL` which is the name of the actual file.
+    - The `"about-us.html"` value of the `href` attribute is the `relative URL` which is the name of the actual file, in a `relative URL` you dont need to specify the domain name.
 
     - When all the pages of the site are in the same folder then the value of the `href` attribute is the name of the file.
 
 3. Email Links
 
     - To create a link that starts with an email address , you use the value `mailto: ` for the `href` attribute.
+
+    - When the link is clicked it will open the user's email program and will open a new message addressed to the email specified on the hyperlink.
 
     Code:
     ```html
@@ -89,19 +93,18 @@
                 <title></title>
             </head>
             <body>
-                <a href="regene.baldovino@codingavenue.com">Email Redge</a>
+                <a href="mailto: regene.baldovino@codingavenue.com">Email Redge</a>
              </body>
          </html>
 
     ```
     Output:
 
-    
      <!DOCTYPE html>
      <html>
     <head></head>
     <body>
-    <a href="regene.baldovino@codingavenue.com">Email Redge</a>
+    <a href="mailto: regene.baldovino@codingavenue.com">Email Redge</a>
     </body>
     </html>
     

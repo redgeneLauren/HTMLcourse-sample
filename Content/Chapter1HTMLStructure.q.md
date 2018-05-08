@@ -208,7 +208,7 @@ Select the following items that is needed to construct an HTML `tag`?
 
    
 ```
-Execute the program. Which statement best describes the error?
+Render the HTML code. Which statement best describes the error?
 
 - The text are not aligned at the center.
 
@@ -222,7 +222,7 @@ Execute the program. Which statement best describes the error?
 
 /// type=CR, answer=[path]
 
-Correct the code so that it outputs the correct instruction per line of text.
+Correct the code so that it outputs the correct instruction per line of text given inside the HTML code.
 
 ```html
 <!DOCTYPE html>
@@ -254,7 +254,7 @@ Write an HTML document that outputs the text "My Travel Places Goals" with the f
 
 Followed by another text below "New York, Paris, Singapore and Japan." With the following characteristics: `text-aligned: center`,text is bolded `<b></b>`, `font-color: pink`, `lang= eng-us`, `font:family: courier`.
 
-Observer proper HTML nesting. Run the program to view the result.
+Observer proper HTML nesting. Render the HTML code to view the result.
 
 ```html
 

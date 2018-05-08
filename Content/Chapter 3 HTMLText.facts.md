@@ -1,14 +1,6 @@
 ### Working with Text
 
-When creating a web page , you add tags to give extra meaning and give users the appropriate structure for a page. 
-
-1. Structural Markup and Semantic Markup  
-
-    - `Structural Markup` are elements that you can use to describe both headings and paragraphs.
-
-    - `Semantic Markup` provide information, such putting emphasis in a text or something that is written in quotation, the meaning of acronymns and so on. 
-
-2. Bold, Itlaic
+1. Bold, Itlaic
 
     - Enclosing texts inside the bold tag `<b></b>` makes the characters appear to be <b>bolded</b>.
 
@@ -33,7 +25,7 @@ When creating a web page , you add tags to give extra meaning and give users the
      <p> I am <b> Awesome ! </b></p>
     <p>Awesome in Turkish Language is called <i>müthiş</i></p>
 
-3. Superscript and Subscript
+2. Superscript and Subscript
 
     - The `<sup>` element contains characters that are superscript such as suffixes of dates or mathematical concepts.
     
@@ -54,7 +46,7 @@ When creating a web page , you add tags to give extra meaning and give users the
 
     In science the lesson would be on compound element of Vinegar is C<sub>2</sub>H<sub>4</sub>O<sub>2</sub></p>
 
-4. Empty Element
+3. Empty Element
     
     - There are few elements in HTML that do not have any elements between the opening and closing tags, they are called as the `empty elements`
 
@@ -82,11 +74,9 @@ When creating a web page , you add tags to give extra meaning and give users the
 
     - `<hr />` horizontal rule tag lets you add a horizontal line between two paragraphs or sections.
 
-
    
 
 
      
-     
-
+    
    

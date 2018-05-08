@@ -14,6 +14,8 @@
     
     - The content for `<h6></h6>` tag appears to be the smallest. 
 
+    - Only make use of the `HTML headings tags` for headings sections only. 
+
     Code: 
     ```html
 
@@ -39,7 +41,6 @@
 
      - Users can also adjust the size of the text in their browser and control the style and color using `CSS styles`. 
     
-
     Code:
     ```html
 
@@ -49,8 +50,6 @@
     Output:
 
     <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
-
-
 
 2. HTML Paragraphs
 

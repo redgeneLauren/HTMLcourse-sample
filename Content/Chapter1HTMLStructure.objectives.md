@@ -2,9 +2,9 @@
 
 After completing the lesson, students will be able to:
 
-- Demonstrate understanding of basic structure in HTML.
+- Understand the basic structure of HTML.
 
-- Demonstrate understanding the usage of tags and elements.
+- Use of tags and elements in writing HML code.
 
 - Use attributes to define the elements.
 

@@ -44,14 +44,14 @@
     <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
     
     ```
+     
+     Output:
+
+    <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
 
     - The attribute `name` in the example code 2 are `lang` and `style`. 
 
     - Attribute `name` indicates the kind of information you provide on the element’s content, it should be written in lowercase.
-
-    Output:
-
-    <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
 
     - The attribute `value` in the example code 2 are `eng-us` and `color:red`. 
     

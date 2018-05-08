@@ -8,6 +8,7 @@
 ///type=REPL, readonly=true
 
 ```html
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -43,7 +44,7 @@ Which of the following `header tag` makes content the smallest?
 
 /// type=MS , answer=[2,3,5]
 
-Select the following attributes that can be used in a `<p></p>` paragraph tag?
+Select which of the following attributes can be used in a `<p></p>` paragraph tag?
 
 - `color`
 
@@ -56,7 +57,8 @@ Select the following attributes that can be used in a `<p></p>` paragraph tag?
 - `id`
 
 /// type=SS, answer=[3]
-Which of the following `header tag` makes the contet the largest?
+
+Which of the following `header tag` makes the content the largest?
 
 - `<h2></h2>`
 
@@ -68,6 +70,20 @@ Which of the following `header tag` makes the contet the largest?
 
 - `<h5></h5>`
 
+/// type=SS, answer=[2]
+
+How many `heading tags` are there in HTML?
+
+- 4
+
+- 6
+
+- 1
+
+- 5
+
+- 7
+
 :::
 
 +++
@@ -76,3 +92,46 @@ Which of the following `header tag` makes the contet the largest?
 
 ### Part 3: Finding and Fixing Errors
 
+
+:::
+
+```html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finding and Fixing Errors</title>
+    </head>
+    <h1> </h1>
+    <p style : color = red>This text should be red.</p>
+</html>
+```
+/// type=SS, answer[5]
+
+On line 6, How should the attribute `style` of the `<p></p>` paragraph tag be correctly written?
+
+- style-color = red
+
+- style = red
+
+- style color : "red"
+
+- color: red
+
+- style = "color: red"
+
+Rewrite the HTML code above to print a text in red with a header.
+
+```html
+
+
+```
+
+
++++
+
++++
+
+### Part 4: Practice
+
+Add a heading ""

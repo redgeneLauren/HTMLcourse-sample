@@ -1,14 +1,14 @@
 ### Facts for HTML Basic Page Structure
 
-HTML stands for Hypertext Markup Language and it is the most widely used language for writing web pages.
+HTML stands for Hypertext Markup Language. It is the most widely used language for writing web pages.
 
 1. Tags and Elements
 
-    - HTML is made up of characters that live inside angle brackets `< >`, these are called the `HTML elements`.
+    - HTML is composed of characters that live inside angle brackets `< >`, which are called the `HTML elements`.
 
     - Tags consists of an open angle bracket `<` followed by an `element name` and a closing angle bracket with a forward slash character `/>`.
 
-    - Tags are like containers. They tell you about the information that lies between the opening tag `<>` and the closing tag `</>`. 
+    - Tags are like containers. They carry information found between the opening tag `<>` and the closing tag `</>`. 
 
     Code:
 
@@ -26,13 +26,13 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
     </html>
 
     ```
-    - The `<!Doctype >` goes before the HTML `<html>` element, it specifies a document whether the page will contain `HTML`, `XHTML` or both. 
+    - The `<!Doctype >` goes before the HTML `<html>` element; it defines the document whether the page will contain `HTML`, `XHTML` or both. 
 
     - The html tag `<html></html>` encloses the complete HTML document.
     
     - The head tag `<head></head>` serves as a container for metadata in HTML. Some of these metadata are `<title>`,`<style>`, `<link>`, `<script>` and `<base>` elements.
 
-    - The contents of a `<title></title>` tag is usually located at the top part of the browser window above the URL section. It is seen in the browser tab. 
+    - The contents of a `<title></title>` tag is located at the top part of the browser window above the URL section. It is seen in the browser tab. 
 
      - Anything written between the body tag `<body></body>` will appear in the main browser window or web page.
     
@@ -40,7 +40,7 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
 
     - An attribute defines a property of an `element`. 
 
-    - Attributes are written inside the opening tag after the `element name` and are made up of two parts: `name`,`value` and are separated by an  `=` equal sign.
+    - Attributes are written inside the opening tag after the `element name`; they are made up of two parts: `name` and `value` and they are separated by an `=` equal sign.
 
     Code:
 

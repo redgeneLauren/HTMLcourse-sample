@@ -20,7 +20,7 @@
 ```
 
 /// type=SS, answer=[4]
-
+-
 What is the purpose of the `<!Doctype html>`?
 
 - It serves as the comment section of HTML.
@@ -29,7 +29,7 @@ What is the purpose of the `<!Doctype html>`?
 
 - It is the documentator of HTML.
 
-- It identifies the type of document for the web browser.
+- It defines the type of document.
 
 - It does not have any purpose.
 

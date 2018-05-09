@@ -20,7 +20,7 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
 	    </head>
 	    <body>
 		    <h1>My first heading inside a header tag</h1>
-                <p lang="eng-us"; style="color: red">My first HTML  coding inside a paragraph</p>
+                <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
 	    </body>
 
     </html>

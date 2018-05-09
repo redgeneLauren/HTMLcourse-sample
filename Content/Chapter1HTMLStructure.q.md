@@ -91,7 +91,7 @@ What is `style` in line 7?
 
 /// type=MS, answer=[2,3,5]
 
-Select which of the following statements correctly describes the code above?
+Select which of the following statements correctly describes the output of the HTML code above?
 
 - It does not show anything, just a blank page.
 
@@ -129,7 +129,7 @@ What does the acronym HTML stand for?
 
 Which of the following correctly shows how HTML code should be written?
 
-- Using angled brackets `< >`.
+- Using angle brackets `< >`.
 
 - Using brackets `[]`.
 
@@ -181,6 +181,20 @@ Select the following items that is needed to construct an HTML `tag`?
 - A `?` question mark.
 
 - An `<` open angled bracket
+
+/// type=SS, answer[]
+
+WHat does a `<head></head>` tag contain?
+
+- Information
+
+- Nothing
+
+- Text
+
+- Metadata
+
+- Content
 
 :::
 

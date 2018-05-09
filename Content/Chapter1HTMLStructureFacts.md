@@ -20,7 +20,7 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
 	    </head>
 	    <body>
 		    <h1>My first heading inside a header tag</h1>
-             <p> My first HTML coding inside a paragraph</p>
+                <p lang="eng-us"; style="color: red">My first HTML  coding inside a paragraph</p>
 	    </body>
 
     </html>
@@ -30,9 +30,9 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
 
     - The html tag `<html></html>` encloses the complete HTML document.
     
-    - The head tag `<head></head>` represents the document's header it contains the `<title>` element and the `<link>` element.
+    - The head tag `<head></head>` serves as a container for metadata in HTML. Some of these metadata are `<title>`,`<style>`, `<link>`, `<script>` and `<base>` elements.
 
-    - The contents of the title tag `<title></title>` is usually located at the top part of the browser window above the URL section. It is seen in the browser tab. 
+    - The contents of a `<title></title>` tag is usually located at the top part of the browser window above the URL section. It is seen in the browser tab. 
 
      - Anything written between the body tag `<body></body>` will appear in the main browser window or web page.
     

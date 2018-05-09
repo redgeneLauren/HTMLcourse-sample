@@ -32,7 +32,7 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
     
     - The head tag `<head></head>` represents the document's header it contains the `<title>` element and the `<link>` element.
 
-    - The contents of the title tag `<title></title>` usually located at the top part of the browser window above the URL section. It is seen in the browser tab. 
+    - The contents of the title tag `<title></title>` is usually located at the top part of the browser window above the URL section. It is seen in the browser tab. 
 
      - Anything written between the body tag `<body></body>` will appear in the main browser window or web page.
     
@@ -53,11 +53,11 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
 
     <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
 
-    - The attribute `name` in the example code 2 are `lang` and `style`. 
+    - The attribute `name` in the example code above are `lang` and `style`. 
 
     - Attribute `name` indicates the kind of information you provide on the element’s content, it should be written in lowercase.
 
-    - The attribute `value` in the example code 2 are `eng-us` and `color:red`. 
+    - The attribute `value` in the example code above are `eng-us` and `color:red`. 
     
     - Attribute `value` is the information or the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
 
@@ -69,13 +69,13 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
 
     - HTML code should be `nested` in a proper order, the opening tag `<>` is always followed by a closing tag `</>`.
 
-    - In the code below shows the proper nested HTML coding.
-
     - An open tag for `<html>` is paired with a closing tag `</html>`
 
     - Inside the `<html></html>` tag are other nested tags to build up the html code.
 
-    - Proper `nesting` should be observed in using HTML coding.
+    - Proper `nesting` should be observed in using HTML.
+
+    - The code below shows proper nested HTML.
 
     Code:
 

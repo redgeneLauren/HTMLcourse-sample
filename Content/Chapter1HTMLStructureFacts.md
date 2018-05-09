@@ -26,7 +26,7 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
     </html>
 
     ```
-    - The `<!Doctype >` goes before the HTML `<html>` element, it defines the document wether the page will contain `HTML`, `XHTML` or both. 
+    - The `<!Doctype >` goes before the HTML `<html>` element, it specifies a document whether the page will contain `HTML`, `XHTML` or both. 
 
     - The html tag `<html></html>` encloses the complete HTML document.
     
@@ -55,12 +55,12 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
 
     - The attribute `name` in the example code above are `lang` and `style`. 
 
-    - Attribute `name` indicates what kind of extra information you are supplying about the element's content. It  it should be written in lowercase.
+    - Attribute `name` indicates extra information you are supplying about the element's content. It should be written in lowercase.
 
     - The attribute `value` in the example code above are `eng-us` and `color:red`. 
     
     - Attribute `value` is the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
-    
+
     - Different `attributes` have different `values`.
     
     - Most attribute `values` are `pre-defined` or follow a stipulated format.  

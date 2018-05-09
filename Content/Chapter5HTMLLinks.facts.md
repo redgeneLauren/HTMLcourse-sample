@@ -38,7 +38,7 @@
 
     - The `<a href="https://codestop.io/">` is the destination path of the `href` attribute where you want the users to go to when they click on the link. 
     
-    - The `Codestop` would be your clickable text this is what the users will see.
+    - The `Codestop` would be your clickable text, this is what the users will see.
 
     - The value `"https://codestop.io/"` of the `href` attribute is the full web address which is known as the `absolute URL`. 
 
@@ -107,6 +107,24 @@
     <a href="mailto: regene.baldovino@codingavenue.com">Email Redge</a>
     </body>
     </html>
+
+4. Target, Link titles and Create bookmark
+
+    - The attribute `target` lets you open pages in a new window. Sample values for attribute `target` are :_blank, _self, _parent, _top and framename.
+
+    Code:
+    ```html
+
+     <a href="https://codestop.io/" target="_top">Codestop Site</a>
+
+    ```
+    Output:
+
+     <a href="https://codestop.io/" target="_blank">Codestop Site</a>
+
+
+
+
     
 
 

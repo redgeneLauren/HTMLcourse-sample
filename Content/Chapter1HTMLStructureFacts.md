@@ -55,7 +55,7 @@ HTML stands for Hypertext Markup Language. It is the most widely used language f
 
     - The attribute `name` in the example code above are `lang` and `style`. 
 
-    - Attribute `name` indicates extra information you are supplying about the element's content. It should be written in lowercase.
+    - Attribute `name` indicates the kind of extra information you are supplying about the content of the `element`. It should be written in lowercase.
 
     - The attribute `value` in the example code above are `eng-us` and `color:red`. 
     

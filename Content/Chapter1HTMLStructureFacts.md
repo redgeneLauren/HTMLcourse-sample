@@ -38,7 +38,7 @@ HTML stands for Hypertext Markup Language. It is the most widely used language f
     
 3. Attributes
 
-    - An attribute defines a property of an `element`. 
+    - An attribute defines the characteristics of an `element`. 
 
     - Attributes are written inside the opening tag after the `element name`; they are made up of two parts: `name` and `value` and they are separated by an `=` equal sign.
 

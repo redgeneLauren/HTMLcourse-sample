@@ -13,7 +13,7 @@
         <title>HTML Page Structure</title>
     </head>
         <body>
-            <p style="color:red; text-align: center; font-family: comic sans">Welcome to HTML</p>
+            <p style="color: red; text-align: center; font-family: comic sans">Welcome to HTML</p>
         </body>
 </html>
 
@@ -102,6 +102,35 @@ Select which of the following statements correctly describes the output of the H
 - The name in the browser tab of the browser window is `HTML`
 
 - The text font is in `comic sans`
+
+/// type=SS, answer=[1]
+
+On line 7, which of the following is the element name?
+
+- p
+
+- style
+
+- color:red
+
+- text-align
+
+- font-family
+
+/// type=MS, answer=[1,4,5]
+
+Select which of the following is an attribute `value` on line 7?
+
+- color: red
+
+- Welcome to HTML
+
+- style
+
+- text-align: center
+
+- font-family: comic sans
+
 
 +++
 

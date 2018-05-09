@@ -2,12 +2,14 @@
 
 After completing the lesson, students will be able to:
 
-- Understand the basic structure of HTML.
+- Know the basic terminologies of HTML.
 
-- Use of tags and elements in writing HML code.
+- Understand the proper basic page structure of HTML.
+
+- Use tags and elements in writing an HTML code.
 
 - Use attributes to define the elements.
 
-- Able to write proper nested HTML code.
+- Able to write proper nested HTML document.
 
 

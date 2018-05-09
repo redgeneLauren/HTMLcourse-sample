@@ -63,7 +63,7 @@ What is `Line 7` of the code above represent?
 
 /// type=SS, answer=[3]
 
-Which of the following line of code that can be seen in the browser tab of a browser window?
+Which of the following line of code that can be seen inside the browser tab?
 
 - `Line 2`
 
@@ -142,7 +142,7 @@ Which of the following correctly shows how HTML code should be written?
 
 /// type=SS, answer[4]
 
-What tag will information be inside the main browser or on the web page?
+What tag will information be inside the main browser of a web page?
 
 - `<title></title>`
 
@@ -182,9 +182,9 @@ Select the following items that is needed to construct an HTML `tag`?
 
 - An `<` open angled bracket
 
-/// type=SS, answer[]
+/// type=SS, answer[4]
 
-WHat does a `<head></head>` tag contain?
+What does a `<head></head>` tag contain?
 
 - Information
 
@@ -195,6 +195,20 @@ WHat does a `<head></head>` tag contain?
 - Metadata
 
 - Content
+
+/// type=MS, answer[2,4,5]
+
+Select which of the following are metadata for the head tag `<head></head>`?
+
+- `<body>`
+
+- `<title>`
+
+- `<html>`
+
+- `<link>`
+
+- `<style>`
 
 :::
 

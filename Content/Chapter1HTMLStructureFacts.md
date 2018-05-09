@@ -4,7 +4,7 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
 
 1. Tags and Elements
 
-    - HTML is made up of characters that live inside angled brackets `< >` these are called the `HTML elements`. Elements are made up of two tags an opening tag `<` and a closing tag `>`. 
+    - HTML is made up of characters that live inside angled brackets `< >`, these are called the `HTML elements`. Elements are made up of two tags an opening tag `<` and a closing tag `>`. 
 
     - Tags consists of an open angle bracket `<`, followed by an `element name` and a closing angle bracket `/>`.
 
@@ -40,7 +40,7 @@ HTML stands for Hypertext Markup Language and it is the most widely used languag
 
     - An attribute defines a property of an `element`. 
 
-    - Attributes appear on the opening tag and are made up of two parts: `name` and `value` and are separated by an  `=` equal sign.
+    - Attributes are written inside the opening tag after the `element name` and are made up of two parts: `name` and `value` and are separated by an  `=` equal sign.
 
     Code:
 

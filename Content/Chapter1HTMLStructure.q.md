@@ -151,6 +151,8 @@ Select which of the following is an attribute `value` on line 7?
 </html>
 
 ```
+/// type=SS, answer=[3]
+
 What is wrong with the nesting of the HTML code?
 
 - Nothing is wrong with the HTML code.
@@ -171,7 +173,7 @@ What is wrong with the nesting of the HTML code?
 
 ### Part 2: Knowledge Assessment
 
-///type SS, answer[4]
+///type SS, answer=[4]
 
 What does the acronym HTML stand for?
 
@@ -185,7 +187,7 @@ What does the acronym HTML stand for?
 
 - Hyperlink Mark Language
 
-/// type=SS, answer[1]
+/// type=SS, answer=[1]
 
 Which of the following correctly shows how HTML code should be written?
 
@@ -200,7 +202,7 @@ Which of the following correctly shows how HTML code should be written?
 - Using number sign `#`.
 
 
-/// type=SS, answer[4]
+/// type=SS, answer=[4]
 
 What tag will information be inside the main browser of a web page?
 
@@ -214,7 +216,7 @@ What tag will information be inside the main browser of a web page?
 
 - `<!DOCTYPE html>`
 
-/// type=SSS, answer[3]
+/// type=SS, answer=[3]
 
 How are attributes written in HTML?
 
@@ -228,7 +230,7 @@ How are attributes written in HTML?
 
 - `element name`, `value` seperated by a `:` colon.
 
-/// type=MS, answer[1,3,5]
+/// type=MS, answer=[1,3,5]
 
 Select the following items that is needed to construct an HTML `tag`?
 
@@ -242,7 +244,7 @@ Select the following items that is needed to construct an HTML `tag`?
 
 - An `<` open angled bracket
 
-/// type=SS, answer[4]
+/// type=SS, answer=[4]
 
 What does a `<head></head>` tag contain?
 
@@ -256,7 +258,7 @@ What does a `<head></head>` tag contain?
 
 - Content
 
-/// type=MS, answer[2,4,5]
+/// type=MS, answer=[2,4,5]
 
 Select which of the following are metadata for the head tag `<head></head>`?
 
@@ -269,6 +271,8 @@ Select which of the following are metadata for the head tag `<head></head>`?
 - `<link>`
 
 - `<style>`
+
+/// type=SS, answer=[5]
 
 What character is used to inidicate an end tag?
 
@@ -307,8 +311,10 @@ What character is used to inidicate an end tag?
         </body>
     </html>
 
-   
 ```
+
+/// type=SS, answer=[2]
+
 Render the HTML code. Which statement best describes the error?
 
 - The text are not aligned at the center.

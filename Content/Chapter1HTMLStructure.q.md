@@ -4,7 +4,9 @@
 
 ### Part 1: Sample Code Analysis
 
-///type=REPL, readonly=true
+:::
+
+/// type=REPL, readonly=true
 
 ```html
 <!DOCTYPE html>
@@ -20,7 +22,7 @@
 ```
 
 /// type=SS, answer=[4]
--
+
 What is the purpose of the `<!Doctype html>`?
 
 - It serves as the comment section of HTML.
@@ -63,7 +65,7 @@ What is `Line 7` of the code above represent?
 
 /// type=SS, answer=[3]
 
-Which of the following line of code that can be seen inside the browser tab?
+Which of the following line of code will information be seen inside the browser tab?
 
 - `Line 2`
 
@@ -105,13 +107,13 @@ Select which of the following statements correctly describes the output of the H
 
 /// type=SS, answer=[1]
 
-On line 7, which of the following is the element name?
+On line 7, which of the following is an element name?
 
 - p
 
 - style
 
-- color:red
+- color: red
 
 - text-align
 
@@ -131,14 +133,43 @@ Select which of the following is an attribute `value` on line 7?
 
 - font-family: comic sans
 
+:::
+
+:::
+
+/// type=REPL, readonly=true
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+       <p>HTML Basic Page Stucture
+    </body>
+</html>
+
+```
+What is wrong with the nesting of the HTML code?
+
+- Nothing is wrong with the HTML code.
+
+- It lacks the opening html tag.
+
+- It lacks a closing paragraph tag. 
+
+- It lacks the closing body tag. 
+
+- It lacks the opening html tag.
+
+:::
 
 +++
 
 +++
 
 ### Part 2: Knowledge Assessment
-
-:::
 
 ///type SS, answer[4]
 
@@ -238,6 +269,19 @@ Select which of the following are metadata for the head tag `<head></head>`?
 - `<link>`
 
 - `<style>`
+
+What character is used to inidicate an end tag?
+
+- The double quotes character `""`
+
+- The back slash character `\`
+
+- The percent character `%`
+
+- The ampersand character `&`
+
+- The forward slash character `/`
+
 
 :::
 

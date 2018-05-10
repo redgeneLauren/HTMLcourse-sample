@@ -4,11 +4,11 @@ HTML stands for Hypertext Markup Language. It is the most widely used language f
 
 1. Tags and Elements
 
-- HTML is composed of characters that live inside angle brackets `< >`, which are called the `HTML elements`.
+    - HTML is composed of characters that live inside angle brackets `< >`, which are called the `HTML elements`.
 
-- Tags consists of an open angle bracket `<` followed by an `element name` and a closing angle bracket with a forward slash character `/>`.
+    - Tags consists of an open angle bracket `<` followed by an `element name` and a closing angle bracket with a forward slash character `/>`.
 
-- Tags are like containers. They carry information found between the opening tag `<>` and the closing tag `</>`. 
+    - Tags are like containers. They carry information found between the opening tag `<>` and the closing tag `</>`. 
 
 Code:
 
@@ -38,9 +38,9 @@ Code:
     
 3. Attributes
 
-- An attribute defines the characteristics of an `element`. 
+    - An attribute defines the characteristics of an `element`. 
 
-- Attributes are written inside the opening tag after the `element name`; they are made up of two parts: `name` and `value` and they are separated by an `=` equal sign.
+    - Attributes are written inside the opening tag after the `element name`; they are made up of two parts: `name` and `value` and they are separated by an `=` equal sign.
 
 Code:
 
@@ -59,6 +59,16 @@ Code:
 ```
 Output:
 
+<html>
+<head>
+<title>My homepage</title>
+</head>
+<body style="font-family: courier">
+<h1>My first heading inside a header tag</h1>
+<p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
+</body>
+</html> 
+
 - The attribute `name` in the example code above are `lang` and `style`. 
 
 - Attribute `name` indicates the kind of extra information you are supplying about the content of the `element`. It should be written in lowercase.
@@ -73,15 +83,15 @@ Output:
 
 4. Nesting
 
-- HTML code should be `nested` in a proper order, the opening tag `<>` is always followed by a closing tag `</>`.
+    - HTML code should be `nested` in a proper order, the opening tag `<>` is always followed by a closing tag `</>`.
 
-- An open tag for `<html>` is paired with a closing tag `</html>`
+    - An open tag for `<html>` is paired with a closing tag `</html>`
 
-- Inside the `<html></html>` tag are other nested tags to build up the html code.
+    - Inside the `<html></html>` tag are other nested tags to build up the html code.
 
-- Proper `nesting` should be observed in using HTML.
+    - Proper `nesting` should be observed in using HTML.
 
-- The code below shows proper nested HTML.
+    - The code below shows proper nested HTML.
 
 Code:
 

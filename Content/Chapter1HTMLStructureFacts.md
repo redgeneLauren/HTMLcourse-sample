@@ -10,31 +10,31 @@ HTML stands for Hypertext Markup Language. It is the most widely used language f
 
     - Tags are like containers. They carry information found between the opening tag `<>` and the closing tag `</>`. 
 
-Code:
+    Code:
 
-```html
+    ```html
     <!DOCTYPE html>
     <html>
 	    <head>
 		    <title>My homepage</title>
 	    </head>
-	    <body>
+	    <body style="font-family: courier">
 		    <h1>My first heading inside a header tag</h1>
                 <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
 	    </body>
 
     </html>
 
-```
-- The `<!Doctype >` goes before the HTML `<html>` element; it defines the document whether the page will contain `HTML`, `XHTML` or both.
+    ```
+    - The `<!Doctype >` goes before the HTML `<html>` element; it defines the document whether the page will contain `HTML`, `XHTML` or both. 
 
-- The html tag `<html></html>` encloses the complete HTML document.
+    - The html tag `<html></html>` encloses the complete HTML document.
+    
+    - The head tag `<head></head>` serves as a container for metadata in HTML. Some of these metadata are `<title>`,`<style>`, `<link>`, `<script>` and `<base>` elements.
 
-- The head tag `<head></head>` serves as a container for metadata in HTML. Some of these metadata are `<title>`,`<style>`, `<link>`, `<script>` and `<base>` elements.
+    - The contents of a `<title></title>` tag is located at the top part of the browser window above the URL section. It is seen in the browser tab. 
 
-- The contents of a `<title></title>` tag is located at the top part of the browser window above the URL section. It is seen in the browser tab. 
-
-- Anything written between the body tag `<body></body>` will appear in the main browser window or web page.
+     - Anything written between the body tag `<body></body>` will appear in the main browser window or web page.
     
 3. Attributes
 
@@ -42,44 +42,37 @@ Code:
 
     - Attributes are written inside the opening tag after the `element name`; they are made up of two parts: `name` and `value` and they are separated by an `=` equal sign.
 
-Code:
+    Code:
 
-```html
-<!DOCTYPE html>
-<html>
+    ```html
+
+    <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
+    
+    ```
+     
+     Output:
+     
+    <!Doctype html>
+    <html>
     <head>
-	    <title>My homepage</title>
-	</head>
-	<body style="font-family: courier">
-		<h1>My first heading inside a header tag</h1>
-        <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
-     </body>
+    <title></title>
+    </head>    
+    <body>
+    <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
+    </body>
+    </html>
 
-</html> 
-```
-Output:
+    - The attribute `name` in the example code above are `lang` and `style`. 
 
-<html>
-<head>
-<title>My homepage</title>
-</head>
-<body style="font-family: courier">
-<h1>My first heading inside a header tag</h1>
-<p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
-</body>
-</html> 
+    - Attribute `name` indicates the kind of extra information you are supplying about the content of the `element`. It should be written in lowercase.
 
-- The attribute `name` in the example code above are `lang` and `style`. 
+    - The attribute `value` in the example code above are `eng-us` and `color:red`. 
+    
+    - Attribute `value` is the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
 
-- Attribute `name` indicates the kind of extra information you are supplying about the content of the `element`. It should be written in lowercase.
-
-- The attribute `value` in the example code above are `eng-us` and `color:red`. 
-
-- Attribute `value` is the setting for the declared attribute of `name`. It should be placed inside the double quotes `“ ”` . 
-
-- Different `attributes` have different `values`.
-
-- Most attribute `values` are `pre-defined` or follow a stipulated format.  
+    - Different `attributes` have different `values`.
+    
+    - Most attribute `values` are `pre-defined` or follow a stipulated format.  
 
 4. Nesting
 
@@ -93,17 +86,18 @@ Output:
 
     - The code below shows proper nested HTML.
 
-Code:
+    Code:
 
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-    </head>
-    <body></body>
-</html>  
-```
+    ```html
+    <!DOCTYPE html>
+      <html>
+        <head>
+            <title></title>
+        </head>
+            <body></body>
+      </html>  
+
+    ```
     
 
 

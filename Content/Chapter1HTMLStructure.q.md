@@ -22,13 +22,13 @@
 ```
 /// type=SS, answer=[4]
 
-What is the purpose of the `<!Doctype html>`?
+What is the purpose of the `<!Doctype>`?
 
 - It serves as the comment section of HTML.
 
 - It is the portal for saving files.
 
-- It is the documentator of HTML.
+- It is the documentation of HTML.
 
 - It defines the type of document.
 
@@ -50,7 +50,7 @@ What type of tag is the `<title>`?
 
 /// type=SS, answer=[3]
 
-What is `Line 7` of the code above represent?
+What does `Line 7` of the code above represent?
 
 - It represents the `text` tag.
 
@@ -92,7 +92,7 @@ What is `style` in line 7?
 
 /// type=MS, answer=[2,3,5]
 
-Select which of the following statements correctly describes the output of the HTML code above?
+Which of these statements correctly describes the output of the HTML code above?
 
 - It does not show anything, just a blank page.
 
@@ -120,7 +120,7 @@ On line 7, which of the following is an element name?
 
 /// type=MS, answer=[1,4,5]
 
-Select which of the following is an attribute `value` on line 7?
+Which of the following is an attribute `value` on line 7?
 
 - color: red
 
@@ -166,9 +166,9 @@ What color will be applied to the text?
 ```
 /// type=SS, answer=[3]
 
-What is wrong with the nesting of the HTML code?
+What is incorrect with the nesting of the HTML code?
 
-- Nothing is wrong with the HTML code.
+- Everything is correct with the HTML code.
 
 - It lacks the opening html tag.
 
@@ -264,17 +264,17 @@ How are attributes written in HTML?
 
 - `element name`, `element value` seperated by a `:` colon.
 
-- `name`, `value` seperated by an `=` equal sign.
+- `attribute name`, `attribute value` seperated by an `=` equal sign.
 
-- `name`, `value` seperated by a `:` colon.
+- `attribute name`, `attribute value` seperated by a `:` colon.
 
-- `element name`, `value` seperated by a `:` colon.
+- `element name`, `attribute value` seperated by a `:` colon.
 
 /// type=MS, answer=[1,3,5]
 
-Select the following items that is needed to construct an HTML `tag`?
+Which characters is needed to construct an HTML `tag`?
 
-- An `element name`.
+- A `+` plus sign.
 
 - An `!` exclamation point
 
@@ -300,7 +300,7 @@ What does a `<head></head>` tag contain?
 
 /// type=MS, answer=[2,4,5]
 
-Select which of the following are metadata for the head tag `<head></head>`?
+Which are metadata for the head tag `<head></head>`?
 
 - `<body>`
 
@@ -366,7 +366,7 @@ Which of the following tags represents the beginning of a paragraph?
 
 /// type=SS, answer=[2]
 
-Render the HTML code. Which statement best describes the error?
+Run the HTML code. Which statement best describes the error?
 
 - The text are not aligned at the center.
 
@@ -380,8 +380,10 @@ Render the HTML code. Which statement best describes the error?
 
 /// type=CR, answer=[path]
 
+Correct the HTML code so that it outputs the correct instruction per line of text given inside the paragraph tag in the HTML code.
 
-Correct the HTML code so that it outputs the correct instruction per line of text given inside the HTML code.
+- This text wil be centered, italicized heading(size 3)
+- This text will be centered aligned and bolded.
 
 ```html
 <!DOCTYPE html>
@@ -413,7 +415,7 @@ Write an HTML document that outputs the text "My Travel Places Goals" with the f
 
 Followed by another text below "New York, Paris, Singapore and Japan." With the following characteristics: `text-aligned: center`,text is bolded `<b></b>`, `font-color: pink`, `lang= eng-us`, `font:family: courier`.
 
-Observer proper HTML nesting. Render the HTML code to view the result.
+Observer proper HTML nesting. Run the HTML code to view the result.
 
 ```html
 

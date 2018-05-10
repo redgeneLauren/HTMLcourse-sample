@@ -15,12 +15,11 @@
         <title>HTML Page Structure</title>
     </head>
         <body>
-            <p style="color: red; text-align: center; font-family: comic sans">Welcome to HTML</p>
+            <p style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p>
         </body>
 </html>
 
 ```
-
 /// type=SS, answer=[4]
 
 What is the purpose of the `<!Doctype html>`?
@@ -133,6 +132,20 @@ Select which of the following is an attribute `value` on line 7?
 
 - font-family: comic sans
 
+/// type=SS, answer=[1]
+
+What color will be applied to the text?
+
+- Blue
+
+- Black
+
+- Red
+
+- Nothing
+
+- Cannot be identified.
+
 :::
 
 :::
@@ -146,7 +159,7 @@ Select which of the following is an attribute `value` on line 7?
         <title></title>
     </head>
     <body>
-       <p>HTML Basic Page Stucture
+       <style="color: red; font-family: courier; font-size: 20">HTML Basic Page Stucture
     </body>
 </html>
 
@@ -159,11 +172,39 @@ What is wrong with the nesting of the HTML code?
 
 - It lacks the opening html tag.
 
-- It lacks a closing paragraph tag. 
+- It lacks a paragraph tag. 
 
 - It lacks the closing body tag. 
 
-- It lacks the opening html tag.
+- It lacks the html tag.
+
+/// type=SS, answer=[4]
+
+What font type will be applied to the text `HTML Basic Page Structure`?
+
+- Comic sans
+
+- Courier
+
+- Times new Roman
+
+- Default HTML font
+
+- Arial
+
+/// type=SS, answer=[3]
+
+What color will be applied to the text ?
+
+- Red
+
+- Blue
+
+- Black
+
+- Yellow
+
+- Orange
 
 :::
 
@@ -364,6 +405,9 @@ Followed by another text below "New York, Paris, Singapore and Japan." With the 
 Observer proper HTML nesting. Render the HTML code to view the result.
 
 ```html
+
+
+
 
 
 

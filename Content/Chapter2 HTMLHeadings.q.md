@@ -15,14 +15,57 @@
     </head>
     <body>
         <h1>Short Stories</h1>
-        <h2>The Cask of Amontillado</h2>
+        <h2 style="color: red">The Cask of Amontillado</h2>
         <h3>(1846) by Edgar Allan Poe</h3>
 	<p style="font-family: courier"> A classic revenge story in the horror genre.</p> 
+        <h6>Source: americanliterature.com</h6>
 	
     </body>
 </html>
 
 ```
+
+/// type=SS, answer=[3]
+
+How many header tags are used in the code above?
+
+- 6
+
+- 1
+
+- 3
+
+- 2
+
+- None
+
+/// type=SS, answer=[5]
+
+Which line of code has the smallest text?
+
+- Line 4
+
+- Line 7
+
+- Line 10
+
+- Line 8
+
+- Line 11
+
+/// type=MS, answer=[1,3,4,5]
+
+Which of the following line of code has the `headings` written?
+
+- Line 7
+
+- Line 3
+
+- Line 8
+
+- Line 11
+
+- Line 9
 
 :::
 
@@ -34,7 +77,7 @@
 
 /// type=SS, answer=[5]
 
-Which of the following `header tag` makes content the smallest?
+Which of the following `header tag` makes a content appear the smallest?
 
 - `<h2></h2>`
 

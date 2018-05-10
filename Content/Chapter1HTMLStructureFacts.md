@@ -52,15 +52,7 @@ HTML stands for Hypertext Markup Language. It is the most widely used language f
      
      Output:
      
-    <!Doctype html>
-    <html>
-    <head>
-    <title></title>
-    </head>    
-    <body>
     <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
-    </body>
-    </html>
 
     - The attribute `name` in the example code above are `lang` and `style`. 
 

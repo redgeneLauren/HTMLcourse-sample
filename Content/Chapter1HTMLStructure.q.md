@@ -242,7 +242,6 @@ Which of the following correctly shows how HTML code should be written?
 
 - Using number sign `#`.
 
-
 /// type=SS, answer=[4]
 
 What tag will information be inside the main browser of a web page?
@@ -327,8 +326,19 @@ What character is used to inidicate an end tag?
 
 - The forward slash character `/`
 
+/// type=SS, answer=[4]
 
-:::
+Which of the following tags represents the beginning of a paragraph?
+
+- `<body>`
+
+- `<html>`
+
+- `<head>`
+
+- `<p>` 
+
+- `<paragraph>`
 
 +++
 
@@ -369,6 +379,7 @@ Render the HTML code. Which statement best describes the error?
 - There seems to be no problem with the code.
 
 /// type=CR, answer=[path]
+
 
 Correct the HTML code so that it outputs the correct instruction per line of text given inside the HTML code.
 

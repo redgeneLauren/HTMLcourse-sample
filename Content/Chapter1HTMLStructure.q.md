@@ -22,7 +22,7 @@
 ```
 /// type=SS, answer=[4]
 
-What is the purpose of the `<!Doctype>`?
+What is the purpose of the `<!Doctype html>`?
 
 - It serves as the comment section of HTML.
 
@@ -36,7 +36,7 @@ What is the purpose of the `<!Doctype>`?
 
 /// type=SS, answer=[2]
 
-What type of tag is the `<title>`?
+What type of tag is `<title>`?
 
 - An ending tag.
 

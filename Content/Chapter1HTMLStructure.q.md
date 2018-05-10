@@ -168,8 +168,6 @@ What color will be applied to the text?
 
 What is incorrect with the nesting of the HTML code?
 
-- Everything is correct with the HTML code.
-
 - It lacks the opening html tag.
 
 - It lacks a paragraph tag. 
@@ -177,6 +175,8 @@ What is incorrect with the nesting of the HTML code?
 - It lacks the closing body tag. 
 
 - It lacks the html tag.
+
+- Everything is correct with the HTML code.
 
 /// type=SS, answer=[4]
 
@@ -194,7 +194,7 @@ What font type will be applied to the text `HTML Basic Page Structure`?
 
 /// type=SS, answer=[3]
 
-What color will be applied to the text ?
+What color will be applied to the text `HTML Basic Page Structure`?
 
 - Red
 

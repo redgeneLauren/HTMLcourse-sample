@@ -8,16 +8,20 @@
 ///type=REPL, readonly=true
 
 ```html
-
 <!DOCTYPE html>
 <html>
     <head>
-        <title><title>
+        <title>Using Headings</title>
     </head>
     <body>
-
+        <h1>Short Stories</h1>
+        <h2>The Cask of Amontillado</h2>
+        <h3>(1846) by Edgar Allan Poe</h3>
+	<p style="font-family: courier"> A classic revenge story in the horror genre.</p> 
+	
     </body>
 </html>
+
 ```
 
 :::
@@ -84,6 +88,34 @@ How many `heading tags` are there in HTML?
 
 - 7
 
+/// type=MS, answer=[1,3,4,5]
+
+Which attributes are available to use in a paragraph tag?
+
+- class
+
+- align
+
+- style
+
+- title
+
+- id
+
+/// type=SS, answer=[3]
+
+Which of the following can users also use to adjust the size and control the style of the paragraph and the heading tags?
+
+- asp.net styles
+
+- Node styles
+
+- CSS styles
+
+- C# styles
+
+- C++ styles
+
 :::
 
 +++
@@ -91,7 +123,6 @@ How many `heading tags` are there in HTML?
 +++
 
 ### Part 3: Finding and Fixing Errors
-
 
 :::
 

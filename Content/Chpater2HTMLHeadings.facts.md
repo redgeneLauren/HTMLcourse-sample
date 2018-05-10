@@ -64,8 +64,8 @@
     ```
     - The paragraph tag `<p></p>` can contain `attributes`. 
 
-    - Attributes in `<p></p>` paragraph tag are avaialble to use. Some attributes may include:  `class`, `style` `class`, `ID` and `title` .
-
+    - Attributes in `<p></p>` paragraph tag are available to use. Some attributes may include: `style` `class`, `ID` and `title`.
+    
     - Users can also adjust the size of the text in their browser and control the style and color using `CSS styles`
 
     Code

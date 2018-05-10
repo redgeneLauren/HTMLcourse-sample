@@ -45,13 +45,32 @@ HTML stands for Hypertext Markup Language. It is the most widely used language f
     Code:
 
     ```html
-    <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
+     <!DOCTYPE html>
+    <html>
+	    <head>
+		    <title>My homepage</title>
+	    </head>
+	    <body style="font-family: courier">
+		    <h1>My first heading inside a header tag</h1>
+                <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
+	    </body>
+
+    </html>
     
     ```
      
      Output:
 
-    <p lang="eng-us"; style="color: red; text-align: center;">My first HTML coding inside a paragraph</p>
+    <!DOCTYPE html>
+    <html>
+	<head>
+	<title>My homepage</title>
+	</head>
+	<body style="font-family: courier">
+	<h1>My first heading inside a header tag</h1>
+    <p lang="eng-us"; style="color: red">My first HTML coding inside a paragraph</p>
+	</body>
+    </html>
 
     - The attribute `name` in the example code above are `lang` and `style`. 
 

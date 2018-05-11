@@ -59,7 +59,7 @@
 
     Code:
     ```html
-    <p>We are! We are! The youth of the nation! </p>
+    <p>We are the youth of the nation! </p>
 
     ```
     - The paragraph tag `<p></p>` can contain `attributes`. 
@@ -72,15 +72,14 @@
     ```html
     <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
 
-    <p style="text-align: center; font-family: courier; font-size: 16pt; color: pink">We are! We are! The youth of the nation! </p>
+    <p style="text-align: center; font-family: courier; font-size: 50px; color: pink">We are the youth of the nation! </p>
 
     ```
     Output:
     
     <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
 
-     <p style="text-align: center; font-family: courier; font-size: 16pt; color: pink">We are! We are! The youth of the nation! </p>
-
+     <p style="text-align: center; font-family: courier; font-size: 20px; color: pink">We are the youth of the nation! </p>
 
 
    

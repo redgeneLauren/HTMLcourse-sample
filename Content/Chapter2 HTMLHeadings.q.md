@@ -17,9 +17,8 @@
         <h1>Short Stories</h1>
         <h2 style="color: red">The Cask of Amontillado</h2>
         <h3>(1846) by Edgar Allan Poe</h3>
-	<p style="font-family: courier"> A classic revenge story in the horror genre.</p> 
+	<p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> 
         <h6>Source: americanliterature.com</h6>
-	
     </body>
 </html>
 
@@ -41,7 +40,7 @@ How many header tags are used in the code above?
 
 /// type=SS, answer=[5]
 
-Which line of code has the smallest text?
+Which line of code appears to have the smallest text?
 
 - Line 4
 
@@ -67,6 +66,49 @@ Which of the following line of code has the `headings` written?
 
 - Line 9
 
+/// type=SS, answer=[3]
+
+What color is applied to the second subheading in the code above?
+
+- Purple
+
+- Blue
+
+- Red
+
+- Yellow
+
+- Orange
+
+/// type=SS, answer=[2]
+
+Which line of code appears to have the largest text?
+
+- Line 4
+
+- Line 7
+
+- Line 10
+
+- Line 8
+
+- Line 11
+
+/// type=SS, answer=[4]
+
+On the second subheading in the code above, what attribute name was added to the heading tag?
+
+- color:red
+
+- font-size
+
+- font-family
+
+- style
+
+- color
+
+
 :::
 
 +++
@@ -91,7 +133,7 @@ Which of the following `header tag` makes a content appear the smallest?
 
 /// type=MS , answer=[2,3,5]
 
-Select which of the following attributes can be used in a `<p></p>` paragraph tag?
+Which of the following attribute `name` can be used in a `<p></p>` paragraph tag?
 
 - `color`
 
@@ -208,4 +250,6 @@ Rewrite the HTML code above to print a text in red with a header.
 
 ### Part 4: Practice
 
-Add a heading ""
+Write and HTML document that uses three headings, `<h1>`,`<h2>` and `<h6>`. The first heading has a text `dfdsfs`, the second heading has a text `sdsdfsd` and the third headings has a text `fdsfsdfsdfasfds`. All headings should be aligned a the center. Then, insert a paragraph between the second and third headings, with a text `fsdfdsfsdfsdfa`. Place a style attribute inside the paragraph tag with the following characteristics: `font-family: verdana`; `font-size: 20px`; `font-color: blue`; `text-align: center`. 
+
+Observer proper HTML nesting. Run the HTML code to view the result. 

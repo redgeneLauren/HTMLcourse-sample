@@ -272,7 +272,7 @@ How are attributes written in HTML?
 
 /// type=MS, answer=[1,3,5]
 
-Which characters is needed to construct an HTML `tag`?
+Which of the following characters is needed to construct an HTML `tag`?
 
 - A `+` plus sign.
 
@@ -300,7 +300,7 @@ What does a `<head></head>` tag contain?
 
 /// type=MS, answer=[2,4,5]
 
-Which are metadata for the head tag `<head></head>`?
+Which of the following are metadata for the head tag `<head></head>`?
 
 - `<body>`
 
@@ -357,7 +357,7 @@ Which of the following tags represents the beginning of a paragraph?
             <title>HTML Practice</title>
         </head>
          <body>
-            <p style="text-align: center"><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
+            <p style="text-align: center; color:red"><i><h3>This text will be a centered, italicized heading (size 3)</i></h3>
             <b>This text will be right aligned and bolded</b>
         </body>
     </html>
@@ -366,7 +366,7 @@ Which of the following tags represents the beginning of a paragraph?
 
 /// type=SS, answer=[2]
 
-Run the HTML code. Which statement best describes the error?
+Run the HTML code. Which statement best describes the problem with the HTML code?
 
 - The text are not aligned at the center.
 
@@ -376,11 +376,11 @@ Run the HTML code. Which statement best describes the error?
 
 - The attribute name `style` is written incorrectly.
 
-- Everything is written correctly.
+- There seems to be no problem with the HTML code.
 
 /// type=CR, answer=[path]
 
-Correct the HTML code so that it outputs the correct instruction per line of text given inside the paragraph tag in the HTML code.
+Correct the HTML code so that it outputs the correct instruction per line of text given inside the paragraph element in the HTML code.
 
 - `This text wil be centered, italicized heading(size 3)`
 -  `This text will be centered aligned and bolded.`

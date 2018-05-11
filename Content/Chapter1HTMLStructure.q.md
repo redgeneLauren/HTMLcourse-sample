@@ -370,20 +370,20 @@ Run the HTML code. Which statement best describes the error?
 
 - The text are not aligned at the center.
 
-- There is no closing tag `</p>` for paragraph.
+- There is no paragraph tag `<p></p>`.
 
 - The HTML code is not properly nested.
 
 - The attribute name `style` is written incorrectly.
 
-- There seems to be no problem with the code.
+- Everything is written correctly.
 
 /// type=CR, answer=[path]
 
 Correct the HTML code so that it outputs the correct instruction per line of text given inside the paragraph tag in the HTML code.
 
-- This text wil be centered, italicized heading(size 3)
-- This text will be centered aligned and bolded.
+- `This text wil be centered, italicized heading(size 3)`
+-  `This text will be centered aligned and bolded.`
 
 ```html
 <!DOCTYPE html>
@@ -392,7 +392,7 @@ Correct the HTML code so that it outputs the correct instruction per line of tex
         <title>HTML Practice</title>
     </head>
     <body>
-        <p style="text-align: center"><i><h3>This text will be centered, italicized heading (size 3)</i></h3>
+        <p style="text-align: center; color:red"><i><h3>This text will be centered, italicized heading (size 3)</i></h3>
         <b>This text will be centered aligned and bolded</b>
     </body>
 </html>

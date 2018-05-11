@@ -370,7 +370,7 @@ Run the HTML code. Which statement best describes the error?
 
 - The text are not aligned at the center.
 
-- There is no paragraph tag `<p></p>`.
+- There is no closing tag `</p>` for the paragraph element.
 
 - The HTML code is not properly nested.
 

@@ -187,7 +187,7 @@ What does the acronym HTML stand for?
 
 /// type=SS, answer=[1]
 
-Which of the following correctly shows how HTML tags should be enclosed in?
+Which of the following correctly show how tags are constructed?
 
 - Using angle brackets `< >`.
 
@@ -215,7 +215,7 @@ What tag will information be inside the main browser of a web page?
 
 /// type=MS, answer=[1,3,5]
 
-Which of the following characters is needed to construct a `tag`?
+Which of the following is needed to construct a `HTML tag`?
 
 - An `element` name.
 

@@ -8,7 +8,7 @@ HTML is a `Markup Language` that tells the web browser how to structure a text d
 
 HTML is composed of elements that structure the webpage and define its content
 
-2. Tags and Element
+1. Tags and Element
 
 - Tags are element names enclosed in angle brackets `<>`.
 
@@ -36,7 +36,7 @@ Code:
 
 ```
 
-3. Code break down:
+2. The code break down as follows:
 
 - `<!DOCTYPE html>` - defines the document type and the HTML version.
 

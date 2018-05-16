@@ -2,15 +2,19 @@
 
 HTML stands for `Hypertext Markup Language`, the most widely used language for writing web pages.
 
-`Hypertext` refers to the way web pages are linked together.
-
 HTML is a `Markup Language` that tells the web browser how to structure a text document using `tags`.
 
-`Tags` consists of angle brackets `<>`.
+`Hypertext` refers to the way web pages are linked together.
 
-The opening tag `<`  starts an HTML element and the closing tag `/>` with a forward slash character ends the HTML `element`.
+HTML is composed of elements that structure the webpage and define its content.
 
-An `element` is a unit of content in an HTML document formed by HTML tags.
+Tags are element names enclosed in angle brackets `<>`.
+
+The opening tag `<>` starts an HTML element and the closing tag `</>` ends the HTML `element`.
+
+Closing tag has a forward slash character `/` after the left angle bracket `<`.
+
+An `element` is a unit of content in an HTML document formed by HTML tags and text or media it contains.
 
 Contents are texts or other elements contained between the opening and closing tags of an HTML element.
 
@@ -23,8 +27,8 @@ Code:
       <title>The document title</title>
    </head>
    <body>
-      <h1>This is the Heading of the page</h1>
-      <p>This where the page content will be written</p>
+      <h1>This is the Heading of the document</h1>
+      <p>Page content will be written here</p>
    </body>
 </html>
 
@@ -42,4 +46,4 @@ Code:
 
 - `<h1></h1>` - sets the heading of the document. 
 
-- `<p></p>` - sets the paragraph of the page.
+- `<p></p>` - sets a paragraph of text for the page.

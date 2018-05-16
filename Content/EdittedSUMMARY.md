@@ -3,7 +3,7 @@
 * [Basic Page Structure](content/.q.md) **10 - 15 minutes**
     > Get acquainted with the basic HTML terminologies and learn proper page structure.
 
-* [Nesting and Attributes](content/.q.md) **10 - 15 minutes**
+* [Nesting and Attributes](content/.q.md) **15 - 20 minutes**
     > In this lesson you will learn proper nesting of HTML tags and define attributes that can be added to a HTML element.
     
 * [Headings and Paragraph](content/.q.md) **10 - 15 minutes**

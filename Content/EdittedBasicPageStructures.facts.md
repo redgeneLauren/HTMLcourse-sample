@@ -8,15 +8,17 @@ HTML is a `Markup Language` that tells the web browser how to structure a text d
 
 HTML is composed of elements that structure the webpage and define its content.
 
-Tags are element names enclosed in angle brackets `<>`.
+1. Tags and Element
 
-The opening tag `<>` starts an HTML element and the closing tag `</>` ends the HTML `element`.
+- Tags are element names enclosed in angle brackets `<>`.
 
-Closing tag has a forward slash character `/` after the left angle bracket `<`.
+- The opening tag `<>` starts an HTML element and the closing tag `</>` ends the HTML `element`.
 
-An `element` is a unit of content in an HTML document formed by HTML tags and text or media it contains.
+- The Closing tag has a forward slash character `/` after the left angle bracket `<`.
 
-Contents are texts or other elements contained between the opening and closing tags of an HTML element.
+- An `element` is a unit of content in an HTML document formed by HTML tags and text or media it contains.
+
+- Contents are texts or other elements contained between the opening and closing tags of an HTML element.
 
 Code:
 ```html

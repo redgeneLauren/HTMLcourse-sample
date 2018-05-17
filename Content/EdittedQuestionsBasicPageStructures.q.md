@@ -155,7 +155,7 @@ Which of the following will information be seen on the browser tab?
 
 - `<!Doctype html>`
 
-- No information will be seen in the browser tab.
+- No information will be seen on the browser tab.
 
 
 /// type=SS, answer=[4]
@@ -205,7 +205,7 @@ Which statements correctly describe the output of the HTML code above?
 
 /// type=SS, answer=[4]
 
-What of the following appears the largest text in the web page?
+What of the following produces the largest text in the web page?
 
 - `<title>HTML Basic Page Structure</title>`
 
@@ -389,7 +389,7 @@ Execute the program. What is the output?
 
 /// type=SS, answer=[2]
 
-Why is the text `This text wil be inside the heading` not appear as a heading in the web page?
+Why is the text `This text wil be inside the heading` not appear as a heading?
 
 - The text `This text wil be inside the heading` should be inside the `<head>` tag.
 
@@ -437,7 +437,7 @@ Correct the HTML code so that it outputs the text `This text wil be inside the h
 
 ```
 
-type=SS, answer=[5]
+/// type=SS, answer=[5]
 
 Execute the program. What is the ouput?
 
@@ -457,19 +457,19 @@ Execute the program. What is the ouput?
     <p>This text will be inside a paragraph.</p>
 
 
-type=SS, answer=[5]
+/// type=SS, answer=[5]
 
 What makes the text `This text will be inside a paragraph` appear to be a header?
 
-- There is no closing tag after `<body>` tag.
+- There is no closing tag after the `<body>` tag.
 
 - The text `This text will be inside a paragraph` is inside the `<head>` tag.
 
 - The text `This text will be inside a paragraph` is outside the `<body>` tag. 
 
-- There is a bug inside the header tags.
+- There is no reference inside the header tags.
 
-- There is no `</h1>` closing tag after the text `This text will be inside the heading`
+- There is no `</h1>` closing tag after the text `This text will be inside the heading`.
 
 
 /// type=CR, answer=[tests/BasicPageStructure/CorrectErrorTests.html]

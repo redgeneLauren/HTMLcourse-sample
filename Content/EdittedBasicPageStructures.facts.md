@@ -6,19 +6,17 @@ HTML is a `Markup Language` that tells the web browser how to structure a text d
 
 `Hypertext` refers to the way web pages are linked together.
 
-HTML is composed of elements that structure the webpage and define its content
+HTML is composed of elements that structure the webpage and define its content.
 
-1. Tags and Element
+Tags are element names enclosed in angle brackets `<>`.
 
-- Tags are element names enclosed in angle brackets `<>`.
+The opening tag `<>` starts an HTML element and the closing tag `</>` ends the HTML `element`.
 
-- The opening tag `<>` starts an HTML element and the closing tag `</>` ends the HTML `element`.
+Closing tag has a forward slash character `/` after the left angle bracket `<`.
 
-- Closing tag has a forward slash character `/` after the left angle bracket `<`.
+An `element` is a unit of content in an HTML document formed by HTML tags and text or media it contains.
 
-- An `element` is a unit of content in an HTML document formed by HTML tags and text or media it contains.
-
-- Contents are texts or other elements contained between the opening and closing tags of an HTML element.
+Contents are texts or other elements contained between the opening and closing tags of an HTML element.
 
 Code:
 ```html
@@ -36,17 +34,15 @@ Code:
 
 ```
 
-2. The code break down as follows:
-
 - `<!DOCTYPE html>` - defines the document type and the HTML version.
 
-- `<html></html>` -  encloses the entire HTML document, it is the root element of an HTML page. 
+- `<html></html>` -  encloses the entire HTML document. It is the root element of an HTML page. 
 
-- `<head> </head>` - contains information about the page, the `<title>` element is usually inside the `<head>` element
+- `<head> </head>` - contains information about the page. The `<title>` element is usually inside the `<head>` element
 
-- `<title></title>` - sets the title of the web page. Contents of the `title tag` is seen in the browser tab of the the web page.
+- `<title></title>` - sets the title of the web page. The contents of the `title tag` are seen on the browser tab of the the web page.
 
-- `<body></body>` - specifies the actual content to display on the web page. Anything written inside the `body tag` will appear in the web page. 
+- `<body></body>` - specifies the content to display on the web page. Anything written inside the `body tag` will appear in the web page. 
 
 - `<h1></h1>` - sets the heading of the document. 
 

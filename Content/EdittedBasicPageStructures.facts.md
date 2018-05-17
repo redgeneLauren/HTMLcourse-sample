@@ -1,14 +1,16 @@
 ### Facts for HTML Basic Page Structure
 
-- HTML stands for `Hypertext Markup Language`, the most widely used language for writing web pages.
+1. HTML terminologies
 
-- HTML is a `Markup Language` that tells the web browser how to structure a text document using `tags`.
+    - HTML stands for `Hypertext Markup Language`, the most widely used language for writing web pages.
 
-- `Hypertext` refers to the way web pages are linked together.
+    - HTML is a `Markup Language` that tells the web browser how to structure a text document using `tags`.
 
-- HTML is composed of elements that structure the webpage and define its content.
+    - `Hypertext` refers to the way web pages are linked together.
 
-1. Tags and Element
+    - HTML is composed of elements that structure the webpage and define its content.
+
+2. Tags and Element
 
     - Tags are element names enclosed in angle brackets `<>`.
 

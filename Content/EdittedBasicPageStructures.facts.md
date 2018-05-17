@@ -35,18 +35,17 @@ Code:
 </html>
 
 ```
-2. Code breaks down as follows:
 
-    - `<!DOCTYPE html>` - defines the document type and the HTML version.
+- `<!DOCTYPE html>` - defines the document type and the HTML version.
 
-    - `<html></html>` -  encloses the entire HTML document. It is the root element of an HTML page. 
+- `<html></html>` -  encloses the entire HTML document. It is the root element of an HTML page. 
 
-    - `<head> </head>` - contains information about the page. The `<title>` element is usually inside the `<head>` element
+- `<head> </head>` - contains information about the page. The `<title>` element is usually inside the `<head>` element
 
-    - `<title></title>` - sets the title of the web page. The contents of the `title tag` are seen on the browser tab of the the web page.
+- `<title></title>` - sets the title of the web page. The contents of the `title tag` are seen on the browser tab of the the web page.
 
-    - `<body></body>` - specifies the content to display on the web page. Anything written inside the `body tag` will appear in the web page. 
+- `<body></body>` - specifies the content to display on the web page. Anything written inside the `body tag` will appear in the web page. 
 
-    - `<h1></h1>` - sets the heading of the document. 
+- `<h1></h1>` - sets the heading of the document. 
 
-    - `<p></p>` - sets a paragraph of text for the page.
+- `<p></p>` - sets a paragraph of text for the page.

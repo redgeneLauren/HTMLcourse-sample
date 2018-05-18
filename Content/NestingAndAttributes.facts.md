@@ -50,7 +50,7 @@ Output:
 
 - The attribute `value` in the example code above are `eng-us` and `color:red`. 
     
-- `value` is the value of the property to be set and always placed within quotations `""`
+- `value` is the setting of the property to be set and always placed within quotations `""`
 
 - Different attributes have different values.
     

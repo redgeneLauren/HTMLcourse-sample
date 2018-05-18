@@ -24,63 +24,62 @@
 
 /// type=SS, answer=[3]
 
-Execute the program. What is the output?
+Execute the program. What is its output?
 
-- Welcome to HTML
-    <p>Lesson1: Basic Page structure of HTML</p>
+- Welcome to HTML <p>Lesson1: Basic Page structure of HTML</p>
 
 - Welcome to HTML, Lesson1: Basic Page structure of HTML
 
-- <h1>Welcome to HTML</h1>
-    <p>Lesson1: Basic Page structure of HTML</p>
+- <h1>Welcome to HTML</h1> <p>Lesson1: Basic Page structure of HTML</p>
 
 - <h1>Welcome to HTML</h1>
 
-- <p>Lesson1: Basic Page structure of HTML</p>
-    <h1>Welcome to HTML</h1>
+- <p>Lesson1: Basic Page structure of HTML</p> <h1>Welcome to HTML</h1>
 
+
+/// type=SS, answer=[2]
 
 What is the purpose of the `<!Doctype html>`?
 
-- It serves as the comment section of HTML.
-
-- It is the portal for saving files.
-
-- It is the documentation of HTML.
+- It does not have any purpose.
 
 - It defines the type of document.
 
-- It does not have any purpose.
+- It is the documentation of HTML.
+
+- It is the portal for saving files.
+
+- It serves as the comment section of HTML.
 
 
 /// type=SS, answer=[2]
 
 On line 2, what does the `<html>` tag indicate?
 
-- It tells the browser how to structure a text document.
+- The end of an HTML document.
 
 - The beginning of an HTML document.
 
+- Contains information about the page. 
+
 - Specifies the content to display on the web page.
+
+- It tells the browser how to structure a text document.
+
+
+/// type=SS, answer=[1]
+
+On line 10, what does the `</html>` tag indicate?
 
 - The end of an HTML document.
 
-- Contains information about the page. 
-
-
-/// type=SS, answer=[4]
-
-On line 10, what does the `</html>` tag indicate?
+- The begining of an HTML document.
 
 - Contains information about the page.
 
 - Specifies the content to display on the web page.
 
 - It tells the browser how to structure a text document.
-
-- The end of an HTML document.
-
-- The begining of an HTML document.
 
 
 /// type=SS, answer=[2]
@@ -98,41 +97,41 @@ What type of tag is `<title>`?
 - A starting tag.
 
 
-/// type=SS, answer=[3]
+/// type=SS, answer=[4]
 
 On line 7, what does the `<h1>` tag do?
 
-- It specifies the content to display in the web page.
+- It defines the document type.
 
 - It sets the title of the web page.
 
-- It sets the heading of the document.
-
 - It contains information about the page.
 
-- It defines the document type.
+- It sets the largest heading of the document.
+
+- It specifies the content to display in the web page.
 
 
 /// type=SS, answer=[3]
 
-What does `Line 8` of the code above represent?
+What does the HTML element `<p>Lesson1: Basic Page structure of HTML</p>` on line 8 represent?
 
-- It represents the `text` element.
+- The `text` element.
 
-- It represents the `content` element.
+- The `content` element.
 
-- It represents the `paragraph` element.
+- The `paragraph` element.
 
-- It represents the `thought` element. 
+- The `thought` element. 
 
-- It represents the `header` element.
+- The `header` element.
 
 
-/// type=SS, answer=[1]
+/// type=SS, answer=[5]
 
 On line 6, what does the `<body>` tag do?
 
-- It specifies the content to display in the web page.
+- It defines the document type.
 
 - It sets the title of the web page.
 
@@ -140,7 +139,7 @@ On line 6, what does the `<body>` tag do?
 
 - It contains information about the page.
 
-- It defines the document type.
+- It specifies the content to display in the web page.
 
 
 /// type=SS, answer=[2]
@@ -160,52 +159,52 @@ Which of the following will information be seen on the browser tab?
 
 /// type=SS, answer=[4]
 
-What does `Line 7` of the code above represent?
+What does the HTML element `<h1>Welcome to HTML</h1>` on Line 7 represent?
 
-- It represents the `title` element.
+- The `title` element.
 
-- It represents the `label` element.
+- The `label` element.
 
-- It represents the `paragraph` element.
+- The `paragraph` element.
 
-- It represents the `header` element. 
+- The `heading` element. 
 
-- It represents the `identifier` element.
+- The `identifier` element.
 
 
-/// type=MS, answer=[2,4]
+/// type=MS, answer=[1,4]
 
-What tags are inside the `<body>` tag?
+What elements are inside the `<body>` tag?
 
-- `<h1></h1>`
+- `<h1>Welcome to HTML</h1>`
 
-- `<head></head>`
+- `<Doctype html>`
 
-- `<title></title>`
+- `<title>HTML Basic Page Structure</title>`
 
-- `<p></p>`
+- `<p>Lesson1: Basic Page structure of HTML</p>`
 
 - `<html></html>`
 
 
-/// type=MS, answer=[2,4,5]
+/// type=MS, answer=[2,3,4]
 
-Which statements correctly describe the output of the HTML code above?
+Which statements correctly describes the output of the HTML code above?
 
 - It does not show anything, just a blank page.
 
+- It shows a larger and bolded text `Welcome to HTML`.
+
+- The information on the browser tab is `HTML Page Structure`.
+
 - It shows a small text `Lesson1: Basic Page structure of HTML`.
 
-- The text is aligned at the center of the page.
-
-- The title name in the browser tab is `HTML Page Structure`.
-
-- It shows a larger and bolded text `Welcome to HTML`
+- The text `Lesson1: Basic Page Structure of HTML` is aligned at the center of the page.
 
 
-/// type=SS, answer=[4]
+/// type=SS, answer=[2]
 
-What of the following produces the largest text in the web page?
+Which of the following produces the largest text in the web page?
 
 - `<title>HTML Basic Page Structure</title>`
 
@@ -218,15 +217,15 @@ What of the following produces the largest text in the web page?
 - `<head></head>`
 
 
-/// type=SS, answer=[3,4,5]
+/// type=MS, answer=[2,4,5]
 
 Which of the following are HTML elements?
 
 - `<head>`
 
-- `<!Doctype html>`
-
 - `<h1>Welcome to HTML</h1>`
+
+- `<!Doctype html>`
 
 - `<title>HTML Basic Page Structure</title>`
 
@@ -254,8 +253,8 @@ What does the acronym HTML stand for?
 
 - Hyperlink Mark Language
 
-/// type=SS, answer=[1]
 
+/// type=SS, answer=[1]
 
 Which of the following correctly show how tags are constructed?
 
@@ -287,7 +286,7 @@ What tag will information be inside the main browser of a web page?
 
 /// type=MS, answer=[1,2,3,5]
 
-Which of the following is needed to construct a `HTML tag`?
+Which of the following are needed to construct an `HTML tag`?
 
 - An `element` name.
 
@@ -338,12 +337,11 @@ Which of the following tag represents the beginning of a paragraph element?
 
 - `<html>`
 
-- `<head>`
+- `<content>`
 
 - `<p>` 
 
 - `<paragraph>`
-
 
 +++
 
@@ -362,7 +360,7 @@ Which of the following tag represents the beginning of a paragraph element?
         <title>HTML Practice</title>
     </head>
     <body>
-    This text wil be inside the heading</h1>
+    This text will be inside the heading</h1>
     <p>This text will be inside a paragraph.</p>
     </body>
 </html>
@@ -371,35 +369,32 @@ Which of the following tag represents the beginning of a paragraph element?
 
 type=SS, answer=[1]
 
-Execute the program. What is the output?
+Execute the program. What is its output?
 
--  This text wil be inside the heading</h1>
-    <p>This text will be inside a paragraph.</p>
+-  This text will be inside the heading</h1> <p>This text will be inside a paragraph.</p>
 
-- <h1>This text wil be inside the heading</h1>
-    <p>This text will be inside a paragraph.</p>
+- <h1>This text will be inside the heading</h1> <p>This text will be inside a paragraph.</p>
     
+- <p>This text will be inside a paragraph.</p> <h1>This text will be inside the heading</h1>
+
+- <h1>This text will be inside the heading</h1>
+
 - <p>This text will be inside a paragraph.</p>
-    <h1>This text wil be inside the heading</h1>
-
-- <h1>This text wil be inside the heading</h1>
-
-- <p>This text will be inside a paragraph.</p>
 
 
-/// type=SS, answer=[2]
+/// type=SS, answer=[5]
 
 Why is the text `This text wil be inside the heading` not appear as a heading?
+
+- Missing `<header>` tag in the HTML code.
+
+- Missing `<headline>` tag for the text `This text wil be inside the heading`. 
+
+- There is no `<heading>` tag for the text `This text wil be inside the heading`.
 
 - The text `This text wil be inside the heading` should be inside the `<head>` tag.
 
 - There is no `<h1>` open tag before text `This text wil be inside the heading` on line 7.
-
-- There is no `<heading>` tag for the text `This text wil be inside the heading`.
-
-- Missing `<body></body>` body tags in the HTML code.
-
-- Missing `<headline>` tag in the HTML code.
 
 
 /// type=CR, answer=[tests/BasicPageStructure/CorrectErrorTests.html]
@@ -439,35 +434,30 @@ Correct the HTML code so that it outputs the text `This text wil be inside the h
 
 /// type=SS, answer=[5]
 
-Execute the program. What is the ouput?
+Execute the program. What is its ouput?
 
-- This text wil be inside the heading
-    <p>This text will be inside a paragraph.</p>
+- This text wil be inside the heading <p>This text will be inside a paragraph.</p>
 
-- This text wil be inside the heading
-    This text will be inside a paragraph.
+- This text wil be inside the heading This text will be inside a paragraph.
 
--  <p>This text will be inside a paragraph.</p>
-    <h1>This text wil be inside the heading
+- <p>This text will be inside a paragraph.</p> <h1>This text wil be inside the heading
     
--  <h1>This text wil be inside the heading</h1>
-    <p>This text will be inside a paragraph.</p>
+- <h1>This text wil be inside the heading</h1> <p>This text will be inside a paragraph.</p>
 
--  <h1>This text wil be inside the heading
-    <p>This text will be inside a paragraph.</p>
+- <h1>This text wil be inside the heading <p>This text will be inside a paragraph.</p>
 
 
 /// type=SS, answer=[5]
 
 What makes the text `This text will be inside a paragraph` appear to be a header?
 
-- There is no closing tag after the `<body>` tag.
+- Missing `<heading>` tag inside the header tags.
 
-- The text `This text will be inside a paragraph` is inside the `<head>` tag.
+- There is no closing tag after the `<header>` tag.
 
-- The text `This text will be inside a paragraph` is outside the `<body>` tag. 
+- The text `This text will be inside a paragraph` is inside the `<header>` tag.
 
-- There is no reference inside the header tags.
+- The text `This text will be inside a paragraph` is outside the `<heading>` tag. 
 
 - There is no `</h1>` closing tag after the text `This text will be inside the heading`.
 
@@ -500,11 +490,7 @@ Correct the HTML code so that it outputs the text `This text will be inside the 
 
 /// type=CR, answer=[tests/BasicPageStructure/CreateFirstHtmlDocumentTest.html]
 
-Write an HTML document that outputs a heading(size 1): "Travel Goals".
-
-Followed by a paragraph below the heading: "New York, Paris, Singapore and Japan." 
-
-Run the HTML code to view the result.
+Write an HTML document that uses the elements `<h1>` and `<p>` to display the text `Travel Goals` and `New York, Paris, Singapore and Japan` in the browser window; following the text appearance as: <h1>Travel Goals</h1> <p>New York, Paris, Singapore and Japan</p>
 
 ```html
 

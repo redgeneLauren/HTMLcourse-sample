@@ -2,13 +2,13 @@
 
 1. Nesting
 
-- In a typical HTML code, HTML elements are contained within other HTML elements. 
+    - In a typical HTML code, HTML elements are contained within other HTML elements. 
 
-- These elements that are contained within other HTML elements are called `nested elements`
+    - These elements that are contained within other HTML elements are called `nested elements`
 
-- HTML code is `nested` in a proper order, the opening tag `<>` is always followed by a closing tag `</>`.
+    - HTML code is `nested` in a proper order, the opening tag `<>` is always followed by a closing tag `</>`.
 
-- The code below shows a proper nested HTML.
+    - The code below shows a proper nested HTML.
 
 Code:
 ```html
@@ -23,13 +23,13 @@ Code:
     </body>
 </html>  
 ```
-In the code above, an open tag for `<html>` is paired with a closing tag `</html>`
+- In the code above, an open tag for `<html>` is paired with a closing tag `</html>`
 
-Inside the `<html></html>` element are other elements that also contain other elements to build up the html code.
+- Inside the `<html></html>` element are other elements that also contain other elements to build up the html code.
 
-Proper `nesting` should be observed in using HTML.
+- Proper `nesting` should be observed in using HTML.
 
-1. Attributes
+2. Attributes
 
     - Attributes are used to add additional information and define the characteristics of an `HTML element`. 
 

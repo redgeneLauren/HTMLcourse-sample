@@ -2,29 +2,32 @@
 
 1. Nesting
 
-    - HTML code should be `nested` in a proper order, the opening tag `<>` is always followed by a closing tag `</>`.
+- In a typical HTML code, HTML elements are contained within other HTML elements. 
 
-    - An open tag for `<html>` is paired with a closing tag `</html>`
+- These elements that are contained within other HTML elements are called `nested elements`
 
-    - Inside the `<html></html>` tag are other nested tags to build up the html code.
+- HTML code is `nested` in a proper order, the opening tag `<>` is always followed by a closing tag `</>`.
 
-    - Proper `nesting` should be observed in using HTML.
+- The code below shows a proper nested HTML.
 
-    - The code below shows proper nested HTML.
+Code:
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Nesting</title>
+    </head>
+    <body>
+        <h1>Lesson 2: Nesting</h1>
+        <p>HTML elements contain other HTML elements</p>
+    </body>
+</html>  
+```
+In the code above, an open tag for `<html>` is paired with a closing tag `</html>`
 
-    Code:
+Inside the `<html></html>` element are other elements that also contain other elements to build up the html code.
 
-    ```html
-    <!DOCTYPE html>
-      <html>
-        <head>
-            <title></title>
-        </head>
-            <body>
-            <h1></h1>
-            <p></p>
-            </body>
-      </html>  
+Proper `nesting` should be observed in using HTML.
 
 1. Attributes
 

@@ -371,7 +371,7 @@ type=SS, answer=[1]
 
 Execute the program. What is its output?
 
--  This text will be inside the heading</h1> <p>This text will be inside a paragraph.</p>
+- This text will be inside the heading</h1> <p>This text will be inside a paragraph.</p>
 
 - <h1>This text will be inside the heading</h1> <p>This text will be inside a paragraph.</p>
     
@@ -384,22 +384,22 @@ Execute the program. What is its output?
 
 /// type=SS, answer=[5]
 
-Why is the text `This text wil be inside the heading` not appear as a heading?
+Why is the text `This text will be inside the heading` not appear as a heading?
 
 - Missing `<header>` tag in the HTML code.
 
-- Missing `<headline>` tag for the text `This text wil be inside the heading`. 
+- Missing `<headline>` tag for the text `This text will be inside the heading`. 
 
-- There is no `<heading>` tag for the text `This text wil be inside the heading`.
+- There is no `<heading>` tag for the text `This text will be inside the heading`.
 
-- The text `This text wil be inside the heading` should be inside the `<head>` tag.
+- The text `This text will be inside the heading` should be inside the `<head>` tag.
 
-- There is no `<h1>` open tag before text `This text wil be inside the heading` on line 7.
+- There is no `<h1>` open tag before text `This text will be inside the heading` on line 7.
 
 
 /// type=CR, answer=[tests/BasicPageStructure/CorrectErrorTests.html]
 
-Correct the HTML code so that it outputs the text `This text wil be inside the heading` as a heading in the page.
+Correct the HTML code so that it outputs the text `This text will be inside the heading` as a heading in the page.
 
 ```html
 <!DOCTYPE html>
@@ -408,7 +408,7 @@ Correct the HTML code so that it outputs the text `This text wil be inside the h
         <title>HTML Practice</title>
     </head>
     <body>
-    This text wil be inside the heading</h1>
+    This text will be inside the heading</h1>
     <p>This text will be inside a paragraph.</p>
     </body>
 </html>
@@ -425,7 +425,7 @@ Correct the HTML code so that it outputs the text `This text wil be inside the h
         <title>HTML Practice 2</title>
     </head>
     <body>
-    <h1>This text wil be inside the heading
+    <h1>This text will be inside the heading
     <p>This text will be inside a paragraph.</p>
     </body>
 </html>
@@ -434,17 +434,17 @@ Correct the HTML code so that it outputs the text `This text wil be inside the h
 
 /// type=SS, answer=[5]
 
-Execute the program. What is its ouput?
+Execute the program. What is its output?
 
-- This text wil be inside the heading <p>This text will be inside a paragraph.</p>
+- This text will be inside the heading <p>This text will be inside a paragraph.</p>
 
-- This text wil be inside the heading This text will be inside a paragraph.
+- This text will be inside the heading This text will be inside a paragraph.
 
-- <p>This text will be inside a paragraph.</p> <h1>This text wil be inside the heading
+- <p>This text will be inside a paragraph.</p> <h1>This text will be inside the heading
     
-- <h1>This text wil be inside the heading</h1> <p>This text will be inside a paragraph.</p>
+- <h1>This text will be inside the heading</h1> <p>This text will be inside a paragraph.</p>
 
-- <h1>This text wil be inside the heading <p>This text will be inside a paragraph.</p>
+- <h1>This text will be inside the heading <p>This text will be inside a paragraph.</p>
 
 
 /// type=SS, answer=[5]
@@ -473,7 +473,7 @@ Correct the HTML code so that it outputs the text `This text will be inside the 
         <title>HTML Practice 2</title>
     </head>
     <body>
-    <h1>This text wil be inside the heading
+    <h1>This text will be inside the heading
     <p>This text will be inside a paragraph.</p>
     </body>
 </html>
@@ -490,11 +490,8 @@ Correct the HTML code so that it outputs the text `This text will be inside the 
 
 /// type=CR, answer=[tests/BasicPageStructure/CreateFirstHtmlDocumentTest.html]
 
-Write an HTML document that uses the elements `<h1>` and `<p>` to display the text `Travel Goals` and `New York, Paris, Singapore and Japan` in the browser window; following the text appearance as: <h1>Travel Goals</h1> <p>New York, Paris, Singapore and Japan</p>
+Write an HTML document that uses the elements `<h1>` and `<p>` to display the text `Travel Goals` and `New York, Paris, Singapore and Japan` in the browser window,following the text appearance as: <h1>Travel Goals</h1> <p>New York, Paris, Singapore and Japan</p>
 
 ```html
 
 ```
-
-
-

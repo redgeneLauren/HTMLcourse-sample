@@ -36,11 +36,9 @@ Code:
 
 2. Indentation and Alignment
 
-    - Indentation and alignment in HTML coding enhances the readability of the code. 
+    - Indentation and alignment in HTML enhances the readability of the code. 
 
-    - Indentation should reflect a logical structure. An element should match the same `indentation level` as the opening tag.
-
-    - Identation level....
+    - Indentation should reflect a logical structure. An element should match the same `level` as the opening tag.
 
     - Indent the contents of the element between the opening tag and the closing tag.
 
@@ -64,19 +62,17 @@ Code:
 ```
 - `Level 1` : The `<html></html>` element. It is the first opening element in the HTML code. 
 
-    - Inside the `<html></html>` element are the `<head></head>` and `<body></body>` elements. 
+- Inside the `<html></html>` element are the `<head></head>` and `<body></body>` elements. 
 
-- `Level 2`: The `<head></head>` and `<body></body>` elements. These elements are `indented` below the opening tag `<html>`. 
+- `Level 2` : The `<head></head>` and `<body></body>` elements. These elements are `indented` below the opening tag `<html>`. 
 
-    - The `<head></head>` element contains an element `<title>HTML Nesting</title>`.
+- The `<head></head>` element contains an element `<title>HTML Nesting</title>`.
 
-- `Level 3`: The `<title>HTML Nesting</title>` which is `indented` below the opening tag `<head>`.
+- `Level 3`: The `<title>HTML Nesting</title>`. This element is `indented` below the opening tag `<head>`.
 
-    - The `<body></body>` element contains elements `<h1>Lesson 2: Nesting</h1>` and `<p>Indenting and alignment of HTML elements</p>`.
+- The `<body></body>` element contains elements `<h1>Lesson 2: Nesting</h1>` and `<p>Indenting and alignment of HTML elements</p>`.
 
-- `Level 3`: The `<h1></h1>` and `<p></p>` which are`indented` below the opening tag `<body>`
-
-
+- `Level 3`: The `<h1></h1>` and `<p></p>`. Thesea elements are`indented` below the opening tag `<body>`
 
 - Proper nesting, indentation and alignment should be observed in using HTML.
 

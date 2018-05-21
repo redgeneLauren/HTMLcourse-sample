@@ -2,11 +2,11 @@
 
 1. Nesting
 
-    - In a typical HTML code, HTML elements are contained within other HTML elements. 
+    - In an HTML code, HTML elements are contained within other HTML elements which is essential in building the web page. 
 
-    - These elements that are contained within other HTML elements are called `nested elements`
+    - These HTML elements that are contained within other HTML elements are called `nested elements`.
 
-    - HTML code is `nested` in a proper order, the opening tag `<>` is always followed by a closing tag `</>`.
+    - HTML code is `nested` in a proper order. The opening tag `<>` is always followed by a closing tag `</>`.
 
     - The code below shows a proper nested HTML.
 
@@ -23,43 +23,47 @@ Code:
     </body>
 </html>  
 ```
-- In the code above, an open tag for `<html>` is paired with a closing tag `</html>`
 
-- Inside the `<html></html>` element are other elements that also contain other elements to build up the html code.
+- An open tag for `<html>` is paired with a closing tag `</html>`
 
-- Proper `nesting` should be observed in using HTML.
+- Inside the `<html></html>` is the `<head></head>`, `<title>HTML Nesting</title>`, `<body></body>`, `<h1>Lesson 2: Nesting</h1>` and `<p>HTML elements contain other HTML elements</p>` elements. 
 
-2. Attributes
+- The `<head>` contains the element `<title>HTML Nesting</title>`. 
 
-    - Attributes are used to add additional information and define the characteristics of an `HTML element`. 
+- After the closing tag `</head>` is the `<body>` which contains the elements  `<h1>Lesson 2: Nesting</h1>` and `<p>HTML elements contain other HTML elements</p>`. 
 
-    - Attributes are written inside the opening tag `<>` and are made up of two parts: `name` and `value` which are separated by an `=` equal sign.
+2. Indentation and Alignment
 
-    - The code below shows the usage of an attribute.
+    - Using indentation in HTML coding enhances the readability of the code. 
+
+    - Indent the contents of the element between the opening tag and the closing tag.
+
+    - Align the same parent elements and child elements. 
 
 Code:
 ```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Nesting</title>
+    </head>
+    <body>
+        <h1>Lesson 2: Nesting</h1>
+        <p>HTML elements contain other HTML elements</p>
+    </body>
+</html>  
 
-<p lang="eng-us"; style="color: red">My first HTML code inside a paragraph using attributes</p>
-    
 ```
-Output:
-     
-<p lang="eng-us"; style="color: red">My first HTML code inside a paragraph using attributes</p>
+- The `<html>` tag is a parent of `<head>` and `<body>` tags. Notice how the `<head></head>` and `<body></body>` are indented from the opening `<html>` tag.
 
-- The attribute `name` in the example code above are `lang` and `style`. 
+- The `<head>` tag is a parent of the `<title></title>` tag which are indented from the opening of the `<head>` tag. 
 
-- `name` is the property you want to set for the `HTML element`. It should be written in lowercase.
+- The `<body>` tag is aligned to the closing tag `</head>` which means they are both a child of the `<html>`.
 
-- The attribute `value` in the example code above are `eng-us` and `color:red`. 
-    
-- `value` is the setting of the property to be set and always placed within quotations `""`
+- The `<body>` tag is a parent of the `<h1></h1>` and `<p></p>` which are indented from the opening tag `<body>`.
 
-- Different attributes have different values.
-    
-- Most attribute `values` are `pre-defined` or follow a stipulated format.  
+- Proper `nesting` should be observed in using HTML.
 
-    
 
 
  

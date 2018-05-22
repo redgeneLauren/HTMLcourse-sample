@@ -1,4 +1,4 @@
-### Facts for Nesting, Indentation and Alignment
+### Facts for Nesting and Indentation
 
 1. Nesting
 
@@ -8,7 +8,11 @@
 
     - HTML code is `nested` in a proper order. The opening tag `<>` is always followed by a closing tag `</>`.
 
-    - When an HTML code is not properly nested it may affect the visual appearance of the web page. The HTML code will not render properly due to HTML elements and tags are out of place.
+    - Nesting HTML code would make it easy to see what tags are closed and where the code starts and ends. 
+
+    - Nesting helps to easily differentiate between code and content. 
+
+    - When an HTML code is not properly nested it may affect the visual appearance of the output of a web page. The HTML code will not render properly due to HTML elements and tags are out of place.
 
     - The code below shows a proper nested HTML.
 
@@ -34,19 +38,21 @@ Code:
 
 - After the closing tag `</head>` is the opening tag `<body>` which contains the elements  `<h1>Lesson 2: Nesting</h1>` and `<p>HTML elements contain other HTML elements</p>` and ends with a closing tag `</body>`. 
 
-2. Indentation and Alignment
+2. Indentation 
 
-    - In `nesting` HTML code the indentation and alignment enhances the readability of the code. 
+    - In `nesting` an HTML code, `indentation` is also essential to nesting. 
+    
+    - Indentation enhances the readability of the code. 
 
     - Indentation should reflect a logical structure. An element should match the same `level` as the opening tag.
 
-    - Indent the contents of the element between the opening tag and the closing tag.
+    - Indent the contents of the element between the opening tag and the closing tag base on the `level` of the element.
 
     - Do not use unnecessary indentation and blank lines, only indent elements base on its indentation level. 
 
-    - Proper nesting, indentation and alignment should be observed in using HTML.
+    - Proper nesting and indentation should be observed in using HTML.
 
-    - The code below shows proper indentation level and alignment.
+    - The code below shows proper `indentation` and `level` of the elements.
 
 Code:
 ```html
@@ -62,6 +68,7 @@ Code:
 </html>  
 
 ```
+
 - `Level 1` : The `<html></html>` element is on the first level. It is the first opening element in the HTML code. 
 
 - Inside the `<html></html>` element are the `<head></head>` and `<body></body>` elements. 

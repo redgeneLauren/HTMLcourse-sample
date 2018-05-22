@@ -1,5 +1,4 @@
-# Nesting and Attributes
-
+# Nesting and Indentation
 +++
 
 ### Part 1: Sample Code Analysis
@@ -65,6 +64,36 @@ On what level is the tag `</p>` in?
 - Level 8
 
 - Level 5
+
+
+/// type=MS, answer=[3,4]
+
+What elements are inside the `<htlml></html>` that are on level 2?
+
+- `<title>Sample Code Analysis 1</title>`
+
+- `<h1>Nesting</h1>`
+
+- `<head><title>Sample Code Analysis 1</title></head>`
+
+- `<body><h1>Nesting</h1> <p>Proper Nesting Lesson</p></body>`
+
+-  `<p>Proper Nesting Lesson</p>`
+
+
+/// type=MS, answer=[1,2,5]
+
+What elements are inside the `<html></html>` that are on level 3?
+
+- `<title>Sample Code Analysis 1</title>`
+
+- `<h1>Nesting</h1>`
+
+- `<head><title>Sample Code Analysis 1</title></head>`
+
+- `<body><h1>Nesting</h1> <p>Proper Nesting Lesson</p></body>`
+
+-  `<p>Proper Nesting Lesson</p>`
 
 
 /// type=MS, answer=[2,4,5]
@@ -160,6 +189,36 @@ Which of the following statements tell what is incorrect with the HTML code abov
 
 - The `<p>Proper Nesting Lesson</p>` element is aligned incorrectly.
 
+
+/// type=, answer=[]
+
+What element should be indented to make the HTML code nesting correct?
+
+- `<title>Nesting</title>`
+
+- `<head><title>Nesting</title></head>`
+
+- `<body>Nesting<p>Proper Nesting Lesson</p></body>`
+
+- `<p>Proper Nesting Lesson</p>`
+
+- `<!DOCTYPE html>`
+
+
+/// type=SS, answer=[3]
+
+On what level is the element `<title>Nesting</title>` ?
+
+- Level 1
+
+- Level 2
+
+- Level 3
+
+- Level 4
+
+- Level 5
+
 +++
 
 +++
@@ -168,7 +227,7 @@ Which of the following statements tell what is incorrect with the HTML code abov
 
 /// type=SS , answer=[5]
 
-Which of the following statemebts best define nested elements?
+Which of the following statements best define what nested elements is?
 
 - It reflects the logical structure. 
 
@@ -191,7 +250,8 @@ Which of the following statements best explains the importance of nesting, inden
 
 - It can prevent harm to the editor in writing HTML code. 
 
-- It may improve the rendering of the HTML code once executed.
-
 - It will avoid affecting the visual appearance of the webpage.
+
+- It will improve rendering of the HTML code once executed.
+
 

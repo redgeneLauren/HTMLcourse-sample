@@ -60,19 +60,19 @@ Code:
 </html>  
 
 ```
-- `Level 1` : The `<html></html>` element. It is the first opening element in the HTML code. 
+- `Level 1` : The `<html></html>` element is on the first level. It is the first opening element in the HTML code. 
 
 - Inside the `<html></html>` element are the `<head></head>` and `<body></body>` elements. 
 
-- `Level 2` : The `<head></head>` and `<body></body>` elements. These elements are `indented` below the opening tag `<html>`. 
+- `Level 2` : The `<head></head>` and `<body></body>` elements are on the second level. These elements are `indented` below the opening tag `<html>`. 
 
 - The `<head></head>` element contains an element `<title>HTML Nesting</title>`.
 
-- `Level 3`: The `<title>HTML Nesting</title>`. This element is `indented` below the opening tag `<head>`.
+- `Level 3`: The `<title>HTML Nesting</title>` is on the third level. This element is `indented` below the opening tag `<head>`.
 
 - The `<body></body>` element contains elements `<h1>Lesson 2: Nesting</h1>` and `<p>Indenting and alignment of HTML elements</p>`.
 
-- `Level 3`: The `<h1></h1>` and `<p></p>`. Thesea elements are`indented` below the opening tag `<body>`
+- `Level 3`: The `<h1></h1>` and `<p></p>` are on the third level. These elements are`indented` below the opening tag `<body>`
 
 - Proper nesting, indentation and alignment should be observed in using HTML.
 

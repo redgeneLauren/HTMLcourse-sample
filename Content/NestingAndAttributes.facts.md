@@ -36,13 +36,15 @@ Code:
 
 2. Indentation and Alignment
 
-    - Indentation and alignment in HTML enhances the readability of the code. 
+    - In `nesting` HTML code the indentation and alignment enhances the readability of the code. 
 
     - Indentation should reflect a logical structure. An element should match the same `level` as the opening tag.
 
     - Indent the contents of the element between the opening tag and the closing tag.
 
     - Do not use unnecessary indentation and blank lines, only indent elements base on its indentation level. 
+
+    - Proper nesting, indentation and alignment should be observed in using HTML.
 
     - The code below shows proper indentation level and alignment.
 
@@ -74,7 +76,8 @@ Code:
 
 - `Level 3`: The `<h1></h1>` and `<p></p>` are on the third level. These elements are`indented` below the opening tag `<body>`
 
-- Proper nesting, indentation and alignment should be observed in using HTML.
+
+
 
 
 

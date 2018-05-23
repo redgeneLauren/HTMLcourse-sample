@@ -381,7 +381,7 @@ Why is the text `Paragraph of a Text` appear as a heading?
 
 - The element `<p>Paragraph of a text.</p>` is contained inside `<h1></h1>`.
 
-- The element `<p>Paragraph of a text.</p>` should be contained inside the `<head></head>`
+- The element `<p>Paragraph of a text.</p>` is contained inside the `<head></head>`
 
 
 /// type=SS, answer=[2]

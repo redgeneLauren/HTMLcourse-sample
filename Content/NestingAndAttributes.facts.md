@@ -32,11 +32,11 @@ Code:
 
 - An open tag for `<html>` is paired with a closing tag `</html>`
 
-- Inside the `<html></html>` are the `<head></head>`, `<title>HTML Nesting</title>`, `<body></body>`, `<h1>Lesson 2: Nesting</h1>` and `<p>HTML elements contain other HTML elements</p>` elements. 
+- Inside the `<html></html>` are the `<head></head>`, `<title>HTML Nesting</title>`, `<body></body>`, `<h1>Lesson 2: Nesting</h1>` and `<p>Nesting HTML elements</p>` elements. 
 
 - The `<head>` tag contains the element `<title>HTML Nesting</title>` and ends with a closing a tag `</head>`. 
 
-- After the closing tag `</head>` is the opening tag `<body>` which contains the elements  `<h1>Lesson 2: Nesting</h1>` and `<p>HTML elements contain other HTML elements</p>` and ends with a closing tag `</body>`. 
+- After the closing tag `</head>` is the opening tag `<body>` which contains the elements  `<h1>Lesson 2: Nesting</h1>` and `<p>Nesting HTML elements</p>` and ends with a closing tag `</body>`. 
 
 2. Indentation 
 
@@ -61,7 +61,7 @@ Code:
     </head>
     <body>
         <h1>Lesson 2: Nesting</h1>
-        <p>Indenting and alignment of HTML elements</p>
+        <p>Nesting HTML elements</p>
     </body>
 </html>  
 
@@ -77,7 +77,7 @@ Code:
 
 - `Level 3`: The `<title>HTML Nesting</title>` is on the third level. This element is `indented` below the opening tag `<head>`.
 
-- The `<body></body>` element contains elements `<h1>Lesson 2: Nesting</h1>` and `<p>Indenting and alignment of HTML elements</p>`.
+- The `<body></body>` element contains elements `<h1>Lesson 2: Nesting</h1>` and `<p>Nesting HTML elements</p>`.
 
 - `Level 3`: The `<h1></h1>` and `<p></p>` are on the third level. These elements are`indented` below the opening tag `<body>`
 

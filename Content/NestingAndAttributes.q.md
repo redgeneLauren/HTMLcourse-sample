@@ -238,7 +238,7 @@ On what level is the element `<p>Proper Nesting Lesson</p>`?
 
 /// type=MS, answer=[1,4]
 
-Which of the followng tags will the text `Nesting` from the code above be enclosed in?
+Which of the followng tags should the text `Nesting` from the code above be enclosed in?
 
 - `<h1>`
 
@@ -501,7 +501,7 @@ Correct the HTML code so that it produces an output on the page.
 
 ### Part 4: Practice
 
-Write an HTML document with a title: `fdsfsdf` using the element `<title></title>`. Then, output a paragraph of text: `fsdfdfsdfdf` using the element `<p></p>` and a heading of text: `fdsfasfsdfas` using the element `<h1></h1>`. Observe proper HTML nesting. Execute the program to view the output. 
+Write an HTML document with a title: `Nesting Practice` using the element `<title></title>`. Then, output a paragraph of text: `“It’s not at all important to get it right the first time. It’s vitally important to get it right the last time.” - The Pragmatic Programmer - Andrew Hunt & David Thomas` using the element `<p></p>` and a heading of text: `From Programming Wisdom` using the element `<h1></h1>`. Observe proper HTML nesting. Execute the program to view the output. 
 
 ```html
 

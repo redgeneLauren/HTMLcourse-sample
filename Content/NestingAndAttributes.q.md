@@ -1,4 +1,5 @@
 # HTML Nesting 
+
 +++
 
 ### Part 1: Sample Code Analysis
@@ -78,7 +79,7 @@ What level 2 elements are inside the `<htlml></html>`?
 
 - `<body><h1>Nesting</h1> <p>Proper Nesting Lesson</p></body>`
 
--  `<p>Proper Nesting Lesson</p>`
+- `<p>Proper Nesting Lesson</p>`
 
 
 /// type=MS, answer=[1,2,5]
@@ -111,7 +112,7 @@ Which of the following elements are on level 3?
 - `<p>Proper Nesting Lesson</p>`
 
 
-/// type=SS , answer=[2]
+/// type=SS, answer=[2]
 
 Which of the following is on the same level with the element `<head></head>`?
 
@@ -175,7 +176,7 @@ Execute the program. What is its output?
 - <h1>Nesting</h1> <p>Proper Nesting Lesson</p>
 
 
-/// type=MS, answer=[4,5]
+/// type=MS, answer=[1,4,5]
 
 Which of the following statements tell what is incorrect with the HTML code above?
 
@@ -192,7 +193,7 @@ Which of the following statements tell what is incorrect with the HTML code abov
 
 /// type=MS, answer=[1,4]
 
-What element should be indented to make the HTML code nesting correct?
+What element should be indented to make the nesting of HTML code correct?
 
 - `<title>Nesting</title>`
 
@@ -237,7 +238,7 @@ On what level is the element `<p>Proper Nesting Lesson</p>`?
 
 /// type=MS, answer=[1,4]
 
-Which of the followng tags will the text `Nesting` from the code above can be enclosed in?
+Which of the followng tags will the text `Nesting` from the code above be enclosed in?
 
 - `<h1>`
 
@@ -255,64 +256,80 @@ Which of the followng tags will the text `Nesting` from the code above can be en
 
 ### Part 2: Knowledge Assessment
 
-/// type=SS , answer=[5]
+/// type=SS , answer=[4]
 
-Which of the following statements best define what nested elements is?
+Which of the following statements best define what `nested elements` is?
 
-- It reflects the logical structure. 
+- It reflects a logical structure. 
 
-- An element should match other HTML elements.
+- An element matches other HTML elements.
 
-- An HTML elements ends with another HTML element. 
-
-- HTML elements and other HTML elements are connected as one. 
+- An HTML element ends with another HTML element. 
 
 - HTML elements are contained within other HTML elements.
 
+- HTML elements and other HTML elements are connected as one. 
 
-/// type=MS, answer=[1,4,5]
 
-Which of the following statements best explains the importance of nesting in writing an HTML code?
+/// type=MS, answer=[1,3,5]
+
+Which of the following statements best explain the importance of nesting in writing an HTML code?
 
 - It enhances the readability of the code.
 
 - It can create less chaos to the programmer.
 
+- It will improve in rendering the HTML code once executed.
+
 - It can prevent problem to the editor in writing HTML code. 
 
-- It will improve rendering of the HTML code once executed.
-
-- It will avoid affecting the visual appearance of the webpage.
+- It avoids affecting the visual appearance of the webpage.
 
 
-/// type=MS, answer=[2.3]
+/// type=SS, answer=[3]
 
-How can you differentiate an element on level 1 and an element on level 2?
+How can you differentiate between an element on level 1 and an element on level 2?
 
 - All level 1 elements are indented. 
 
-- Level 1 elements are indented from level 2 elements.
+- Level 1 element are indented after the level 2 element.
 
-- Level 2 elements are indented from level 1 elements.
+- Level 2 element are indented after the level 1 element.
 
-- Level 1 are aligned to the center before the Level 2 elements.
+- Level 1 element are aligned to the center before the Level 2 element.
 
-- Level 2 are aligned to the center before the level 1 elements. 
+- Level 2 element are aligned to the center before the level 1 element. 
 
 
-/// type=SS, answer=[]
+/// type=MS, answer=[2,3,4]
 
-What is indentation in HTML nesting?
+What is the importance of `indentation` in HTML nesting?
 
--
+- It makes the HTML code looks nice.
 
-- Only indent elements base on its indentation level. 
+- It is easy to see what tags are closed.
 
-- An element should match the right `level`. 
+- It enhances the readability of the HTML code.
 
-- Nesting requires all elements to be indented to the right.
+- It is easy to see where the code starts and ends. 
 
-- An element should 
+- It contributes to the great look to the HTML code. 
+
+
+/// type=SS, answer=[3,4]
+
+Which of the following statements is true about nesting an HTML code?
+
+- Fusion of elements is essential to nesting.
+
+- Nesting an HTML code will not render properly.
+
+- Indentation should reflect a logical structure.
+
+- Do not use unnecessary indentation and blank lines.
+
+- Combination of different HTML elements is necessary to nesting. 
+
 
 +++
 
@@ -325,36 +342,158 @@ What is indentation in HTML nesting?
 /// type=REPL, readonly=true
 
 ```html
-<!DOCTYPE html>
+<!Doctype html>
 <html>
-<head>
-    <title>Finding and Fixing Errors</title>
-</head>
-<body>
-      <p>Fixing Nesting Errors</p>  
-</body>
+    <head>
+        <title>Finding and Fixing Errors 1</title>
+    </head>
+    <body>
+        <h1>Heading of a text.<p>Paragraph of a text.</p></h1>
+    </body>
 </html>
 
 ```
 
-/// type=SS, answer=[]
+/// type=SS, answer=[5]
 
 Execute the program. What is its output?
 
--
+- <h1>Heading of a text.</h1>
 
--
+- <h1>Heading of a text.</h1> <p>Paragraph of a text.</p>
 
--
+- <h1>Heading of a text.<p>Paragraph of a text.</p></h1>
 
--
+- <p>Paragraph of a text.</p>
 
--
+- <h1>Paragraph of a text.</h1>
+
+
+/// type=SS, answer=[4]
+
+Why is the text `Paragraph of a Text` appear as a heading?
+
+- Missing `</header>` closing tag .
+
+- Missing `<paragraph></paragraph>` tag.
+
+- There is no closing tag `</p>` for paragraph.
+
+- The element `<p>Paragraph of a text.</p>` is contained inside `<h1></h1>`.
+
+- The element `<p>Paragraph of a text.</p>` should be contained inside the `<head></head>`
+
+
+/// type=SS, answer=[2]
+
+Which of the following should the element `<p>Paragraph of a text.</p>` be contained in?
+
+- `<head></head>`
+
+- `<body></body>`
+
+- `<h1></h1>`
+
+- `<title></title>`
+
+- `<header></header>`
 
 :::
 
-/// type=CR, answer=[]
+/// type=CR, answer=[tests/Nesting/CorrectErrorTests.html]
 
+Correct the HTML code to make the text `Paragraph of a text.` not appear as a heading.
+
+```html
+<!Doctype html>
+<html>
+    <head>
+        <title>Finding and Fixing Errors 1</title>
+    </head>
+    <body>
+        <h1>Heading of text.<p>Paragraph of a text.</p></h1>
+    </body>
+</html>
+
+```
+
+
+:::
+
+/// type=REPL, readonly=true
+
+```html
+<!Doctype html>
+<html>
+    <head>
+        <title><body><h1>Heading of a text.</h1><p>Paragraph of a text.</p></body>Finding and Fixing Errors 1
+        </title>
+    </head>
+</html>
+
+```
+
+/// type=SS, answer=[4]
+
+Execute the program. What is its ouput?
+
+- <h1>Heading of a text.</h1><p>Paragraph of a text.</p>Finding and Fixing Errors 1
+
+- Finding and Fixing Errors 1
+
+- <h1>Heading of a text.</h1><p>Paragraph of a text.</p>
+
+- <title><body><h1>Heading of a text.</h1><p>Paragraph of a text.</p></body>Finding and Fixing Errors 1 </title>
+
+- Paragraph of a text.
+
+
+/// type=SS, answer=[2]
+
+Why does the HTML code produces no output in the page?
+
+- There is no `<paragraph>` tag.
+
+- Missing closing tag `</body>`.
+
+- There is no `<body>` tag written in the HTML code.
+
+- There is no content written inside the `<body></body>` element.
+
+- The element and contents of `<body></body>` are inside the `<title</title>` element. 
+
+
+/// type=SS, answer=[2]
+
+Which of the following should the element `<body><h1>Heading of a text.</h1><p>Paragraph of a text.</p></body` be placed?
+
+- Below the closing tag `</title>`
+
+- Below the closing tag `</head>`
+
+- Beside the closing tag `</head>`
+
+- Below the opening tag `<head>`
+
+- Beside the opening tag `<head>`
+
+:::
+
+
+/// type=CR, answer=[tests/Nesting/CorrectErrorTests.html]
+
+Correct the HTML code so that it produces an output on the page.
+
+```html
+<!Doctype html>
+<html>
+    <head>
+        <title><body><h1>Heading of a text.</h1><p>Paragraph of a text.</p></body>Finding and Fixing Errors 1
+        </title>
+    </head>
+</html>
+
+```
 
 +++
 
@@ -362,5 +501,10 @@ Execute the program. What is its output?
 
 ### Part 4: Practice
 
+Write an HTML document with a title: `fdsfsdf` using the element `<title></title>`. Then, output a paragraph of text: `fsdfdfsdfdf` using the element `<p></p>` and a heading of text: `fdsfasfsdfas` using the element `<h1></h1>`. Observe proper HTML nesting. Execute the program to view the output. 
+
+```html
+
+```
 
 

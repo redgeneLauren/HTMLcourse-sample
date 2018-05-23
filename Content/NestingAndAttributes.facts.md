@@ -12,7 +12,7 @@
 
     - Nesting helps to easily differentiate between code and content. 
 
-    - When an HTML code is not properly nested it may affect the visual appearance of the output of a web page. The HTML code will not render properly due to HTML elements and tags are out of place.
+    - When an HTML code is not properly nested it may affect the visual appearance of a web page. The HTML code will not render properly due to HTML elements and tags are out of place.
 
     - The code below shows a proper nested HTML.
 
@@ -40,15 +40,13 @@ Code:
 
 2. Indentation 
 
-    - In nesting an HTML code, `indentation` is essential to nesting. 
-    
-    - Indentation enhances the readability of the code. 
+    - In nesting an HTML code, `indentation` is essential. Indentation enhances the readability of the code. 
 
     - Indentation should reflect a logical structure. An element should match the same `level` as the opening tag.
 
     - Indent the contents of the element between the opening tag and the closing tag base on the `level` of the element.
 
-    - Do not use unnecessary indentation and blank lines, only indent elements base on its indentation level. 
+    - Do not use unnecessary indentation and blank lines, only indent elements base on its level. 
 
     - Proper nesting and indentation should be observed in using HTML.
 

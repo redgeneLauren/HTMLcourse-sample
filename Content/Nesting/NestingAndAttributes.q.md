@@ -250,6 +250,8 @@ Which of the followng tags should the text `Nesting` from the code above be encl
 
 - `<heading>`
 
+:::
+
 +++
 
 +++
@@ -258,7 +260,7 @@ Which of the followng tags should the text `Nesting` from the code above be encl
 
 /// type=SS , answer=[4]
 
-Which of the following statements best define what `nested elements` is?
+Which of the following statement best define what `nested elements` is?
 
 - It reflects a logical structure. 
 

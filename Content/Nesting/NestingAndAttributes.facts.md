@@ -14,7 +14,7 @@
 
     - When an HTML code is not properly nested it may affect the visual appearance of a web page. The HTML code will not render properly due to HTML elements and tags are out of place.
 
-    - The code below shows a proper nested HTML.
+    - The code below shows proper nested HTML.
 
 Code:
 ```html

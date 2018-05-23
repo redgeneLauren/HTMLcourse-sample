@@ -1,4 +1,4 @@
-### Facts for Nesting and Indentation
+### Facts for HTML Nesting 
 
 1. Nesting
 
@@ -40,7 +40,7 @@ Code:
 
 2. Indentation 
 
-    - In `nesting` an HTML code, `indentation` is also essential to nesting. 
+    - In nesting an HTML code, `indentation` is essential to nesting. 
     
     - Indentation enhances the readability of the code. 
 

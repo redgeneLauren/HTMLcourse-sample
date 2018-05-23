@@ -1,4 +1,4 @@
-# Nesting and Indentation
+# HTML Nesting 
 +++
 
 ### Part 1: Sample Code Analysis
@@ -68,7 +68,7 @@ On what level is the tag `</p>` in?
 
 /// type=MS, answer=[3,4]
 
-What elements are inside the `<htlml></html>` that are on level 2?
+What level 2 elements are inside the `<htlml></html>`?
 
 - `<title>Sample Code Analysis 1</title>`
 
@@ -83,7 +83,7 @@ What elements are inside the `<htlml></html>` that are on level 2?
 
 /// type=MS, answer=[1,2,5]
 
-What elements are inside the `<html></html>` that are on level 3?
+What level 3 elements are inside the `<html></html>` ?
 
 - `<title>Sample Code Analysis 1</title>`
 
@@ -160,7 +160,7 @@ On what level is the tag `</html>` in?
 
 ```
 
-/// type=SS, answer=[]
+/// type=SS, answer=[2]
 
 Execute the program. What is its output?
 
@@ -179,18 +179,18 @@ Execute the program. What is its output?
 
 Which of the following statements tell what is incorrect with the HTML code above?
 
-- The text `Nesting` is not enclosed in any tags. 
+- The text `Nesting` is not enclosed in any tag. 
 
-- The element `<head></head>` is aligned incorrectly.
+- The element `<head></head>` is nested incorrectly.
 
-- The element `<body></body>` is aligned incorrectly.
+- The element `<body></body>` is nested incorrectly.
 
-- The `<title>Nesting</title>` element is aligned incorrectly.
+- The `<title>Nesting</title>` element is nested incorrectly.
 
-- The `<p>Proper Nesting Lesson</p>` element is aligned incorrectly.
+- The `<p>Proper Nesting Lesson</p>` element is nested incorrectly.
 
 
-/// type=, answer=[]
+/// type=MS, answer=[1,4]
 
 What element should be indented to make the HTML code nesting correct?
 
@@ -219,6 +219,36 @@ On what level is the element `<title>Nesting</title>` ?
 
 - Level 5
 
+
+/// type=SS, answer=[3]
+
+On what level is the element `<p>Proper Nesting Lesson</p>`?
+
+- Level 1
+
+- Level 2
+
+- Level 3
+
+- Level 4
+
+- Level 5
+
+
+/// type=MS, answer=[1,4]
+
+Which of the followng tags will the text `Nesting` from the code above can be enclosed in?
+
+- `<h1>`
+
+- `<body>`
+
+- `<content>`
+
+- `<p>`
+
+- `<heading>`
+
 +++
 
 +++
@@ -237,21 +267,100 @@ Which of the following statements best define what nested elements is?
 
 - HTML elements and other HTML elements are connected as one. 
 
-- HTML elements that are contained within other HTML elements.
+- HTML elements are contained within other HTML elements.
 
 
-/// type= MS, answer=[1,4,5]
+/// type=MS, answer=[1,4,5]
 
-Which of the following statements best explains the importance of nesting, indentation and alignment in writing an HTML code?
+Which of the following statements best explains the importance of nesting in writing an HTML code?
 
 - It enhances the readability of the code.
 
-- It can create lesser less chaos to the programmer.
+- It can create less chaos to the programmer.
 
-- It can prevent harm to the editor in writing HTML code. 
+- It can prevent problem to the editor in writing HTML code. 
+
+- It will improve rendering of the HTML code once executed.
 
 - It will avoid affecting the visual appearance of the webpage.
 
-- It will improve rendering of the HTML code once executed.
+
+/// type=MS, answer=[2.3]
+
+How can you differentiate an element on level 1 and an element on level 2?
+
+- All level 1 elements are indented. 
+
+- Level 1 elements are indented from level 2 elements.
+
+- Level 2 elements are indented from level 1 elements.
+
+- Level 1 are aligned to the center before the Level 2 elements.
+
+- Level 2 are aligned to the center before the level 1 elements. 
+
+
+/// type=SS, answer=[]
+
+What is indentation in HTML nesting?
+
+-
+
+- Only indent elements base on its indentation level. 
+
+- An element should match the right `level`. 
+
+- Nesting requires all elements to be indented to the right.
+
+- An element should 
+
++++
+
++++
+
+### Part 3: Finding and Fixing Errors
+
+:::
+
+/// type=REPL, readonly=true
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Finding and Fixing Errors</title>
+</head>
+<body>
+      <p>Fixing Nesting Errors</p>  
+</body>
+</html>
+
+```
+
+/// type=SS, answer=[]
+
+Execute the program. What is its output?
+
+-
+
+-
+
+-
+
+-
+
+-
+
+:::
+
+/// type=CR, answer=[]
+
+
++++
+
++++
+
+### Part 4: Practice
+
 
 

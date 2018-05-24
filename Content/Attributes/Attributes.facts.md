@@ -78,9 +78,14 @@ Output:
 
  - `id` - it is a unique identifier to identify an HTML element. The value `paragraph1` inside the double quotes `" "` labels the unique identifier to the element `<p></p>`. 
 
-- `title` - this is often used as a display tooltip when the cursor hovers around the element. When the cursor hovers over the text `HTML attributes` the value set inside the double quotes `" "` will appear in the display tooltip as `lesson 3`. 
+- `title` - this is often used as a display tooltip when the cursor hovers over the element. When the cursor hovers over the text `HTML attributes` the value set inside the double quotes `" "` will appear in the display tooltip as `lesson 3`. 
 
-- `style` - this is the attribute that allows cascading style sheet rules to be written inside the element. The attribute value `color:red` and `font-family: courier` are a few CCS rules that can be used in the `style` attribute.
+- `style` - this is the attribute that allows cascading style sheet rules to be written inside an element. This attribute is refered to as an `inline style`.
+
+- The `style attribute` can contain multiple `attribute value pairs` seperated by a `;` semi-colon.
+
+- `color:red` , `font-family: courier` - are the attribute value pairs of the property `style` attribute. These value pairs are usually seperated by a `:` colon.
+
 
 
 

@@ -39,7 +39,7 @@ Execute the program. What is its output?
 
 /// type=SS, answer=[1]
 
-What attribute `name` is used in `<h1></h1>`?
+What attribute name is used on line 7?
 
 - title
 
@@ -52,19 +52,64 @@ What attribute `name` is used in `<h1></h1>`?
 - label
 
 
-/// type=SS, answer=[]
+/// type=MS, answer=[2,4]
 
-Which of the following are the attibute value are used in the `<p></p>`?
+What attribute name is used on line 8 and line 9?
 
--
+- title 
 
--
+- id
 
--
+- class
 
--
+- style
 
--
+- label
+
+/// type=MS, answer=[1,3,4]
+
+What values are assigned to attibute `style` on line 8 and line 9?
+
+- color: orange
+
+- align: center
+
+- font-family: comic sans
+
+- text-align: center
+
+- font: comic sans
+
+
+/// type=SS, answer=[3]
+
+On line 9, the attribute `style` values are seperated by what character?
+
+- `.` period
+
+- `,` comma
+
+- `;` semi colon
+
+- `:` colon
+
+- `+` plus
+
+
+/// type=SS, answer=[4]
+
+On line 8, the color value are separated by what character?
+
+- `.` period
+
+- `,` comma
+
+- `;` semi colon
+
+- `:` colon
+
+- `+` plus
+
 
 
 :::

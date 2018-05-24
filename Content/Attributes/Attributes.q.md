@@ -16,8 +16,8 @@
     </head>
         <body>
             <h1 title="lesson 3">Attributes</h1>
-            <p id="paragraph1" style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p>
-            <p id="paragraph2" style="color: orange; text-align: center; font-family: comic sans">Basic learning with HTML attributes</p>
+            <p id="p_1" style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p>
+            <p id="p_2" style="color: orange; font-family: courier">Basic learning with HTML attributes</p>
         </body>
 </html>
 
@@ -27,19 +27,22 @@
 
 Execute the program. What is its output?
 
-- <p id="paragraph1" style="color: blue; text-align: center; font-family: courier">Welcome to HTML</p><p id="paragraph2" style="color: orange; font-family: courier">Basic learning with HTML attributes</p>
+-
 
--  <p id="paragraph1" style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p><p id="paragraph2" style="color: orange; text-align: center; font-family: comic sans">Basic learning with HTML attributes</p>
+-
 
--  <h1 title="lesson 3">Attributes</h1><p id="paragraph1" style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p><p id="paragraph2" style="color: orange; font-family: comic sans">Basic learning with HTML attributes</p>
+-
 
-- <h1 title="lesson 3">Attributes</h1><p id="paragraph1" style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p><p id="paragraph2" style="color: orange; text-align: center; font-family: comic sans">Basic learning with HTML attributes</p>
+-  <h1 title="lesson 3">Attributes</h1><p id="p_1" style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p><p id="p_2" style="color: orange; font-family: courier">Basic learning with HTML attributes</p>
 
-- <h1 title="lesson 3">Attributes</h1><p id="paragraph1" style="color: green; text-align: center; font-family: comic sans">Welcome to HTML</p><p id="paragraph2" style="color: orange; text-align: center; font-family: courier">Basic learning with HTML attributes</p>
+-
+
+
+
 
 /// type=SS, answer=[1]
 
-What attribute name is used on line 7?
+What attribute is used on line 7?
 
 - title
 
@@ -52,9 +55,24 @@ What attribute name is used on line 7?
 - label
 
 
+/// type=SS, answer=[3]
+
+What value is assigned to attribute `title` on line 7?
+
+- p_1
+
+- p_2
+
+- lesson 3
+
+- color: orange
+
+- font-family: courier
+
+
 /// type=MS, answer=[2,4]
 
-What attribute name is used on line 8 and line 9?
+What attributes are used on line 8 and line 9?
 
 - title 
 
@@ -66,24 +84,10 @@ What attribute name is used on line 8 and line 9?
 
 - label
 
-/// type=MS, answer=[1,3,4]
-
-What values are assigned to attibute `style` on line 8 and line 9?
-
-- color: orange
-
-- align: center
-
-- font-family: comic sans
-
-- text-align: center
-
-- font: comic sans
-
 
 /// type=SS, answer=[3]
 
-On line 9, the attribute `style` values are seperated by what character?
+On line 9, the attribute `style` pair values are seperated by what character?
 
 - `.` period
 
@@ -98,7 +102,7 @@ On line 9, the attribute `style` values are seperated by what character?
 
 /// type=SS, answer=[4]
 
-On line 8, the color value are separated by what character?
+On line 8, the color property value are separated by what character?
 
 - `.` period
 
@@ -110,6 +114,35 @@ On line 8, the color value are separated by what character?
 
 - `+` plus
 
+
+/// type=MS, answer=[1,3,4]
+
+What css property value pairs in `style` attribute are used on line 8?
+
+- color: orange
+
+- align: center
+
+- font-family: comic sans
+
+- text-align: center
+
+- font: comic sans
+
+
+/// type=, answer=[]
+
+What css property value pairs in the `style` attribute are used on line 9?
+
+- color: orange
+
+- align: center
+
+- font-family: comic sans
+
+- text-align: center
+
+- font: comic sans
 
 
 :::
@@ -149,9 +182,25 @@ What are the different parts of an attribute?
 
 - =
 
+
+/// type=SS, answer=[]
+
+What are common attributes in HTML called?
+
+-
+
+-
+
+-
+
+-
+
+-
+
+
 /// type=SS, answer=[4]
 
-What are core attributes?
+What are core attributes of HTML?
 
 - These are the center of all attributes in HTML.
 
@@ -166,7 +215,7 @@ What are core attributes?
 
 /// type=MS, answer=[1,3,4,5]
 
-What are the different types of core attributes?
+What are the different core attributes in HTML?
 
 - class
 
@@ -177,6 +226,113 @@ What are the different types of core attributes?
 - title
 
 - id
+
+
+/// type=SS, answer=[2]
+
+What is an `id` attribute?
+
+- This is often used as a display tool tip. 
+
+- It is a unique identifier to name an HTML element.
+
+- It assigns an HTML element for use with cascading style sheet.
+
+- This attribute indicates the browser with the direction of the element.
+
+- It is an attribute that allows cascading style sheet rules to be written in an HTML element. 
+
+
+/// type=SS, answer=[5]
+
+What is a `style` attribute.
+
+- This is often used as a display tool tip. 
+
+- It is a unique identifier to name an HTML element.
+
+- It assigns an HTML element for use with cascading style sheet.
+
+- This attribute indicates the browser with the direction of the element.
+
+- It is an attribute that allows cascading style sheet rules to be written in an HTML element. 
+
+
+/// type=SS, answer=[1]
+
+What is a `title` attribute?
+
+- This is often used as a display tool tip. 
+
+- It is a unique identifier to name an HTML element.
+
+- It assigns an HTML element for use with cascading style sheet.
+
+- This attribute indicates the browser with the direction of the element.
+
+- It is an attribute that allows cascading style sheet rules to be written in an HTML element. 
+
+
+/// type=SS, answer=[3]
+
+What is a `class` attribute?
+
+- This is often used as a display tool tip. 
+
+- It is a unique identifier to name an HTML element.
+
+- It assigns an HTML element for use with cascading style sheet.
+
+- This attribute indicates the browser with the direction of the element.
+
+- It is an attribute that allows cascading style sheet rules to be written in an HTML element. 
+
+
+/// type=SS, answer=[3]
+
+Which of the following character should the attribute value be enclosed in?
+
+- `&` ampersand
+
+- `/` forward slash
+
+- `" "` double quotes
+
+- `?` question mark
+
+- `*` asterisk
+
+
+/// type=SS, answer=[4]
+
+Where should an attribute be placed in an HTML element?
+
+- Beside the closing tag `</>`.
+
+- After the closing tag `</>`.
+
+- After the opening tag `<>`.
+
+- Inside the opening tag `<>`.
+
+- Inside the closing tag `</>`.
+
+
+
++++
+
++++
+
+### Part 3: Finding and Fixing Errors
+
+:::
+
+/// type=REPL, readonly=true
+
+```html
+
+```
+
 
 
 

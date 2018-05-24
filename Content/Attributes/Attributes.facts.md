@@ -44,7 +44,7 @@ Code:
 
     - The four core attributes in HTML are `class`, `title`, `id` and `style`. 
 
-    - The `class` attribute connects an element to a stylesheet. This attribute is commonly used in cascading style sheet (CSS), which will not be used in this lesson.
+    - The `class` attribute assigns an HTML element for use with cascading style sheet. This attribute is commonly used in cascading style sheet (CSS), which will not be used in this lesson.
 
     - The code below shows other `core attributes` being used.
 
@@ -76,7 +76,7 @@ Output:
     </body>
 </html> 
 
- - `id` - it is a unique identifier to identify an HTML element. The value `paragraph1` inside the double quotes `" "` labels the unique identifier to the element `<p></p>`. 
+ - `id` - it is a unique identifier to name an HTML element. The value `paragraph1` inside the double quotes `" "` labels the unique identifier to the element `<p></p>`. 
 
 - `title` - this is often used as a display tooltip when the cursor hovers over the element. When the cursor hovers over the text `HTML attributes` the value set inside the double quotes `" "` will appear in the display tooltip as `lesson 3`. 
 
@@ -86,11 +86,10 @@ Code:
 ```html
 <p style="color: red; font-family: courier">Paragraph with Attributes</p>
 ```
-- The `value` of the `style` attribute is written as CSS property value pairs: `style="property: value"`. 
+- The `value` of the `style` attribute is written as a CSS property value pair: `style="property: value"`. Each property value are seperated by a `:` colon. 
 
-- `"color: red; font-family: courier"` -  these are the `CSS property value pairs` from the `style` attribute. These are seperated by a `;` semi-colon. 
+- `"color: red; font-family: courier"` -  these are the `CSS property value pairs` from the `style` attribute. Each pair are seperated by a `;` semi-colon. 
 
--  These value pairs are usually seperated by a `:` colon.
 
 
 

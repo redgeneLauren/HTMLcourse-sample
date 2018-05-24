@@ -46,7 +46,7 @@ Code:
 
     - There are four core attributes in HTML the `class`, `title`, `id` and `style`. 
 
-    - The `class` attribute associates an element to a stylesheet. This attribute is commonly used in cascading style sheet (CSS), which we won't be using for now in this lesson.
+    - The `class` attribute associates an element to a stylesheet. This attribute is commonly used in cascading style sheet (CSS), which will not be used in this lesson.
 
     - The code below shows other `core attributes` being used.
 
@@ -78,9 +78,9 @@ Output:
     </body>
 </html> 
 
- - `id` - it is a unique identifier to identify an HTML element.
+ - `id` - it is a unique identifier to identify an HTML element. The value `paragraph1` inside the double quotes `" "` labels the unique identifier to the element `<p>`. 
 
-- `title` - this is often used as a display tooltip when the cursor hovers around the element. 
+- `title` - this is often used as a display tooltip when the cursor hovers around the element. When the cursor hovers over the text `HTML attributes` the value set inside the double quotes `" "` will appear in the display tooltip as `Lesson 3`. 
 
 - `style` - this is the attribute that allows cascading style sheet rules to be written inside the element. The attribute value `color:red` and `font-family: courier` are a few CCS rules that can be used in the `style` attribute.
 

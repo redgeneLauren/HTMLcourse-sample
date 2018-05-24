@@ -34,7 +34,7 @@ Code:
 
 - The attribute `name` are `title`, `id` and `style`. 
 
-- The attribute `value` are `Lesson 3`, `paragraph1` and `color: red`.
+- The attribute `value` are `Lesson 3` for `title`, `paragraph1` for `id` and `color: red`, `font-family: courier` for `style`
 
 - Different `attribute name` have different `values`.
     
@@ -44,9 +44,9 @@ Code:
 
     - There are common attributes that are used in most of the HTML elements. These common attributes comprise the `core attributes`.
 
-    - There are four core attributes in HTML the `class`, `title`, `id` and `style`. 
+    - The four core attributes in HTML are `class`, `title`, `id` and `style`. 
 
-    - The `class` attribute associates an element to a stylesheet. This attribute is commonly used in cascading style sheet (CSS), which will not be used in this lesson.
+    - The `class` attribute connects an element to a stylesheet. This attribute is commonly used in cascading style sheet (CSS), which will not be used in this lesson.
 
     - The code below shows other `core attributes` being used.
 

@@ -6,7 +6,7 @@
 
     - Attributes are placed inside the opening tag `<>` of an HTML element. 
 
-    - Attributes are made up of two parts, `name` and `value` which are seperated by an `=` equal sign.
+    - Attributes are made up of two parts: `name` and `value` which are seperated by an `=` equal sign.
  
     - The attribute `name` is the `property` to set and the attribute `value` is the `value of the property` to be set.
 
@@ -26,29 +26,17 @@ Code:
     </head>
     <body>
         <h1 title="Lesson 3">HTML Attributes</h1>
-        <p id="paragraph1"; style="color: red">Paragraph with Attributes</p>
+        <p id="paragraph1"; style="color: red; font-family: courier">Paragraph with Attributes</p>
     </body>
 </html> 
 
 ```
-     
-Output:
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Lesson3: Attributes</title>
-    </head>
-    <body>
-        <h1 title="Lesson 3">HTML Attributes</h1>
-        <p id="paragraph1"; style="color: red">Paragraph with Attributes</p>
-    </body>
-</html> 
 
 - The attribute `name` are `title`, `id` and `style`. 
 
 - The attribute `value` are `Lesson 3`, `paragraph1` and `color: red`.
 
-- Different `attributes` have different `values`.
+- Different `attribute name` have different `values`.
     
 - Most attribute `values` are `pre-defined` or follow a stipulated format.  
 
@@ -58,7 +46,44 @@ Output:
 
     - There are four core attributes in HTML the `class`, `title`, `id` and `style`. 
 
-    - 
+    - The `class` attribute associates an element to a stylesheet. This attribute is commonly used in cascading style sheet (CSS), which we won't be using for now in this lesson.
+
+    - The code below shows other `core attributes` being used.
+
+Code: 
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson3: Attributes</title>
+    </head>
+    <body>
+        <h1 title="Lesson 3">HTML Attributes</h1>
+        <p id="paragraph1"; style="color: red; font-family: courier">Paragraph with Attributes</p>
+    </body>
+</html> 
+
+```
+
+Output:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson3: Attributes</title>
+    </head>
+    <body>
+        <h1 title="Lesson 3">HTML Attributes</h1>
+        <p id="paragraph1"; style="color: red; font-family: courier">Paragraph with Attributes</p>
+    </body>
+</html> 
+
+ - `id` - it is a unique identifier to identify an HTML element.
+
+- `title` - this is often used as a display tooltip when the cursor hovers around the element. 
+
+- `style` - this is the attribute that allows cascading style sheet rules to be written inside the element. The attribute value `color:red` and `font-family: courier` are a few CCS rules that can be used in the `style` attribute.
+
 
 
 

@@ -25,7 +25,7 @@ Code:
         <title>Lesson3: Attributes</title>
     </head>
     <body>
-        <h1 title="Lesson 3">HTML Attributes</h1>
+        <h1 title="lesson 3">HTML Attributes</h1>
         <p id="paragraph1"; style="color: red; font-family: courier">Paragraph with Attributes</p>
     </body>
 </html> 
@@ -34,11 +34,9 @@ Code:
 
 - The attribute `name` are `title`, `id` and `style`. 
 
-- The attribute `value` are `Lesson 3` for `title`, `paragraph1` for `id` and `color: red`, `font-family: courier` for `style`
+- The attribute `value` are `Lesson 3` for `title`, `paragraph1` for `id` and `color: red`, `font-family: courier` for `style`.
 
-- Different `attribute name` have different `values`.
-    
-- Most attribute `values` are `pre-defined` or follow a stipulated format.  
+- Different `attribute name` have different `values`. Most attribute `values` are `pre-defined` or follow a stipulated format.  
 
 2. Core Attributes
 
@@ -59,7 +57,7 @@ Code:
         <title>Lesson3: Attributes</title>
     </head>
     <body>
-        <h1 title="Lesson 3">HTML Attributes</h1>
+        <h1 title="lesson 3">HTML Attributes</h1>
         <p id="paragraph1"; style="color: red; font-family: courier">Paragraph with Attributes</p>
     </body>
 </html> 
@@ -73,14 +71,14 @@ Output:
         <title>Lesson3: Attributes</title>
     </head>
     <body>
-        <h1 title="Lesson 3">HTML Attributes</h1>
+        <h1 title="lesson 3">HTML Attributes</h1>
         <p id="paragraph1"; style="color: red; font-family: courier">Paragraph with Attributes</p>
     </body>
 </html> 
 
- - `id` - it is a unique identifier to identify an HTML element. The value `paragraph1` inside the double quotes `" "` labels the unique identifier to the element `<p>`. 
+ - `id` - it is a unique identifier to identify an HTML element. The value `paragraph1` inside the double quotes `" "` labels the unique identifier to the element `<p></p>`. 
 
-- `title` - this is often used as a display tooltip when the cursor hovers around the element. When the cursor hovers over the text `HTML attributes` the value set inside the double quotes `" "` will appear in the display tooltip as `Lesson 3`. 
+- `title` - this is often used as a display tooltip when the cursor hovers around the element. When the cursor hovers over the text `HTML attributes` the value set inside the double quotes `" "` will appear in the display tooltip as `lesson 3`. 
 
 - `style` - this is the attribute that allows cascading style sheet rules to be written inside the element. The attribute value `color:red` and `font-family: courier` are a few CCS rules that can be used in the `style` attribute.
 

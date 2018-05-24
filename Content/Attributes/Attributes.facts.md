@@ -82,9 +82,15 @@ Output:
 
 - `style` - this is the attribute that allows cascading style sheet rules to be written inside an element. This attribute is refered to as an `inline style`.
 
-- The `style attribute` can contain multiple `attribute value pairs` seperated by a `;` semi-colon.
+Code:
+```html
+<p style="color: red; font-family: courier">Paragraph with Attributes</p>
+```
+- The `value` of the `style` attribute is written as CSS property value pairs: `style="property: value"`. 
 
-- `color:red` , `font-family: courier` - are the attribute value pairs of the property `style` attribute. These value pairs are usually seperated by a `:` colon.
+- `"color: red; font-family: courier"` -  these are the `CSS property value pairs` from the `style` attribute. These are seperated by a `;` semi-colon. 
+
+-  These value pairs are usually seperated by a `:` colon.
 
 
 

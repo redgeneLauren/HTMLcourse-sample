@@ -76,11 +76,11 @@ Output:
     </body>
 </html> 
 
- - `id` - it is a unique identifier to name an HTML element. The value `paragraph1` inside the double quotes `" "` labels the unique identifier to the element `<p></p>`. 
+ - `id` - it is a unique identifier to name an HTML element. The value `paragraph1` inside the double quotes `" "` names the unique identifier name to the element `<p></p>`. 
 
 - `title` - this is often used as a display tooltip when the cursor hovers over the element. When the cursor hovers over the text `HTML attributes` the value set inside the double quotes `" "` will appear in the display tooltip as `lesson 3`. 
 
-- `style` - this is the attribute that allows cascading style sheet rules to be written inside an element. This attribute is refered to as an `inline style`.
+- `style` - this is the attribute that allows cascading style sheet rules to be written inside an element. This attribute is refered to as an `inline style` in html.
 
 Code:
 ```html
@@ -88,7 +88,7 @@ Code:
 ```
 - The `value` of the `style` attribute is written as a CSS property value pair: `style="property: value"`. Each property value are seperated by a `:` colon. 
 
-- `"color: red; font-family: courier"` -  these are the `CSS property value pairs` from the `style` attribute. Each pair are seperated by a `;` semi-colon. 
+- `"color: red; font-family: courier"` -  these are the `CSS property value pairs` from the `style` attribute. Each `pair` are seperated by a `;` semi-colon. 
 
 
 

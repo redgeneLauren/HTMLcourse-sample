@@ -183,21 +183,6 @@ What are the different parts of an attribute?
 - =
 
 
-/// type=SS, answer=[]
-
-What are common attributes in HTML called?
-
--
-
--
-
--
-
--
-
--
-
-
 /// type=SS, answer=[4]
 
 What are core attributes of HTML?

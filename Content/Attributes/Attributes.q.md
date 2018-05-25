@@ -48,24 +48,24 @@ What is `title="lesson 3"` inside the `<h1 title="lesson 3">Attributes</h1>` ele
 
 - It is the heading tool. 
 
-- It is the description for the heading element.
-
 - It is the feature for the heading element.
+
+- It is the description for the heading element.
 
 
 /// type=SS, answer=[2]
 
-What is  `style="color: orange; font-family: courier"` inside the element ` <p id="p_2" style="color: orange; font-family: courier">Basic learning with HTML attributes</p>` ?
-
-- It is the paragraph tool. 
+What is  `"color: orange; font-family: courier"` inside the element ` <p id="p_2" style="color: orange; font-family: courier">Basic learning with HTML attributes</p>` ?
 
 - It is the style attribute.
 
+- It is the paragraph value tool. 
+
 - It is an element label for paragraph.
 
-- It is the description for the paragraph element.
+- It is property value of the style attribute.
 
-- It is the feature for the paragraph element.
+- It is the description for the paragraph element.
 
 
 /// type=SS, answer=[5]
@@ -85,7 +85,7 @@ What is `id="p_1"` inside the element ` <p id="p_1" style="color: blue; text-ali
 
 /// type=SS, answer=[1]
 
-What attribute is used in the element on line 7?
+What attribute is used on line 7?
 
 - title
 
@@ -145,7 +145,7 @@ On line 9, the css property pair values of the attribute `style` are seperated b
 
 /// type=SS, answer=[4]
 
-On line 8, the color property value in the `style` attribute are separated by what character?
+On line 8, the color property value in `style` attribute are separated by what character?
 
 - `.` period
 
@@ -160,7 +160,7 @@ On line 8, the color property value in the `style` attribute are separated by wh
 
 /// type=MS, answer=[1,3,4]
 
-On line 8, what css property value pairs are used on the `style` attribute?
+On line 8, what css property value pairs are used in the `style` attribute?
 
 - color: blue
 
@@ -175,7 +175,7 @@ On line 8, what css property value pairs are used on the `style` attribute?
 
 /// type=MS, answer=[1,3]
 
-On line 9, what css property value pairs are used on the `style` attribute?
+On line 9, what css property value pairs are used in the `style` attribute?
 
 - color: orange
 
@@ -190,7 +190,7 @@ On line 9, what css property value pairs are used on the `style` attribute?
 
 /// type=SS, answer=[1]
 
-What display tool tip name will be displayed when the mouse cursor hovers over the text `Attributes`?
+What display tool tip label will be displayed when the mouse cursor hovers over the text `Attributes`?
 
 - The text `lesson 3`.
 
@@ -207,7 +207,7 @@ What display tool tip name will be displayed when the mouse cursor hovers over t
 
 Which of the following attribute initializes the font style , text alignment and font color on line 8?
 
-- inline style
+- styles
 
 - label
 
@@ -230,6 +230,68 @@ Which of the following attribute sets the display tool tip label `Lesson 3` on l
 - title
 
 - id
+
+:::
+
+/// type=REPL, readonly=true
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Attributes</title>
+    </head>
+        <body>
+            <h1 title="lesson 3" style="font-size: 30px">Attributes</h1>
+            <p id="p_2" style="color: orange; font-family: courier; font-size: 20px">Basic learning with HTML attributes</p>
+        </body>
+</html>
+
+```
+
+/// type=SS, answer=[2]
+
+Execute the program. What is its ouput?
+
+-<h1 title="lesson 3" style="font-size: 30px; text-align: center">Attributes</h1><p id="p_2" style="color: orange; font-family: courier; font-size: 20px">Basic learning with HTML attributes</p>
+
+- <h1 title="lesson 3" style="font-size: 30px">Attributes</h1><p id="p_2" style="color: orange; font-family: courier; font-size: 20px">Basic learning with HTML attributes</p>
+
+- <h1 title="lesson 3" style="font-size: 30px; text-align: center">Attributes</h1><p id="p_2" style="color: orange; font-family: courier; font-size: 20px">Basic learning with HTML attributes</p>
+
+- <h1 title="lesson 3" style="font-size: 30px; text-align: center">Attributes</h1><p id="p_2" style="font-family: courier; font-size: 20px">Basic learning with HTML attributes</p>
+
+- <h1 title="lesson 3" style="font-size: 30px; color: orange;">Attributes</h1><p id="p_2" style=" font-family: courier; font-size: 20px">Basic learning with HTML attributes</p>
+
+
+/// type=SS, answer=[1,4]
+
+What attributes are used on line 7?
+
+- title 
+
+- id
+
+- class
+
+- style
+
+- label
+
+
+/// type=MS, answer=[1,3,4]
+
+On line 8, what css property value pairs are used in the `style` attribute?
+
+- color: orange  
+
+- font: courier
+
+- font-size: 20px
+
+- font-family: courier
+
+- size: 20px
 
 
 :::
@@ -447,7 +509,7 @@ Why is the attribute `style="color: blue text-align: center font-family: comic s
 
 /// type=CR, answer=[tests/Attributes/CorrectErrorTests1.html]
 
-Correct the HTML code so that it outputs the text `Welcome to HTML` applying the `style` attribute css property values.
+Correct the HTML code so that it outputs the text `Welcome to HTML` applying the `style` attribute.
 
 ```html
 <!DOCTYPE html>
@@ -482,6 +544,7 @@ Correct the HTML code so that it outputs the text `Welcome to HTML` applying the
 </html>
 
 ```
+/// type=SS, answer=[4]
 
 Execute the program. What is its output?
 
@@ -498,7 +561,7 @@ Execute the program. What is its output?
 
 /// type=MS, answer=[1,2]
 
-Which of the following text should be aligned to the center of the page?
+Which of the following text should be aligned at the center of the page?
 
 - The text `Attributes`.
 
@@ -528,7 +591,7 @@ Why is the text `Welcome to HTML` not aligned at the center of the page?
 
 /// type=SS, answer=[3]
 
-Why is the element `<p id="p_2" style="color: green">Learn how to use attributes/p>` aligned at the center of the page?
+Why is the text `Learn how to use attributes` of the element `<p id="p_2" style="color: green">Learn how to use attributes/p>` aligned at the center of the page?
 
 - It lacks the opening tag for `<text-align>`
 
@@ -575,7 +638,7 @@ Correct the code above to output the text `Welcome to HTML` at the center of the
     </head>
         <body>
             <h1 title="lesson 3" style=text-align: right>Attributes</h1>
-            <id="p_1" style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p>
+            <p id="p_1" style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p>
         </body>
 </html>
 
@@ -598,7 +661,7 @@ Execute the program. What is its output?
 
 /// type=SS, answer=[5]
 
-Why is the heading element `<h1 title="lesson 3" style=text-align: right>Attributes</h1>` not appear on the right side of the page?
+Why is the text `Attributes` of the element `<h1 title="lesson 3" style=text-align: right>Attributes</h1>` not appear on the right side of the page?
 
 - It lacks the closing tag for `</text-align>`
 
@@ -625,7 +688,7 @@ Correct the HTML code that outputs the heading text `Attributes` appear at the r
     </head>
         <body>
             <h1 title="lesson 3" style=text-align: right>Attributes</h1>
-            <id="p_1" style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p>
+            <p id="p_1" style="color: blue; text-align: center; font-family: comic sans">Welcome to HTML</p>
         </body>
 </html>
 
@@ -644,14 +707,60 @@ Correct the HTML code that outputs the heading text `Attributes` appear at the r
     </head>
         <body>
             <h1 title="lesson 3" style="text-align: right">Attributes</h1>
-            <id="p_1" style="color: blue; text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p>
+            <p id="p_1" style="color: blue; text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p>
         </body>
 </html>
 
 ```
+/// type=SS, answer=[1]
+
+Execute the program. What is its output?
+
+-  <h1 title="lesson 3" style="text-align: right">Attributes</h1><p id="p_1" style="color: blue; text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p>
+
+- <h1 title="lesson 3">Attributes</h1><p id="p_1" style="color: blue; text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p>
+
+- <h1 title="lesson 3" style="text-align: right">Attributes</h1><p id="p_1" style="text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p>
+
+- <h1 style="text-align: right">Attributes</h1><p id="p_1" style="color: blue; text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p>
+
+- <h1 title="lesson 3" style="text-align: right">Attributes</h1><p id="p_1" style="color: blue; text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p>
 
 
+/// type=SS, answer=[5]
 
+Why is the element `<p id="p_1" style="color: blue; text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p> ` not set the text `Welcome to HTML` to 20px in size?
+
+- It lacks the closing tag for `</font-size>`
+
+- The element lacks the closing tag of style `</style>`.
+
+- The style attribute lacks the declaration of text size. 
+
+- The css property values should be seperated by a semi-colon `;`
+
+- The font-size property should be inside the enlosed double quotes `""` 
+
+:::
+
+
+/// type=CR, answer=[test/Attributes/CorrectErrorTests4.html]
+
+Correct the HTML code to output the text `Welcome to HTML` in the right font size.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Attributes</title>
+    </head>
+        <body>
+            <h1 title="lesson 3" style="text-align: right">Attributes</h1>
+            <p id="p_1" style="color: blue; text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p>
+        </body>
+</html>
+
+```
 
 +++
 
@@ -659,7 +768,9 @@ Correct the HTML code that outputs the heading text `Attributes` appear at the r
 
 ### Part 4: Practice
 
-/// type=CR, answer=[tests/Attributes/CreateThirdDocumentTest.html]
+/// type=CR, answer=[tests/Attributes/CreateDocumentTest.html]
+
+Write an HTML document with a title `Attributes Practice` using the element `<title></title>` with an attribute that sets the display tool tip label as `lesson 3`.  Then output a heading text `Code Wisdom From Programming Wisdom` using the `<h1></h1>` element with attributes that sets the heading text at the center, font-size 30px, font-color green and font-family courier. Next, output a paragraph text `You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.” - John Romero`  with attributes that sets the paragraph text at the center, font-size 20px and font-family courier. Execute the program to view the result. 
 
 ```html
 

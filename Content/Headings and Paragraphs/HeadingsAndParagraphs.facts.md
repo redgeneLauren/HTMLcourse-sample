@@ -59,17 +59,33 @@ Output:
 
 - Attributes can be used in a `heading` element.
 
-- The code below shows an attribute written in a heading element. 
+- The code below shows a heading element with attributes. 
     
  Code:
 ```html
 
- <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
+    </body>
+</html>
 
 ```
 Output:
 
-<h1 style="font-family: courier; color: orange"> This is the main heading </h1>
+ <!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
+    </body>
+</html>
 
 2. HTML Paragraphs
 

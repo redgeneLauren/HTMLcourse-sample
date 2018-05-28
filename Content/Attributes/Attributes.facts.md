@@ -34,7 +34,7 @@ Code:
 
 - The attribute `name` are `title`, `id` and `style`. 
 
-- The attribute `value` are `Lesson 3` for `title`, `paragraph1` for `id` and `color: red`, `font-family: courier` for `style`.
+- The attribute `value` are `lesson 3` for `title`, `paragraph1` for `id` and `color: red`, `font-family: courier` for `style`.
 
 - Different `attribute name` have different `values`. Most attribute `values` are `pre-defined` or follow a stipulated format.  
 
@@ -44,9 +44,9 @@ Code:
 
     - The four core attributes in HTML are `class`, `title`, `id` and `style`. 
 
-    - The `class` attribute assigns an HTML element for use with cascading style sheet. This attribute is commonly used in cascading style sheet (CSS), which will not be used in this lesson.
+    - The `class` attribute assigns an HTML element for use with cascading style sheet. This attribute is commonly used in CSS.
 
-    - The code below shows other `core attributes` being used.
+    - The code below shows other `core attributes` used in HTML.
 
 Code: 
 
@@ -76,11 +76,11 @@ Output:
     </body>
 </html> 
 
- - `id` - it is a unique identifier to name an HTML element. The value `paragraph1` inside the double quotes `" "` names the unique identifier name to the element `<p></p>`. 
+ - `id` - it is a unique identifier to name or label an HTML element. The value `paragraph1` inside the double quotes `" "` names the unique identifier to the element `<p></p>`. 
 
 - `title` - this is often used as a display tooltip when the cursor hovers over the element. When the cursor hovers over the text `HTML attributes` the value set inside the double quotes `" "` will appear in the display tooltip as `lesson 3`. 
 
-- `style` - this is the attribute that allows cascading style sheet rules to be written inside an element. This attribute is refered to as an `inline style` in html.
+- `style` - this is the attribute that allows cascading style sheet rules to be written inside an element. This attribute is refered to as an `inline style`.
 
 Code:
 ```html

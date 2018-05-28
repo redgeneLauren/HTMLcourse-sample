@@ -55,7 +55,7 @@ What is `title="lesson 3"` inside the `<h1 title="lesson 3">Attributes</h1>` ele
 
 /// type=SS, answer=[2]
 
-What is  `"color: orange; font-family: courier"` inside the element ` <p id="p_2" style="color: orange; font-family: courier">Basic learning with HTML attributes</p>` ?
+What is `"color: orange; font-family: courier"` inside the element ` <p id="p_2" style="color: orange; font-family: courier">Basic learning with HTML attributes</p>` ?
 
 - It is the style attribute.
 
@@ -217,6 +217,7 @@ Which of the following attribute initializes the font style , text alignment and
 
 - id
 
+
 /// type=SS, answer=[4]
 
 Which of the following attribute sets the display tool tip label `Lesson 3` on line 7?
@@ -230,6 +231,8 @@ Which of the following attribute sets the display tool tip label `Lesson 3` on l
 - title
 
 - id
+
+:::
 
 :::
 
@@ -292,7 +295,6 @@ On line 8, what css property value pairs are used in the `style` attribute?
 - font-family: courier
 
 - size: 20px
-
 
 :::
 
@@ -576,7 +578,7 @@ Which of the following text should be aligned at the center of the page?
 
 /// type=SS, answer=[2]
 
-Why is the text `Welcome to HTML` not aligned at the center of the page?
+What makes the text `Welcome to HTML` not aligned at the center of the page?
 
 - There is no css property value `text-align: center`.
 
@@ -591,7 +593,7 @@ Why is the text `Welcome to HTML` not aligned at the center of the page?
 
 /// type=SS, answer=[3]
 
-Why is the text `Learn how to use attributes` of the element `<p id="p_2" style="color: green">Learn how to use attributes/p>` aligned at the center of the page?
+What makes the text `Learn how to use attributes` of the element `<p id="p_2" style="color: green">Learn how to use attributes/p>` aligned at the center of the page?
 
 - It lacks the opening tag for `<text-align>`
 
@@ -661,7 +663,7 @@ Execute the program. What is its output?
 
 /// type=SS, answer=[5]
 
-Why is the text `Attributes` of the element `<h1 title="lesson 3" style=text-align: right>Attributes</h1>` not appear on the right side of the page?
+What makes the text `Attributes` of the element `<h1 title="lesson 3" style=text-align: right>Attributes</h1>` not appear on the right side of the page?
 
 - It lacks the closing tag for `</text-align>`
 
@@ -729,7 +731,7 @@ Execute the program. What is its output?
 
 /// type=SS, answer=[5]
 
-Why is the element `<p id="p_1" style="color: blue; text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p> ` not set the text `Welcome to HTML` to 20px in size?
+What makes the element `<p id="p_1" style="color: blue; text-align: center; font-family: comic sans;" font-size: 20px>Welcome to HTML</p> ` not set the text `Welcome to HTML` to 20px in size?
 
 - It lacks the closing tag for `</font-size>`
 

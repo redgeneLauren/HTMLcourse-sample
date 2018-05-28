@@ -17,12 +17,24 @@
         <h1>Short Stories</h1>
         <h2 style="color: red">The Cask of Amontillado</h2>
         <h3>(1846) by Edgar Allan Poe</h3>
-	<p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> 
+	    <p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> 
         <h6>Source: americanliterature.com</h6>
     </body>
 </html>
 
 ```
+/// type=SS, answer=[5]
+Execute the program. What is its ouput?
+
+- <h2 style="color: red">The Cask of Amontillado</h2><h3>(1846) by Edgar Allan Poe</h3><p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> <h6>Source: americanliterature.com</h6>
+
+- <h1>Short Stories</h1><h2 style="color: red">The Cask of Amontillado</h2><h3>(1846) by Edgar Allan Poe</h3><p> A classic revenge story in the horror genre.</p> <h6>Source: americanliterature.com</h6>
+
+- <h1>Short Stories</h1><h2>The Cask of Amontillado</h2><h3>(1846) by Edgar Allan Poe</h3><p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> <h6>Source: americanliterature.com</h6>
+
+- <h1>Short Stories</h1><h2 style="color: red">The Cask of Amontillado</h2><h3>(1846) by Edgar Allan Poe</h3><p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> 
+
+- <h1>Short Stories</h1><h2 style="color: red">The Cask of Amontillado</h2><h3>(1846) by Edgar Allan Poe</h3><p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> <h6>Source: americanliterature.com</h6>
 
 /// type=SS, answer=[3]
 
@@ -40,17 +52,17 @@ How many header tags are used in the code above?
 
 /// type=SS, answer=[5]
 
-Which line of code appears to have the smallest text?
+Which element appears to have the smallest text?
 
-- Line 4
+- `<title>Using Headings</title>`
 
-- Line 7
+- `<h1>Short Stories</h1>`
 
-- Line 10
+- `<p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> `
 
-- Line 8
+- `<h2 style="color: red">The Cask of Amontillado</h2>`
 
-- Line 11
+- `<h6>Source: americanliterature.com</h6>`
 
 /// type=MS, answer=[1,3,4,5]
 
@@ -82,21 +94,36 @@ What color is applied to the second subheading in the code above?
 
 /// type=SS, answer=[2]
 
-Which line of code appears to have the largest text?
+Which element appears to have the largest text?
 
-- Line 4
+- `<title>Using Headings</title>`
 
-- Line 7
+- `<h1>Short Stories</h1>`
 
-- Line 10
+- `<p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> `
 
-- Line 8
 
-- Line 11
+- `<h2 style="color: red">The Cask of Amontillado</h2>`
+
+- `<h6>Source: americanliterature.com</h6>`
+
+/// type=SS, answer=[3]
+
+Which element is the second subheading in the code above?
+
+- `<h3>(1846) by Edgar Allan Poe</h3>`
+
+- `<h1>Short Stories</h1>`
+
+- `<h2 style="color: red">The Cask of Amontillado</h2>`
+
+- `<h6>Source: americanliterature.com</h6>`
+
+- `<p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> `
 
 /// type=SS, answer=[4]
 
-On the second subheading in the code above, what attribute name was added to the heading tag?
+On the second subheading, what attribute was added to the heading tag?
 
 - color:red
 
@@ -108,6 +135,19 @@ On the second subheading in the code above, what attribute name was added to the
 
 - color
 
+/// type=SS, answer=[1]
+
+Which element is the third subheading in the code above?
+
+- `<h3>(1846) by Edgar Allan Poe</h3>`
+
+- `<h1>Short Stories</h1>`
+
+- `<h2 style="color: red">The Cask of Amontillado</h2>`
+
+- `<h6>Source: americanliterature.com</h6>`
+
+- `<p style="font-family: courier; font-size: 20px"> A classic revenge story in the horror genre.</p> `
 
 :::
 
@@ -133,7 +173,7 @@ Which of the following `header tag` makes a content appear the smallest?
 
 /// type=MS , answer=[2,3,5]
 
-Which of the following attribute `name` can be used in a `<p></p>` paragraph tag?
+Which of the following attribute can be used in a `<p></p>` paragraph tag?
 
 - `color`
 
@@ -172,34 +212,6 @@ How many `heading tags` are there in HTML?
 - 5
 
 - 7
-
-/// type=MS, answer=[1,3,4,5]
-
-Which attributes are available to use in a paragraph tag?
-
-- class
-
-- align
-
-- style
-
-- title
-
-- id
-
-/// type=SS, answer=[3]
-
-Which of the following can users also use to adjust the size and control the style of the paragraph and the heading tags?
-
-- asp.net styles
-
-- Node styles
-
-- CSS styles
-
-- C# styles
-
-- C++ styles
 
 :::
 

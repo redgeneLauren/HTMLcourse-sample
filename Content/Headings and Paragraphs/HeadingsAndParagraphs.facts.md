@@ -87,9 +87,9 @@ Output:
     </body>
 </html>
 
-2. HTML Paragraphs
+2. Paragraphs
 
-    - The paragraph element is written using the `<p></p>` tag.
+    - The paragraph element is structured using the `<p>` tag.
 
     - The paragraph tag `<p></p>` structures text into different paragraphs in the document. Each paragraph of text should be between the opening paragraph tag `<p>` and the closing paragraph tag `</p>`.
 
@@ -122,7 +122,7 @@ Output:
     </body>
 </html>
 
-- Attributes can be added to the `paragraph` element.
+- Attributes can be added to the `paragraph` tag.
 
 - The code below shows a paragraph element with attributes.
 

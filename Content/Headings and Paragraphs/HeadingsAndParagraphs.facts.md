@@ -2,7 +2,7 @@
 
 1. Headings
 
-    - Any document in HTML starts with a heading. Each heading differs in size, the six levels of headings in HTML are `<h1>,<h2>,<h3>,<h4>,<h5>,<h6>`
+    - Any document in HTML starts with a heading. Each heading differs in size, the six levels of headings in HTML are `<h1>,<h2>,<h3>,<h4>,<h5>,<h6>`.
 
     - Only make use of the `HTML headings tags` for `headings sections` only. 
 
@@ -71,44 +71,71 @@ Output:
 
 <h1 style="font-family: courier; color: orange"> This is the main heading </h1>
 
-- Users can also adjust and control the style and color using `CSS styles`. 
-
 2. HTML Paragraphs
 
     - The paragraph element is written using the `<p></p>` tag.
 
-    - In the paragraph tag `<p></p>` it should not contain tables or other block of `elements`.
+    - The paragraph tag `<p></p>` structures text into different paragraphs in the document. Each paragraph of text should be between the opening paragraph tag `<p>` and the closing paragraph tag `</p>`.
+
+    - The code below shows how paragraphs are used in HTML.
 
 Code:
 ```html
 <!DOCTYPE html>
 <html>
     <head>
-        <title>HTML Paragraphs</title>
+        <title>Headings and Paragraph</title>
     </head>
     <body>
-        <p>Headings and Paragraphs</p>
-        <p></p>
+        <p>Text here</p>
+         <p>Text here 2</p>
     </body>
 </html>
 
 ```
-- The paragraph tag `<p></p>` structures text into different paragraphs in the document. Each paragraph of text should be between the opening paragraph tag `<p>` and the closing paragraph tag `</p>`.
+Output:
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Headings and Paragraph</title>
+    </head>
+    <body>
+        <p>Text here</p>
+         <p>Text here 2</p>
+    </body>
+</html>
+
+- Attributes can be added to the `paragraph` element.
+
+- The code below shows a paragraph element with attributes.
 
 Code
 ```html
-<h1 style="font-family: courier; color: orange"> This is the main heading </h1>
-
-<p style="text-align: center; font-family: courier; font-size: 50px; color: pink">We are the youth of the nation! </p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Headings and Paragraph</title>
+    </head>
+    <body>
+        <p style="text-align: center; font-family: courier; font-size: 20px; color: pink">Text here</p>
+         <p style="text-align: center; font-family: courier; font-size: 20px; color: green">Text here 2</p>
+    </body>
+</html>
 
  ```
 Output:
-    
-<h1 style="font-family: courier; color: orange"> This is the main heading </h1>
 
-<p style="text-align: center; font-family: courier; font-size: 20px; color: pink">We are the youth of the nation! </p>
-
-- Users can also adjust the size of the text in their browser and control the style and color using `CSS styles`
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Headings and Paragraph</title>
+    </head>
+    <body>
+        <p style="text-align: center; font-family: courier; font-size: 20px; color: pink">Text here</p>
+         <p style="text-align: center; font-family: courier; font-size: 20px; color: green">Text here 2</p>
+    </body>
+</html>
 
 
 

@@ -2,21 +2,9 @@
 
 1. Headings
 
-    - Any document in HTML starts with a heading. Each heading differs in size. 
-    
-    - There are six levels of headings in HTML the `<h1>,<h2>,<h3>,<h4>,<h5>,<h6>`
+    - Any document in HTML starts with a heading. Each heading differs in size, the six levels of headings in HTML are `<h1>,<h2>,<h3>,<h4>,<h5>,<h6>`
 
-     - `<h1></h1>` tag is used for the main headings. 
-     
-     - The content for `<h1></h1>` tag appears to be the largest.
-
-    - `<h2></h2>` tag is used for the subheadings.
-
-    - Any further sections under subheadings are indicated by `<h3>, <h4>, <h5>, <h6>`.
-    
-    - The content for `<h6></h6>` tag appears to be the smallest. 
-
-    - Only make use of the `HTML headings tags` for headings sections only. 
+    - Only make use of the `HTML headings tags` for `headings sections` only. 
 
     - Writing headings in html adds one line before and one line after. 
 
@@ -57,6 +45,17 @@ Output:
         <h6> This is the 6th level of subheading </h6>
     </body>
 </html>
+
+
+- `<h1></h1>` tag is used for the main headings. 
+     
+- The content for `<h1></h1>` tag appears to be the largest.
+
+- `<h2></h2>` tag is used for the subheadings.
+
+- Any further sections under subheadings are indicated by `<h3>, <h4>, <h5>, <h6>`.
+    
+- The content for `<h6></h6>` tag appears to be the smallest. 
 
 - Attributes can be used in a `heading` element.
 

@@ -2,7 +2,8 @@
 
 1. Headings
 
-    - Any document in HTML starts with a heading. Each heading differs in size, the six levels of headings in HTML are `<h1>,<h2>,<h3>,<h4>,<h5>,<h6>`.
+    - Any document in HTML starts with a heading and in each heading differs in size.
+    - There are six levels of headings: `<h1>,<h2>,<h3>,<h4>,<h5>,<h6>`.
 
     - Only make use of the `HTML headings tags` for `headings sections` only. 
 

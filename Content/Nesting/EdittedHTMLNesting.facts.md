@@ -40,7 +40,7 @@ Code:
 
 2. Indentation 
 
-    - Indentation enhances the readability of the code. Each element within an element should be indented properly to help avoid improper nesting.
+    - Indentation enhances the readability of the code. Each element within an element should be indented properly to avoid improper nesting.
 
     - All inner elements should be indented from the outer element.
 

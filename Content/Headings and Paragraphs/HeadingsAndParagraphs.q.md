@@ -300,8 +300,9 @@ What type of headings is `<h1>`?
     <head>
         <title>Finding and Fixing Errors</title>
     </head>
-    <h1> </h1>
-    <p style : color = red>This text should be red.</p>
+    <h1>The first heading</h1>
+    <p style : color = red>First paragraph.</p>
+    <h6></h6>
 </html>
 ```
 
@@ -335,7 +336,7 @@ Rewrite the HTML code above to print a text in red with a header.
 
 ### Part 4: Practice
 
-Write an HTML document that uses three headings. The first heading `<h1>` with a text `dfdsfs`, the second heading `<h2>` with a text `sdsdfsd` and the third heading `<h3>` with a text `fdsfsdfsdfasfds`. All headings should be aligned at the center. Then, add a paragraph text `fsfsfsdfsdf` between the second and third heading place `style` attribute inside the paragraph tag with the following characteristics: `font-family: verdana`; `font-size: 20px`; `font-color: blue`; `text-align: center`. Run the HTML code to view the result. 
+Write an HTML document that uses three headings. The first heading `<h1>` with a text `dfdsfs`, the second heading `<h2>` with a text `sdsdfsd` and the third heading `<h3>` with a text `fdsfsdfsdfasfds`. All headings should be aligned at the center. Then, add a paragraph text `"To me programming is more than an important practical art. It is also a gigantic undertaking in the foundations of knowledge." - Grace Hopper` between the second and third heading place `style` attribute inside the paragraph tag with the following characteristics: `font-family: verdana`; `font-size: 20px`; `font-color: blue`; `text-align: center`. Run the HTML code to view the result. 
 
 ```html
 

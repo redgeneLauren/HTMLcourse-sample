@@ -4,8 +4,6 @@
 
     - In HTML, all HTML elements can contain `attributes` which defines the characteristics or property of an HTML `element`. 
 
-    - Attributes are placed inside the opening tag `<>` of an HTML element. 
-
     - HTML attributes appear as `name-value pairs` separated by an equal sign `=` and are written within the opening tag of an element, after the element's name.
 
     Code:
@@ -18,9 +16,9 @@
 
     - The attribute `name` is the `property` to set and the attribute `value` is the `value of the property` to be set.
 
-    - Attribute `value` should be placed inside double quotes `“ ”` . 
+    - Attribute `value` are usually placed inside double quotes `“ ”` or single quotes `''`. However, not all attributes require quotation marks. 
 
-    - The code below shows how attributes are written in an HTML code.  
+    - The example code below shows how attributes are written in an HTML code.  
 
 Code:
 
@@ -37,6 +35,17 @@ Code:
 </html> 
 
 ```
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lesson3: Attributes</title>
+    </head>
+    <body>
+        <h1 title="lesson 3">HTML Attributes</h1>
+        <p id="paragraph1"; style="color: red; font-family: courier">Paragraph with Attributes</p>
+    </body>
+</html>
 
 - The `attribute name` are `title`, `id` and `style`. 
 

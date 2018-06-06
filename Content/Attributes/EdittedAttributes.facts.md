@@ -14,7 +14,7 @@
     <p title="Tooltip">This is a paragraph </p>
     ```
 
-    - The `title` is the `attribute name` of the `<p>` element. `"This is a tooltip"` is the `value` assigned to the `title attribute`.
+    - The `title` is the `attribute name` of the `<p></p>` element. `"This is a tooltip"` is the `value` assigned to the `title attribute`.
 
     - The attribute `name` is the `property` to set and the attribute `value` is the `value of the property` to be set.
 
@@ -46,12 +46,12 @@ Code:
 
 2. Common Attributes
 
-    - There are common attributes that are used in most of the HTML elements. These are:
+    There are common attributes that are used in most of the HTML elements. These common attributes are:
 
-        - `id` - it provides a document-wide unique identifier to name or label an HTML element.
+    - `id` - it provides a document-wide unique identifier to name or label an HTML element.
         
-        - `class` - provides a way of classifying similar elements.
+    - `class` - provides a way of classifying similar elements.
         
-        - `style` -  a non-attributal code presentational properties to a particular element. This is the attribute that allows cascading style sheet rules to be written inside an element. This attribute is refered to as an `inline style`.
+    - `style` -  a non-attributal code presentational properties to a particular element. This is the attribute that allows cascading style sheet rules to be written inside an element. This attribute is refered to as an `inline style`.
 
-        - `title` - it is used to attach subtextual explanation to an element. This is often used as a display tooltip when the cursor hovers over the text.
+    - `title` - it is used to attach subtextual explanation to an element. This is often used as a display tooltip when the cursor hovers over the text.

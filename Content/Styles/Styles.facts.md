@@ -11,31 +11,39 @@
     <p style="color: red">Paragraph with an attribute style</p>
 
     ```
+    - The `attribute name` is `style` and the `attribute value` for style is `color: red`
 
-     - The `style` attribute allows cascading style sheet `(CSS)` rules to be written inside an element and when `CSS` is written using the style attribute, it's called an `inline style`. 
+    - The `style` attribute allows cascading style sheet `(CSS)` rules to be written inside an element and when `CSS` is written using the style attribute, it's called an `inline style`. 
 
     - The `inline style` directly affects the tag they are written in. 
 
-    Code:
-    ```html
-    <!DOCTYPE html>
-    <html>
-        <head>
-            <title>HTML Styles</title>
-        </head>
-        <body>
-            <p style="color: red; font-family: courier; text-align: center; text-size: 20px">Paragraph with an attribute style</p> 
-        </body>
-    </html>
+Code:
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Styles</title>
+    </head>
+    <body>
+        <p style="color: red; font-family: courier; text-align: center; text-size: 20px">Paragraph with an attribute style</p> 
+    </body>
+</html>
 
-    ```
-    Output:
+```
+Output:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Styles</title>
+    </head>
+    <body>
+        <p style="color: red; font-family: courier; text-align: center; text-size: 20px">Paragraph with an attribute style</p> 
+    </body>
+</html>
 
-    <p style="color: red; font-family: courier; text-align: center; text-size: 20px">Paragraph with an attribute style</p> 
+- The `value` of the `style` attribute is written as a CSS property value pair: `property: value`. Each CSS `property value pair` are seperated by a `:` colon. 
 
-    - The `value` of the `style` attribute is written as a CSS property value pair: `property: value`. Each CSS `property value pair` are seperated by a `:` colon. 
-
-    - `"color: red; font-family: courier"` -  these are a few of the `CSS property value pairs` from the `style` attribute. Each `pair` are seperated by a `;` semi-colon. 
+- `"color: red; font-family: courier, text-align: center, text-size: 20px"` -  these are a few of the `CSS property value pairs` from the `style` attribute. Each `pair` are seperated by a `;` semi-colon. 
 
 
 

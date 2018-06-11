@@ -4,7 +4,7 @@
 
     - In HTML, all HTML elements can contain `attributes` which defines the characteristics or property of an HTML `element`. 
 
-    - HTML attributes appear as `name-value pairs` separated by an equal sign `=` and are written within the opening tag of an element, after the element's name.
+    - HTML attributes appear as `name-value pairs` separated by an equal sign `=` and are written within the opening tag `<>` of an element, after the element's name.
 
     Code:
 

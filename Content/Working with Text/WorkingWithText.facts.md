@@ -1,8 +1,8 @@
 ### Facts for Working with Text
 
-HTML Text Formatting Elements- HTML formatting is the process of formatting text in order to change the appearance of the HTML element. 
+`HTML Text Formatting Elements` - HTML formatting is the process of formatting text in order to change the appearance of the HTML element. 
     
-There are many formatting tags to use in HTML. Here are a few of the HTML formatting tags:
+Here are a few of the HTML formatting tags:
 
 1. `Bold` - The `<b>` tag defines the `bold text`. Anything written inside the element `<b></b>` make characters appear bolded.
 

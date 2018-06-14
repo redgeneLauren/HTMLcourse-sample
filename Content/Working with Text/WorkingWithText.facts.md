@@ -1,6 +1,6 @@
 ### Facts for Working with Text
 
-HTML formatting is the process of formatting text in order to change the appearance of the HTML element. 
+HTML formatting is the process of formatting text in order to change the appearance of an HTML element. 
     
 Here are a few of the `HTML Text Formatting Elements`:
 

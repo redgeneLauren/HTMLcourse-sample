@@ -1,25 +1,23 @@
 ### Facts for HTML Styles
 
-1. Style 
+ `HTML style` is one of the common attributes used in HTML. The HTML `style attribute` defines a specific style to add to HTML elements.
 
-    - `HTML style` is one of the common attributes used in HTML. The HTML `style attribute` defines a specific style to add to HTML elements.
+HTML attributes appear as `name-value pairs` separated by an equal sign `=` and are written within the opening tag `<>` of an element, after the element's name.
 
-    - HTML attributes appear as `name-value pairs` separated by an equal sign `=` and are written within the opening tag `<>` of an element, after the element's name.
+Code:
+```html
+<p style="color: red">Paragraph with an attribute style</p>
 
-    Code:
-    ```html
-    <p style="color: red">Paragraph with an attribute style</p>
+```
+- The `attribute name` is `style` and the `attribute value` is `color: red`
 
-    ```
-    - The `attribute name` is `style` and the `attribute value` is `color: red`
+- The `style attribute` allows `cascading style sheet (CSS)` rules to be written inside an HTML element. It is called as an `inline style`. 
 
-    - The `style attribute` allows `cascading style sheet (CSS)` rules to be written inside an HTML element. It is called as an `inline style`. 
+- `Cascading Style Sheet (CSS)` is a rule-based stylesheet language that applies styling to HTML elements. 
 
-    - `Cascading Style Sheet (CSS)` is a rule-based stylesheet language that applies styling to HTML elements. 
+- The `inline style` directly affects the style of the HTML tag. 
 
-    - The `inline style` directly affects the style of the HTML tag. 
-
-    - The example code below shows an inline style attribute used in an HTML element.
+- The example code below shows an inline style attribute used in an HTML element.
 
 Code:
 ```html

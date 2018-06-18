@@ -93,3 +93,26 @@ Output:
  ```
 Output:
 <p>This paragraph will have a <small>small text</small> inside.</p>
+
+There are other formatting elements that are written differently. These elements `<br />` and `<hr />` are part of the `empty elements`. `Empty elements` do not have any closing tag. Empty elements can be "closed" in the opening tag: `<br />`.
+
+11. `Line breaks` - The `<br />` tag defines a line break in a paragraph. The `<br />` tag has a space between the characters `br` and a forward slash `/` before the right angle `>`. Anything written after the element `<br />` it starts to the next line. 
+
+```html
+<p>This paragraph will show how line breaks are used in <br />formatting text.</p>
+```
+Output:
+
+<p>This paragraph will show how line breaks are used in <br />formatting text.</p>
+
+12. `Horizontal Rule` - The `<hr />` tag defines horizontal rule. The `<hr />` tag has a space between the characters `hr` and a forward slash `/` before the right angle `>`. Anything written before `<hr />` and after the element it draws a horizontal between text to seperate content.
+
+```html
+<p>This will show how horizontal rule is applied to a content.</p>
+<hr />
+<p> The is the functionality of the horizontal rule. </p>
+```
+
+<p>This will show how horizontal rule is applied to a content.</p>
+<hr />
+<p> The is the functionality of the horizontal rule. </p>

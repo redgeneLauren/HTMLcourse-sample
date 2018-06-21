@@ -8,21 +8,25 @@ The basic components of an `HTML table` are the following:
 
 - `table row` - It is defined by the element `<tr>`. The `<tr>`element creates the row of the table.
 
-- `table heading` - It is defined by the element `<th>`. The `<th>` element creates the heading of a column.
+- `table header` - It is defined by the element `<th>`. The `<th>` element creates the heading of a column.
 
 - `table data` - It is defined by the element `<td>`. The `<td>` element creates the table data per cell of the column.
 
 - `table caption` - It is defined by the element `<caption>`. The `<caption>` elements sets the table caption.
 
+- `column group` - It is defined by the element `<colgroup>`. It is used to define specific properties for a group of columns in an HTML table.
+
+- `column` - It is defined by the element `<col>`. It is 
+
 HTTML tables can manage the layout of the page using header section, body content and footer section. 
 
 These are the table groupings by page section using `an HTML table`":
 
-- `Group table heading` - It is defined by the element `<thead>`.
+- Group table header - It is defined by the element `<thead>`. It is used to group header content in an  HTML table.
 
-- `Group table body` - It is defined by the `<tbody>`.
+- Group table body - It is defined by the `<tbody>`. It is used to group the body content in an HTML table.
 
-- `Group table footer<tfooter>` - It is defined by the `<tfooter>`.
+- Group table footer - It is defined by the `<tfooter>`. It is used to group footer content in an HTML table.
 
 - The example code shows how HTML tables are structured with proper nesting.
 

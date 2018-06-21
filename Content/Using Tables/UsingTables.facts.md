@@ -8,15 +8,15 @@ The basic components of an `HTML table` are the following:
 
 - `table row` - It is defined by the element `<tr>`. The `<tr>`element creates the row of the table.
 
-- `table header` - It is defined by the element `<th>`. The `<th>` element creates the heading of a column.
+- `table header` - It is defined by the element `<th>`. The `<th>` element creates the header per column in the table.
 
-- `table data` - It is defined by the element `<td>`. The `<td>` element creates the table data per cell of the column.
+- `table data` - It is defined by the element `<td>`. The `<td>` element contains the data per cell of the column.
 
-- `table caption` - It is defined by the element `<caption>`. The `<caption>` elements sets the table caption.
+- `table caption` - It is defined by the element `<caption>`. The `<caption>` element sets the table caption.
 
-`HTML tables` can set layout of the page using header section, body content and footer section. 
+`HTML table` can be group together in order to have a structured layout using header section, body content and footer section. 
 
-These are the `table groupings` by page section using an `HTML table`:
+The table groupings of `HTML table` are the following:
 
 - Group table header - It is defined by the element `<thead>`. It is used to group header content in an  HTML table.
 
@@ -24,7 +24,7 @@ These are the `table groupings` by page section using an `HTML table`:
 
 - Group table footer - It is defined by the `<tfooter>`. It is used to group footer content in an HTML table.
 
-- The example code shows how HTML tables are structured with proper nesting.
+- The example code shows how `HTML table` is structured with proper observation of nesting.
 
 ```html
 <!DOCTYPE html>
@@ -51,6 +51,11 @@ These are the `table groupings` by page section using an `HTML table`:
                     <td>90</td>
                 </tr>
             </tbody>
+            <tfooter>
+                <tr>
+                    <td>footer: 062118</td>
+                </tr>
+            </tfooter>
         </table>
     </body>
 </html>

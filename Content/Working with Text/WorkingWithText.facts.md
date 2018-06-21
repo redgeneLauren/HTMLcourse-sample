@@ -1,8 +1,10 @@
 ### Facts for Working with Text
 
-HTML formatting is the process of formatting text in order to change the appearance of an HTML element. 
-    
-Here are a few of the `HTML Text Formatting Elements`:
+HTML formatting is a process of formatting text in order to change the appearance of an HTML element. 
+
+HTML formatting elements are known as `inline elements`. `Inline elements` do not start on a new line or indented and can be written on the same line with other HTML elements.
+
+Here are a few of the `HTML Formatting Elements`:
 
 1. `Bold` - The `<b>` tag defines the `bold text`. Anything written inside the element `<b></b>` make characters appear bolded.
 
@@ -13,7 +15,7 @@ Here are a few of the `HTML Text Formatting Elements`:
 Output: 
 <p><b>Bolded Paragraph.</b></p>
 
-2. `Strong` - The `<strong>` tag defines the `important text`. Anything written inside the element `<strong></strong>` adds a semantic `strong importance` to the text. 
+2. `Strong` - The `<strong>` tag defines the `important text`. Anything written inside the element `<strong></strong>` adds a `semantic strong importance` to the text. 
 
  ```html
 <p>This paragraph points out an <strong>important</strong> text. <p>
@@ -22,7 +24,7 @@ Output:
  Output:
 <p>This paragraph points out an <strong>important</strong> text. <p>
 
-3. `Italic` - The `<i>` tag defines the `italic text`. Anything written inside the element `<i></i>` can make characters appear italic.
+3. `Italic` - The `<i>` tag defines the `italic text`. Anything written inside the element `<i></i>` make characters appear italic.
 
  ```html
 <p><i>Italic Paragraph</i></p>
@@ -31,7 +33,7 @@ Output:
  Output:
 <p><i>Italic Paragraph</i></p>
 
- 4. `Emphasize` - The `<em>` tag defines the `emphasized text`. Anything written inside the element `<em></em>` adds a semantic importance to the text. 
+ 4. `Emphasize` - The `<em>` tag defines the `emphasized text`. Anything written inside the element `<em></em>` adds a `semantic importance` to the text. 
 
 ```html
 <p>This paragraph puts <em>emphasis</em> on an important text.<p>
@@ -39,8 +41,7 @@ Output:
 Output:
 <p>This paragraph puts <em>emphasis</em> on an important text.<p>
 
-5. `Superscript` - The `<sup>` tag defines the `superscript text`. Anything written inside the element `<sup></sup>` make characters appear half a character `above the normal line`, and is rendered in a smaller font. Superscript text can be used for footnotes. 
-
+5. `Superscript` - The `<sup>` tag defines the `superscript text`. Anything written inside the element `<sup></sup>` make characters appear half a character `above the normal line` and is rendered in a smaller font.
 ```html
 <p>An example of a <sup>Superscript</sup> Text .</p>
 
@@ -48,7 +49,7 @@ Output:
 Output:
 <p>An example of a <sup>Superscript</sup> Text .</p>
 
- 6. `Subscript` - The `<sub>` tag defines the `subscript text`. Anything written inside the element `<sub></sub>` make characters appear half a character `below the normal line`, and is rendered in a smaller font. Subscript text can be used for chemical formulas.
+ 6. `Subscript` - The `<sub>` tag defines the `subscript text`. Anything written inside the element `<sub></sub>` make characters appear half a character `below the normal line` and is rendered in a smaller font.
 
 ```html
 <p>An example of a <sub>Subscript</sub> text. </p>
@@ -76,7 +77,7 @@ Output:
 Output:
 <p>This paragraph will <del>delete</del> a part of its text.</p>
 
- 9. `Insert` - The `<ins>` tag defines the inserted text or added text. Anything written inside the element `<ins></ins>` make characters appear to have an inserted text which is a thin horizontal below the text. 
+ 9. `Insert` - The `<ins>` tag defines the inserted text or added text. Anything written inside the element `<ins></ins>` make characters appear to be an inserted text which has a thin horizontal line below the text. 
 
  ```html
  <p>This paragraph will insert the text <ins>hey</ins> after the word text.</p>
@@ -85,7 +86,7 @@ Output:
  Output:
 <p>This paragraph will insert the text <ins>hey</ins> after the word text.</p>
 
-10. `Small` - The `<small>` tag defines a `smaller text`. Anything written inside the element `<small></small>` makes characters appear to be smaller than the other characters.
+10. `Small` - The `<small>` tag defines a `smaller text`. Anything written inside the element `<small></small>` make characters appear to be smaller than the other characters.
 
  ```html
  <p>This paragraph will have a <small>small text</small> inside.</p>
@@ -94,25 +95,3 @@ Output:
 Output:
 <p>This paragraph will have a <small>small text</small> inside.</p>
 
-There are other formatting elements that are written differently. These elements `<br />` and `<hr />` are part of the `empty elements`. `Empty elements` do not have any closing tag. Empty elements can be "closed" in the opening tag: `<br />`.
-
-11. `Line breaks` - The `<br />` tag defines a line break in a paragraph. The `<br />` tag has a space between the characters `br` and a forward slash `/` before the right angle `>`. Anything written after the element `<br />` it starts to the next line. 
-
-```html
-<p>This paragraph will show how line breaks are used in <br />formatting text.</p>
-```
-Output:
-
-<p>This paragraph will show how line breaks are used in <br />formatting text.</p>
-
-12. `Horizontal Rule` - The `<hr />` tag defines horizontal rule. The `<hr />` tag has a space between the characters `hr` and a forward slash `/` before the right angle `>`. Anything written before `<hr />` and after the element it draws a horizontal between text to seperate content.
-
-```html
-<p>This will show how horizontal rule is applied to a content.</p>
-<hr />
-<p> The is the functionality of the horizontal rule. </p>
-```
-
-<p>This will show how horizontal rule is applied to a content.</p>
-<hr />
-<p> The is the functionality of the horizontal rule. </p>

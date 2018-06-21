@@ -14,13 +14,9 @@ The basic components of an `HTML table` are the following:
 
 - `table caption` - It is defined by the element `<caption>`. The `<caption>` elements sets the table caption.
 
-- `column group` - It is defined by the element `<colgroup>`. It is used to define specific properties for a group of columns in an HTML table.
+`HTML tables` can set layout of the page using header section, body content and footer section. 
 
-- `column` - It is defined by the element `<col>`. It is 
-
-HTTML tables can manage the layout of the page using header section, body content and footer section. 
-
-These are the table groupings by page section using `an HTML table`":
+These are the `table groupings` by page section using an `HTML table`:
 
 - Group table header - It is defined by the element `<thead>`. It is used to group header content in an  HTML table.
 
@@ -38,22 +34,27 @@ These are the table groupings by page section using `an HTML table`":
     </head>
     <body>
         <table>
-            <caption>Prelim Grades</caption>
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Subject</th>
-                <th>Grade</th>
-            </tr>
-            <tr>
-                <td>Zach</td>
-                <td>Demsey</td>
-                <td>Mathematics</td>
-                <td>90</td>
-            </tr>
+            <thead>
+                <caption>Prelim Grades</caption>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Zach</td>
+                    <td>Demsey</td>
+                    <td>Mathematics</td>
+                    <td>90</td>
+                </tr>
+            </tbody>
         </table>
     </body>
 </html>
+
 ```
 Output:
 
@@ -64,19 +65,23 @@ Output:
     </head>
     <body>
         <table>
-            <caption>Prelim Grades</caption>
-            <tr>
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Subject</th>
-                <th>Grade</th>
-            </tr>
-            <tr>
-                <td>Zach</td>
-                <td>Demsey</td>
-                <td>Mathematics</td>
-                <td>90</td>
-            </tr>
+            <thead>
+                <caption>Prelim Grades</caption>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Zach</td>
+                    <td>Demsey</td>
+                    <td>Mathematics</td>
+                    <td>90</td>
+                </tr>
+            </tbody>
         </table>
     </body>
 </html>

@@ -732,6 +732,16 @@ Which of the following show how `table row` are written in an `HTML table`?
 
 ```
 
+/// type=SS, answer=[]
 
+Execute the program. What is its output?
 
+-
 
+-
+
+-
+
+-
+
+-

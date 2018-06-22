@@ -12,7 +12,7 @@ In using the `AC Tajanlangit System` requires you to log in using the URL: `http
 
  The `credentials` are created by the assigned `admin` base on `role assignment`. 
 
- <img style="height: 300px;" src="LogInPage.png" align="middle">
+ <img style="height: 250px;" src="LogInPage.png" align="middle">
 
  <ins>`Unregistered Users`</ins>
 

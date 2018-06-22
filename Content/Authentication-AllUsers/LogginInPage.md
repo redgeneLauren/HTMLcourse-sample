@@ -2,7 +2,7 @@
 
 ## <ins>Log in Page</ins>
 
-<p style="color: #D4AC0D" >Welcome to the `AC Tajanlangit System`!</p>
+Welcome to the `AC Tajanlangit System`!
 
 In using the `AC Tajanlangit System` requires you to log in using the URL: `http://actajanlangit.herokuapp.com` with the following credentials needed:
 
@@ -12,7 +12,7 @@ In using the `AC Tajanlangit System` requires you to log in using the URL: `http
 
  The `credentials` are created by the assigned `admin` base on `role assignment`. 
 
- <img style="height: 350px;" src="LogInPage.png" align="middle">
+ <img style="height: 300px;" src="LogInPage.png" align="middle">
 
  <ins>`Unregistered Users`</ins>
 
@@ -24,7 +24,7 @@ In using the `AC Tajanlangit System` requires you to log in using the URL: `http
  
  - Then, access the URL: `http://actajanlangit.herokuapp.com` to log in.
 
-    <img style="height: 55x; width: 400px" src="URLLink.png" align="middle">
+    <img style="height: 15px; width: 450px" src="URLLink.png" align="middle">
 
  - Type in your `registered email` inside the `textbox` below the text label: `Email`. 
 
@@ -61,6 +61,8 @@ In using the `AC Tajanlangit System` requires you to log in using the URL: `http
 - `Remember Me` -  It is a checkbox feature where the application will remember your sign in credentials for future log in.
 
 - `Forgot Password?` - It is a hyperlink feature where you can be able to reset your password to get a new password. 
+
+    <img style="height: 35px; width: 250px" src="OtherButtonInLogInPage.png">
 
 <hr />
 

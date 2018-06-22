@@ -106,7 +106,9 @@ Using the `AC Tajanlangit System` requires you to log in using the URL: `http://
     - View their personal profile
     - Update their personal profile
 
-<strong>`Role Assignment Features`</strong>
+<hr />
+
+## <ins>Role Assignment Features</ins>
 
 There are different `job roles` in using the application. Job roles have `role assignment per feature` to the system. Below are the different `role assignment per feature`.
 

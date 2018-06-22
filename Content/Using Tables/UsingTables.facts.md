@@ -1,6 +1,6 @@
 ### Facts for Using HTML Tables
 
-`HTML table` is used to manage layouts of an HTML document. An `HTML table` represents information in a grid format and each block of the grid is referred to as a `cell`.
+`HTML table` is used to manage layout of an HTML document. An `HTML table` represents information in a grid format and each block of the grid is referred to as a `cell`.
  
 An `HTML table` is defined by the `<table>` element. The `<table>` element creates the `table`. The `table` contents are written in a tabluar form where it is written out row by row.
 
@@ -10,7 +10,7 @@ The basic components of an `HTML table` are the following:
 
 - `table header` - It is defined by the element `<th>`. The `<th>` element creates the header per column in the table.
 
-- `table data` - It is defined by the element `<td>`. The `<td>` element contains the data per cell of the column.
+- `table data` - It is defined by the element `<td>`. The `<td>` element contains the table data per cell of the column.
 
 - `table caption` - It is defined by the element `<caption>`. The `<caption>` element sets the table caption.
 
@@ -51,11 +51,6 @@ The table groupings of `HTML table` are the following:
                     <td>90</td>
                 </tr>
             </tbody>
-            <tfooter>
-                <tr>
-                    <td>footer: 062118</td>
-                </tr>
-            </tfooter>
         </table>
     </body>
 </html>

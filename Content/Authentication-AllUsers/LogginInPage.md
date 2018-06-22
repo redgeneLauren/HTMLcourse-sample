@@ -4,8 +4,6 @@
 
 <p style="color: #D4AC0D" >Welcome to the `AC Tajanlangit System`!</p>
 
- <img style="height: 350px;" src="LogInPage.png" align="middle">
-
 In using the `AC Tajanlangit System` requires you to log in using the URL: `http://actajanlangit.herokuapp.com` with the following credentials needed:
 
 - Email address
@@ -13,6 +11,8 @@ In using the `AC Tajanlangit System` requires you to log in using the URL: `http
 - Password
 
  The `credentials` are created by the assigned `admin` base on `role assignment`. 
+
+ <img style="height: 350px;" src="LogInPage.png" align="middle">
 
  <ins>`Unregistered Users`</ins>
 
@@ -62,6 +62,7 @@ In using the `AC Tajanlangit System` requires you to log in using the URL: `http
 
 - `Forgot Password?` - It is a hyperlink feature where you can be able to reset your password to get a new password. 
 
+<hr />
 
 ## <ins>Role Assignment</ins>
 

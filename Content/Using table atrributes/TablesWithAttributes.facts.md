@@ -2,7 +2,7 @@
 
 An `HTML table` can contain attributes to have a better look to the table. Some of these attributes are the following:
 
-1. `border` - The `border` attribute is defined in the `<table>` opening tag. Its attribute name is `border` and its attribute value is either `0` or `1`. The value `0` sets no border around the table and value `1` sets a border around the table. 
+1. `border` - The `border` attribute is defined in the `<table>` opening tag. Its attribute name is `border` and its attribute value indicates the width of the border in pixels. The value `0` sets no border around the table.
 
 2. `width` - The `width` attribute can be used in the opening tags `<table>`, `<th>` and `<td>`. Its attribute name is `width` and its attribute value are set in pixels or precentage. 
 
@@ -19,9 +19,9 @@ The example code shows how table attributes are used in an HTML table:
         <title>HTML Table Attributes</title>
     </head>
     <body>
-        <table width="400px" border="1">
+        <table width="400" border="1">
         <caption>Student Record</caption>
-            <tr>
+            <tr border="1">
                 <th></th>
                 <th>Gender</th>
                 <th>Name</th>
@@ -55,9 +55,9 @@ Output:
         <title>HTML Table Attributes</title>
     </head>
     <body>
-        <table width="400px" border="1">
+        <table width="400" border="1">
         <caption>Student Record</caption>
-            <tr>
+            <tr border="1">
                 <th></th>
                 <th>Gender</th>
                 <th>Name</th>

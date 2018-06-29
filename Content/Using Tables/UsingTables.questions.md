@@ -164,7 +164,7 @@ Which of the followng elements define the `table row` of the HTML table?
 
 /// type=MS, answer=[3,4,5]
 
-Which of the following texts are the contents for the header in the HTML table?
+Which of the following texts are the contents for the `table header` in the HTML table?
 
 - `Name`
 
@@ -285,7 +285,7 @@ What tag is used to create `table data` in an `HTML table`?
 
 /// type=SS, answer=[2]
 
-What `table data` is on row 1 of column 1 on the `HTML table`?
+What `table data` is in row 1 of column 1 in the `HTML table`?
 
 - `12`
 
@@ -300,7 +300,7 @@ What `table data` is on row 1 of column 1 on the `HTML table`?
  
 /// type=SS, answer=[5]
 
-What `table data` is on row 2 of coloumn 2 on the `HTML table`?
+What `table data` is in row 2 of coloumn 2 in the `HTML table`?
 
 - `12`
 
@@ -315,7 +315,7 @@ What `table data` is on row 2 of coloumn 2 on the `HTML table`?
 
 /// type=SS, answer= [5]
 
-What data is in the column cell under the header `Brand`?
+Which data is under the header `Brand`?
 
 - `12`
 
@@ -375,8 +375,7 @@ How many `table data` are there in the HTML table?
 
 /// type=SS, answer=[3]
 
-In what `table header` is the `table data` `12` aligned to?
-
+What `table header` is the data `12` contained in?
 - `Brand`
 
 - `Category`
@@ -515,7 +514,7 @@ Which of the following groups the header content of an `HTML table`?
 
 /// type=SS, answer=[1,2,5]
 
-What are the table data in the `<tbody>` element?
+What are the `table data` in the `<tbody>` element?
 
 - `12`
 
@@ -530,7 +529,7 @@ What are the table data in the `<tbody>` element?
 
 /// type=SS, answer=[3,5]
 
-What are the table headers in the `<thead>` element?
+Which of the following are the `table headers` in the `<thead>` element?
 
 - `12`
 
@@ -559,31 +558,31 @@ Which statement best describe an `HTML table`?
 
 - It is written on the same line with other elements.
 
-- It uses inline elements to format the appearance of an element. 
+- It can be used to construct more complex structure.
 
-- It is a standardized parts that can be used to construct more complex structure.
+- It uses inline elements to format the appearance of an element. 
 
 - It is used to manage layout of an HTML document and is displayed in a tabluar form. 
 
 
-/// type=SS, answer=[4]
+/// type=SS, answer=[5]
 
-What is `table data` in HTML table?
+What is `table data` in an HTML table?
 
 - It creates a row to the HTML table.
 
 - It sets the table caption of the HTML table. 
 
-- It creates the header per column in the table
-
-- It contains the table data per cell of the column.
+- It creates the table header of the HTML table
 
 - It is used to group footer content in an HTML table.
+
+- It contains the table data per column cell of the HTML table.
 
 
 /// type=MS, answer=[1,2,3,5]
 
-What are the components to structre an HTML table?
+What are the components to construct an HTML table?
 
 - `<`
 
@@ -611,13 +610,11 @@ Which of the following show how `table data` are written in an `HTML table`?
 - `<datatable>`
 
 
-/// type=SS, answer=[5]
+/// type=SS, answer=[4]
 
 What is a `<tbody>` element?
 
-- It creates the header per column in the table.
-
-- It contains the table data per cell of the column.
+- It creates the table header of the HTML table.
 
 - It is used to group footer content in an HTML table.
 
@@ -625,25 +622,27 @@ What is a `<tbody>` element?
 
 - It is used to group the body content in an HTML table.
 
-
-/// type=SS, answer=[3]
-
-What is `<tfooter>` element?
-
-- It creates the header per column in the table.
-
-- It contains the table data per cell of the column.
-
-- It is used to group footer content in an HTML table.
-
-- It is used to group header content in an  HTML table.
-
-- It is used to group the body content in an HTML table.
+- It contains the table data per column cell of the HTML table.
 
 
 /// type=SS, answer=[2]
 
-Which of the following show how `table row` are written in an `HTML table`?
+What is `<tfooter>` element?
+
+- It creates the table header of the HTML table.
+
+- It is used to group footer content in an HTML table.
+
+- It is used to group header content in an  HTML table.
+
+- It is used to group the body content in an HTML table.
+
+- It contains the table data per column cell of the HTML table.
+
+
+/// type=SS, answer=[2]
+
+Which of the following is used to create a `table row` in an `HTML table`? `
 
 - `<td>`
 
@@ -658,7 +657,7 @@ Which of the following show how `table row` are written in an `HTML table`?
 
 /// type=SS, answer=[2]
 
-Which of the following show how `table caption` are written in an `HTML table`?
+Which of the following is used to create a `table caption` in an `HTML table`?
 
 - `<c>`
 
@@ -721,27 +720,179 @@ Which of the following show how `table row` are written in an `HTML table`?
     </head>
     <body>
         <table>
-            <th>Sample</th>
-            <th>Another Sample</th>
-            Third Sample
-
-            Under Sample
+            <tr>
+                <td>Loren</td>
+                <td>Shroud</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+            </tr>
         </table>
     </body>
 </html>
 
 ```
 
-/// type=SS, answer=[]
+/// type=SS, answer=[4]
 
 Execute the program. What is its output?
 
--
+- <table><tr><td>Loren</td><td>Shroud</td></tr><tr><th>FirstName</th><th>LastName</th><th>Age</th></tr></table>
 
--
+- <table><tr><td>Shroud</td><td>24</td></tr><tr><th>FirstName</th><th>LastName</th><th>Age</th></tr></table>
 
--
+- <table><tr><td>Loren</td><td>Shroud</td><td>24</td></tr><tr><th>FirstName</th><th>LastName</th></tr></table>
 
--
+- <table><tr><td>Loren</td><td>Shroud</td><td>24</td></tr><tr><th>FirstName</th><th>LastName</th><th>Age</th></tr></table>
 
--
+- <table><tr><td>Loren</td><td>Shroud</td><td>24</td></tr><tr><th>FirstName</th><th>LastName</th></tr></table>
+
+
+/// type=SS, answer=[5]
+
+What makes the `table header` appear on the second row not on the first row of the table?
+
+- There is no closing tag for `</tr>`.
+
+- There is no closing tag for `</table>`.
+
+- There is no table row number declared in the table.
+
+- There is no element `<tableheader>`  declared in the table.
+
+- The elements `<td>` is written first before the elements `<th>`.  
+
+
+:::
+
+
+/// type=CR, answer=[tests/UsingTables/TableHeaderWrongRowTest.html]
+
+Correct the HTML code to have the `table header` appear on the first row of the table.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finding and Fixing Errors</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Loren</td>
+                <td>Shroud</td>
+                <td>24</td>
+            </tr>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+            </tr>
+        </table>
+    </body>
+</html>
+
+```
+
+
+:::
+
+/// type=REPL, readonly=true
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finding and Fixing Errors</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+                <td>Loren</td>
+                <td>Shroud</td>
+                <td>24</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+```
+
+/// type=SS, answer=[3]
+
+Execute the program. What is its output?
+
+- <table><tr><th>FirstName</th><th>LastName</th><td>Loren</td><td>Shroud</td><td>24</td></tr></table>
+
+- <table><tr><th>FirstName</th><th>LastName</th><th>Age</th><td>Loren</td><td>Shroud</td></tr></table>
+
+- <table><tr><th>FirstName</th><th>LastName</th><th>Age</th><td>Loren</td><td>Shroud</td><td>24</td></tr></table>
+
+- <table><tr><th>FirstName</th><th>Age</th><td>Loren</td><td>Shroud</td><td>24</td></tr></table>
+
+- <table><tr><th>LastName</th><th>Age</th><td>Loren</td><td>Shroud</td><td>24</td></tr></table>
+
+
+/// type=SS, answer=[5]
+
+What makes the `table data` be on the same row with the `table header`?
+
+- There is no closing tag for `</table>`.
+
+- There is no closing tag `</tr>` for the table row.
+
+- There is no table row number declared in the table.
+
+- The elements `<td>` is written first before the elements `<th>`.  
+
+- The elements `<td>` are contained on the same `<tr>` tag with the `<tr>` elements.
+
+
+:::
+
+
+/// type=CR, answer=[tests/UsingTables/TableDataOnDiffTableRowTest.html]
+
+Correct the HTML code to have the elements `<td>` appear on the second row of the table.
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Finding and Fixing Errors</title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Age</th>
+                <td>Loren</td>
+                <td>Shroud</td>
+                <td>24</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+```
+
++++
+
++++
+
+### Part 4: Practice
+
+/// type=CR, answer=[tests/UsingTables/CreateTablesTest.html]
+
+Write an HTML document with the title `Using HTML Tables` using the `<title>` element. Then, create a table with `table headers` with the following labels: `Flight Number`, `Date of Departure`, `Time of Departure`,  `Date of Arrival`, `Time of Arrival`. Next, add `table data` corresponding to each `table header` with the following details: `F0880`, `June27,2018`, `19:00:00`, `June 28,2018`, `01:00:00`. Observe proper HTML nesting. Execute the program to view the output.
+
+```html
+
+```

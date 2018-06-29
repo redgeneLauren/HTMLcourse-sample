@@ -112,7 +112,7 @@ Using the `AC Tajanlangit System` requires you to log in using the URL: `http://
 
 There are different `job roles` in using the application. Job roles have `role assignment per feature` to the system. Below are the different `role assignment per feature`.
 
-1. `Cost Engineer` - The role of the <b>Cost Engineer</b> is to estimate the cost of projects, analyze requirements and specification of a project, and determine the cost involved to execute such project. In the `AC Tajanlangit system` the role assignment feature of a <b>Cost Engineer</b> is as follows:
+1. <b>`Cost Engineer`</b> - The role of the `Cost Engineer` is to estimate the cost of projects, analyze requirements and specification of a project, and determine the cost involved to execute such project. In the `AC Tajanlangit system` the role assignment feature of a `Cost Engineer`is as follows:
     
     - View details of material scopes and schedules
     - Create material items schedules
@@ -121,12 +121,12 @@ There are different `job roles` in using the application. Job roles have `role a
     - Create billing for accounting
     - View gantt chart
 
-2. `Planner` - The role of a <b>Planner</b> is to develop a plan to complete a project based on budget, work schedule, and available resources. In the `AC Tajanlangit system` the role assignment feature of a <b>Planner</b> is as follows:
+2. <b>`Planner`</b> - The role of a `Planner` is to develop a plan to complete a project based on budget, work schedule, and available resources. In the `AC Tajanlangit system` the role assignment feature of a `Planner` is as follows:
 
     - Submit material scopes and schedules for approval
     - Upload material scopes and schedules 
 
-3. `Purchasing Officer` - The role of a <b>Purchasing officer</b> is to research on potential vendors, compare and evaluate offers from suppliers, and negotiate contract terms of agreement and pricing. In the `AC Tajanlangit system` the role assignment feature of a  <b>Purchasing officer</b> is as follows:
+3. <b> `Purchasing Officer`</b> - The role of a `Purchasing officer` is to research on potential vendors, compare and evaluate offers from suppliers, and negotiate contract terms of agreement and pricing. In the `AC Tajanlangit system` the role assignment feature of a  `Purchasing officer`> is as follows:
 
     - Submit purchase request for approval 
     - Create purchase orders from purchase request
@@ -137,12 +137,12 @@ There are different `job roles` in using the application. Job roles have `role a
     - View list of purchase requests
     - Edit purchase request
 
-4. `Warehouse Man` - The role of a <b>Warehouse man</b> is to receive and process incoming stocks and materials, picking and filing orders from stock, packing and shipping orders, and managing stock in the warehouse. In the `AC Tajanlangit system` the role assignment feature of a <b>Warehouse man</b> is as follows: 
+4. <b>`Warehouse Man`</b> - The role of a `Warehouse man` is to receive and process incoming stocks and materials, picking and filing orders from stock, packing and shipping orders, and managing stock in the warehouse. In the `AC Tajanlangit system` the role assignment feature of a `Warehouse man` is as follows: 
 
     - View list of approved and incoming purchase orders
     - Check and note received items from purchase order document.
 
-5. `Accounting` - The role of <b>Accounting</b> is responsible for the general ledger, job cost, bank reconciliations and accounts payable. In the `AC Tajanlangit system` the role assignment feature of the <b>Accounting</b> is as follows:
+5. <b>`Accounting`</b> - The role of `Accounting` is responsible for the general ledger, job cost, bank reconciliations and accounts payable. In the `AC Tajanlangit system` the role assignment feature of the `Accounting` is as follows:
 
     - View list of purchase orders
     - View details of a service purchase order
@@ -156,7 +156,7 @@ There are different `job roles` in using the application. Job roles have `role a
     - Leave remarks to Service Purchase orders
     - Leave remarks to Billings
 
-6. `Project Manager` - The role of a <b>Project Manger</b> is with the planning and the execution of a particular project. In the `AC Tajanlangit system` the role assignment feature of the <b>Project Manger</b> is as follows:
+6. <b>`Project Manager`</b> - The role of a `Project Manger` is with the planning and the execution of a particular project. In the `AC Tajanlangit system` the role assignment feature of the `Project Manger` is as follows:
 
     - Request approval for changes of activity duration, start and finish
     - Ability to check purchase request

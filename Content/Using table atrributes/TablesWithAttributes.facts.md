@@ -1,8 +1,8 @@
-### Facts for Tables Attributes
+### Facts for Table Attributes
 
 `HTML table` can contain attributes to have a better look to the table. Some of these attributes are the following:
 
-1. `border` - The `border` attribute is written inside the opening tag `<table>`. Its attribute name is `border` and its attribute value is indicated by width of the border in pixels. To have no border around the table set the attribute value to `0`.
+1. `border` - The `border` attribute is written inside the opening tag `<table>`. Its attribute name is `border` and its attribute value is indicated in pixels. To have no border around the table set the attribute value to `0`.
 
 2. `width` - The `width` attribute can be written inside the opening tags `<table>`, `<th>` and `<td>`. Its attribute name is `width` and its attribute value is set in either pixels or percentage. 
 

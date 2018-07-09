@@ -1,6 +1,6 @@
 ### Facts on Working with Layouts
 
-Common structural blocks are needed in setting up the layout of a webpage using HTML. These sets of HTML elements are used to group a block of elements to have a structural layout. These elements are the following:
+There are HTML elements that are used as structural blocks in creating the layout of a webpage. These elements are the following:
 
 - `<header>` - The `<header>` element contains the introductory content of the page. It is where heading elements, search forms and logos are placed. The header section is mostly duplicated across webpages.
 

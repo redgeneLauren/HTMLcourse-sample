@@ -16,6 +16,7 @@ Common structural blocks are needed in setting up the layout of a webpage using 
 
 The example code shows how structural element blocks are used in HTML:
 
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -52,3 +53,44 @@ The example code shows how structural element blocks are used in HTML:
         </footer>
     </body>
 </html>
+
+```
+
+Output:
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Working with Layouts</title>
+    </head>
+    <body>
+        <header>
+            <h1>Codestop</h1>
+        </header>
+         <nav>
+            <ul>
+                <li><a href="https://codestop.io/">Codestop Website</a></li>
+                <li><a href="https://codestop.io/about-us">About</a></li>
+                <li><a href="https://codestop.io/courses">Courses Offered</a></li>
+                <li><a href="https://codestop.io/register/">Sign Up</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h1>Learning by Coding</h1>
+            <p>"The goal of CodeStop is to design programming courses that are affordable to young people in developing nations. Ultimately, we want young people to build the path to a sustainable career through technology."</p>
+        <section>
+         <aside>
+            <p>"We designed our platform to make programming easy to learn, understand, and share." - codestop</p>
+        </aside>
+        <article>
+        <p>"Codestop a platform for learning to program and code since 2017."</p>
+        </article>
+        <footer>
+            <p>All Rights Reserved CodeStop © 2017</p>
+            <ul>
+                <li><a href="https://codestop.io/">Website</a></li>
+                <li><a href="https://codestop.io/about-us">About</a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
+

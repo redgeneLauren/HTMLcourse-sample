@@ -1,6 +1,6 @@
 ### Facts on Working with Layouts
 
-There are HTML elements that are used as structural blocks in creating the layout of a webpage. These elements are the following:
+There are HTML elements that are used as structural elements in creating the layout of a webpage. These elements groups related elements in one structural block to better improve the layout of an HTML document. These elements are the following:
 
 - `<header>` - The `<header>` element contains the introductory content of the page. It is where heading elements, search forms and logos are placed. The header section is mostly duplicated across webpages.
 
@@ -37,7 +37,7 @@ The example code shows how structural element blocks are used in HTML:
         <section>
             <h1>Learning by Coding</h1>
             <p>"The goal of CodeStop is to design programming courses that are affordable to young people in developing nations. Ultimately, we want young people to build the path to a sustainable career through technology."</p>
-        <section>
+        </section>
          <aside>
             <p>"We designed our platform to make programming easy to learn, understand, and share." - codestop</p>
         </aside>
@@ -46,10 +46,6 @@ The example code shows how structural element blocks are used in HTML:
         </article>
         <footer>
             <p>All Rights Reserved CodeStop © 2017</p>
-            <ul>
-                <li><a href="https://codestop.io/">Website</a></li>
-                <li><a href="https://codestop.io/about-us">About</a></li>
-            </ul>
         </footer>
     </body>
 </html>
@@ -77,7 +73,7 @@ Output:
         <section>
             <h1>Learning by Coding</h1>
             <p>"The goal of CodeStop is to design programming courses that are affordable to young people in developing nations. Ultimately, we want young people to build the path to a sustainable career through technology."</p>
-        <section>
+        </section>
          <aside>
             <p>"We designed our platform to make programming easy to learn, understand, and share." - codestop</p>
         </aside>
@@ -86,11 +82,8 @@ Output:
         </article>
         <footer>
             <p>All Rights Reserved CodeStop © 2017</p>
-            <ul>
-                <li><a href="https://codestop.io/">Website</a></li>
-                <li><a href="https://codestop.io/about-us">About</a></li>
-            </ul>
         </footer>
     </body>
 </html>
+
 

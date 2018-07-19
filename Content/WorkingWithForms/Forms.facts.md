@@ -14,11 +14,11 @@ These are the basic form control elements used inside the `<form>` element:
 
 1. `<input>` - It is used to create different types of form controls from a user input. The form controls of `<input>` depends on the value written inside the `type` attribute . Attributes in the `<input>` element are:
 
-- `name` - It sets the label of the form control. The attribute value is written in text format.
+- `name` - It sets the label of the form control.
 
-- `value` - It sets the value of the form control. The attribute value is written in text format.
+- `value` - It sets the value of the form control.
 
-- `type` - It sets the type of form control. The `type` attribute value are: 
+- `type` - It sets the type of form control. The `type` attribute values are: 
 
     - `<input type="text">` - It is a textfield type of form control.
 

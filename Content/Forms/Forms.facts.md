@@ -8,15 +8,25 @@ The `<form>` element is used to collect data from a user input and its attribute
 
 - `method` - It tells the browser how to send the collected data. The value of the `method` attribute is either to `get` or to `post`.
 
+- `target` - It specifies the location where the page proceeds after submission. The values of the `target` attribute are:
+
+    - `_blank` -  displays the linked page in a new window or tab.
+
+    - `_self` - displays the linked page in the same window.
+
+    - `_top` - displays the linked page in the entire window.
+
+    - `_parent` - displays the linked page in the parent window.
+
 - `id` - It is a unique identifier to distinctly identify from other `<form>` elements.
 
 These are the basic form control elements used inside the `<form>` element:
 
 1. `<input>` - It is used to create different types of form controls from a user input. The form controls of `<input>` depends on the value written inside the `type` attribute . Attributes in the `<input>` element are:
 
-- `name` - It sets the label of the form control. The attribute value is written in a text format.
+- `name` - It sets the label of the form control.
 
-- `value` - It sets the value of the form control. The attribute value is written in a text format.
+- `value` - It sets the value of the form control.
 
 - `type` - It sets the type of form control. The `type` attribute values are: 
 
@@ -32,7 +42,8 @@ These are the basic form control elements used inside the `<form>` element:
 
 3. `<legend>` - It puts a label on the `<fieldset>` element base on the form controls category.
 
-The example code shows how forms appear in HTML.
+The example code shows how forms appear in HTML:
+
 ```html
 <!DOCTYPE html>
 <html>

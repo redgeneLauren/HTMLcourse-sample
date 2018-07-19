@@ -10,13 +10,13 @@ The `<form>` element is used to collect data from a user input and its attribute
 
 - `target` - It specifies the location where the page proceeds after submission. The values of the `target` attribute are:
 
-    - `_blank` -  displays the linked page in a new window or tab.
+    - `_blank` - It displays the linked page in a new window or tab.
 
-    - `_self` - displays the linked page in the same window.
+    - `_self` - It displays the linked page in the same window.
 
-    - `_top` - displays the linked page in the entire window.
+    - `_top` - It displays the linked page in the entire window.
 
-    - `_parent` - displays the linked page in the parent window.
+    - `_parent` - It displays the linked page in the parent window.
 
 - `id` - It is a unique identifier to distinctly identify from other `<form>` elements.
 
@@ -28,7 +28,7 @@ These are the basic form control elements used inside the `<form>` element:
 
 - `value` - It sets the value of the form control.
 
-- `type` - It sets the type of form control. The `type` attribute values are: 
+- `type` - It sets the type of form control. The values of the `type` attribute are: 
 
     - `<input type="text">` - It is a textfield type of form control.
 

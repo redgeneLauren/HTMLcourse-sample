@@ -51,7 +51,7 @@ The example code shows how forms appear in HTML:
         <title>Working with Forms</title>
     </head>
     <body>
-        <form action="" method="post" target="_blank">
+        <form action="DestinationLink.html" method="post" target="_blank">
             <fieldset>
                 <legend>Personal Data</legend>
                 FirstName:
@@ -77,7 +77,7 @@ Output:
         <title>Working with Forms</title>
     </head>
     <body>
-        <form action="" method="post" target="_blank">
+        <form action="DestinationLink.html" method="GET">
             <fieldset>
                 <legend>Personal Data</legend>
                 FirstName:
